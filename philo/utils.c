@@ -6,74 +6,36 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 13:38:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/01/29 13:41:34 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/01/29 21:21:58 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
 /**
- * @brief Converts a string to an integer.
+ * @brief Converts a digit-only string into a positive integer.
  *
- * @param nptr Pointer to the string to convert.
- *
- * @return The converted integer value.
+ * @param sptr: sring to convert
+ * @return Returns the converted number between 0 and INT MAX.
+ * @return	Returns -1 if the converted number exceeds INT MAX.
  */
 
-int	ft_atoi(const char *nptr)
+int	atol_unsigned(const char *nptr)
 {
-	short	sign;
-	int		number;
+	unsigned long int	number;
+	int i;
 
-	sign = 1;
+	i=0;
 	number = 0;
-	while ((*nptr >= 9 && *nptr <= 13) || *nptr == 32)
-		nptr++;
-	if (*nptr == '+' || *nptr == '-')
+	while (nptr[i] && (nptr[i] >= '0' && nptr[i] <= '9'))
 	{
-		if (*nptr == '-')
-			sign = -1;
-		nptr++;
+		number = number * 10 + (nptr[i] - '0');
+		i++;
 	}
-	while (*nptr >= '0' && *nptr <= '9')
-	{
-		number = number * 10 + (*nptr - '0');
-		nptr++;
-	}
-	return (number * sign);
+	if (number > INT_MAX)
+		return (-1);
+	return ((int)number);
 }
 
-/**
- * @brief   Converts the string pointed to by nptr to a long integer.
- *
- * This function takes a string and converts it to a long integer. It handles
- * leading whitespace characters and an optional '+' or '-' sign.
- *
- * @param   nptr A pointer to the null-terminated string to be converted.
- *
- * @return  The converted long integer value. If the string does not contain
- *          any valid number, the function returns 0.
- */
 
-long int	ft_atol(const char *nptr)
-{
-	short		sign;
-	long int	number;
 
-	sign = 1;
-	number = 0;
-	while ((*nptr >= 9 && *nptr <= 13) || *nptr == 32)
-		nptr++;
-	if (*nptr == '+' || *nptr == '-')
-	{
-		if (*nptr == '-')
-			sign = -1;
-		nptr++;
-	}
-	while (*nptr >= '0' && *nptr <= '9')
-	{
-		number = number * 10 + (*nptr - '0');
-		nptr++;
-	}
-	return (number * sign);
-}

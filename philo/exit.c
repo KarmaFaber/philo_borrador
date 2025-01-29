@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   exit.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/22 11:40:27 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/01/29 21:44:44 by mzolotar         ###   ########.fr       */
+/*   Created: 2025/01/29 20:29:00 by mzolotar          #+#    #+#             */
+/*   Updated: 2025/01/29 21:32:54 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,23 +19,8 @@
  * @return 
  */
 
-
-
-
-/**
- * @brief 
- *
- * @param 
- * @return 
- */
-
-int main (int argc, char **argv)
+int error_msg (char *str, int exit_no)
 {
-	
-	
-	if (!check_argvs(argc, argv))
-		return (1);
-
-
-	return (0);
+	printf("%s", str);
+	return (exit_no);
 }

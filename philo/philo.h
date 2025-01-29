@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/01/29 13:37:50 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/01/29 21:43:03 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 //#➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──includes:──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
 
 # include <stdbool.h>	//bool
+# include <limits.h> 	//INT_MAX
 
 # include <unistd.h> 	// write, usleep 
 # include <stdlib.h> 	// malloc, free
@@ -57,15 +58,14 @@
 
 //#➵⤐──╌╌➣➣╌╌──ERR. MSGS:  :──╌╌➣➣╌╌➔#
 
-# define STR_ERR_INPUT_DIGIT	"%s invalid input: %s: \
+# define STR_ERR_INPUT_DIGIT	"Error: invalid input: \
 not a valid unsigned integer between 0 and 2147483647.\n"
-# define STR_ERR_INPUT_POFLOW	"%s invalid input: \
-there must be between 1 and %s philosophers.\n"
-# define STR_ERR_THREAD	"%s error: Could not create thread.\n"
-# define STR_ERR_MALLOC	"%s error: Could not allocate memory.\n"
-# define STR_ERR_MUTEX	"%s error: Could not create mutex.\n"
+# define STR_ERR_THREAD	"Error: Could not create thread.\n"
+# define STR_ERR_MALLOC	"Error: Could not allocate memory.\n"
+# define STR_ERR_MUTEX	"Error: Could not create mutex.\n"
 
 //#➵⤐──╌╌➣⋆➣╌─⤏➵•➵⤐──╌╌➣⋆➣╌╌──Structures  :──╌╌➣⋆➣╌╌⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
+
 
 
 
@@ -79,14 +79,17 @@ there must be between 1 and %s philosophers.\n"
 //#➵⤐╌╌➣⋆➣╌─⤏➵•➵⤐╌╌➣⋆➣╌╌─Function Prototypes : :──➣⋆➣╌⤏➵•➵⤐╌╌➣⋆➣╌╌➔#
 //main.c (/5):
 
-
+//int main (int argc, char **argv);
 
 //parce.c (/5)
- 
+//static bool contain_digits_only(char *str);
+bool check_argvs (int argc_var, char **argv_var);
 
+//exit.c (/5)
+int error_msg (char *str, int exit_no);
 
-
-
+//utils (/5):
+int	atol_unsigned(const char *nptr);
 
 
 

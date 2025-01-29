@@ -37,33 +37,34 @@ pthread_t es un tipo de datos utilizado para representar un hilo de ejecución e
 - Este identificador es necesario cuando se quieren realizar operaciones sobre un hilo, como esperar su terminación (con pthread_join()) o cancelar su ejecución (con pthread_cancel()).
 - En algunos sistemas operativos, el tipo puede ser simplemente un entero o un puntero, pero en general no es necesario preocuparse por su implementación interna.
 
-			```
-			#include <pthread.h>
-			#include <stdio.h>
+	```
+	#include <pthread.h>
+	#include <stdio.h>
 
-			void* hello(void* arg) {
-				printf("¡Hola desde el hilo!\n");
-				return NULL;
-			}
+	void* hello(void* arg) 
+	{
+		printf("¡Hola desde el hilo!\n");
+		return NULL;
+	}
 
-			int main() {
-				pthread_t thread;  // Declaración de un hilo
-				
-				// Crear un hilo
-				if (pthread_create(&thread, NULL, hello, NULL) != 0) {
-					perror("Error al crear el hilo");
-					return 1;
-				}
-				
-				// Esperar a que el hilo termine
-				pthread_join(thread, NULL);
-				
-				printf("El hilo ha terminado\n");
-				
-				return 0;
-			}
-
-			```
+	int main() 
+	{
+		pthread_t thread;  // Declaración de un hilo
+		
+		// Crear un hilo
+		if (pthread_create(&thread, NULL, hello, NULL) != 0) {
+			perror("Error al crear el hilo");
+			return 1;
+		}
+		
+		// Esperar a que el hilo termine
+		pthread_join(thread, NULL);
+		
+		printf("El hilo ha terminado\n");
+		
+		return 0;
+	}
+	```
 
 - pthread_t thread: Declara un identificador de hilo.
 - pthread_create(): Crea un hilo nuevo, pasando el identificador del hilo como el primer argumento.
