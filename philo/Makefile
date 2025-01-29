@@ -16,7 +16,7 @@ RESET   := \033[0m
 
 NAME        := philo
 CC          := cc
-CFLAGS      := -Wall -Werror -Wextra -pthread
+CFLAGS      := -Wall -Werror -Wextra 
 RM          := rm -rf
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢   Formatting:   ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
@@ -36,7 +36,7 @@ endif
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢    philo srcs:   ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 
-PHILO_SRCS  := main.c
+PHILO_SRCS  := main.c parce.c utils.c
 PHILO_OBJS  := $(PHILO_SRCS:.c=.o)
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢     rules      ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
@@ -48,7 +48,7 @@ $(NAME): $(PHILO_OBJS)
 	@echo "$(CURRENT_COLOR) ✅ $(NAME) created.\n$(RESET)"
 
 %.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) -lpthread -c $< -o $@
 
 clean:
 	$(RM) $(PHILO_OBJS)

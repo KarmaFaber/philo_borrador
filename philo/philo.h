@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/01/29 09:34:07 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/01/29 13:37:50 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@
 # endif
 
 //#➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──includes:──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
+
+# include <stdbool.h>	//bool
 
 # include <unistd.h> 	// write, usleep 
 # include <stdlib.h> 	// malloc, free
@@ -68,6 +70,7 @@ there must be between 1 and %s philosophers.\n"
 
 
 
+
 //#➵⤐──╌╌➣⋆➣╌─⤏➵•➵⤐──╌╌➣⋆➣╌╌── Enum  :──╌╌➣⋆➣╌╌⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
 
 
@@ -76,6 +79,10 @@ there must be between 1 and %s philosophers.\n"
 //#➵⤐╌╌➣⋆➣╌─⤏➵•➵⤐╌╌➣⋆➣╌╌─Function Prototypes : :──➣⋆➣╌⤏➵•➵⤐╌╌➣⋆➣╌╌➔#
 //main.c (/5):
 
+
+
+//parce.c (/5)
+ 
 
 
 
