@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:40:27 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/01/22 11:50:45 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/01/29 09:35:44 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int main (void)
 {	
-	printf("hola\n");
+	write(1, "***\n", 4);
 	return (0);
 }
 

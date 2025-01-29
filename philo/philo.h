@@ -6,12 +6,16 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/01/22 11:45:32 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/01/29 09:34:07 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PHILO_H
 # define PHILO_H
+
+# ifndef DEBUG_FORMATTING
+#  define DEBUG_FORMATTING 0
+# endif
 
 //#➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──includes:──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
 
@@ -23,14 +27,57 @@
 # include <pthread.h> 	//pthread_create, pthread_detach, pthread_join, pthread_mutex_init, pthread_mutex_destroy, pthread_mutex_lock, pthread_mutex_unlock
 
 //#➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──Macros  :──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
-//# define 
+
+//#➵⤐──╌╌➣➣╌╌──Colors  :──╌╌➣➣╌╌➔#
+
+//letter color:
+# define NC      "\e[0m"   // Reset color
+# define BLACK   "\e[30m"
+# define RED     "\e[31m"
+# define GREEN   "\e[32m"
+# define BLUE    "\e[34m"
+# define PURPLE  "\e[35m"
+# define CYAN    "\e[36m"
+
+//background color:
+# define BG_RED     "\e[41m"
+# define BG_GREEN   "\e[42m"
+# define BG_YELLOW  "\e[43m"
+# define BG_BLUE    "\e[44m"
+# define BG_PURPLE  "\e[45m"
+# define BG_CYAN    "\e[46m"
+# define BG_WHITE   "\e[47m"
+
+//#➵⤐──╌╌➣➣╌╌──OTHER: ──╌╌➣➣╌╌➔#
+
+# define MAX_PHILOS	250
+# define STR_MAX_PHILOS "250"
+
+//#➵⤐──╌╌➣➣╌╌──ERR. MSGS:  :──╌╌➣➣╌╌➔#
+
+# define STR_ERR_INPUT_DIGIT	"%s invalid input: %s: \
+not a valid unsigned integer between 0 and 2147483647.\n"
+# define STR_ERR_INPUT_POFLOW	"%s invalid input: \
+there must be between 1 and %s philosophers.\n"
+# define STR_ERR_THREAD	"%s error: Could not create thread.\n"
+# define STR_ERR_MALLOC	"%s error: Could not allocate memory.\n"
+# define STR_ERR_MUTEX	"%s error: Could not create mutex.\n"
 
 //#➵⤐──╌╌➣⋆➣╌─⤏➵•➵⤐──╌╌➣⋆➣╌╌──Structures  :──╌╌➣⋆➣╌╌⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
 
 
 
+
+//#➵⤐──╌╌➣⋆➣╌─⤏➵•➵⤐──╌╌➣⋆➣╌╌── Enum  :──╌╌➣⋆➣╌╌⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
+
+
+
+
 //#➵⤐╌╌➣⋆➣╌─⤏➵•➵⤐╌╌➣⋆➣╌╌─Function Prototypes : :──➣⋆➣╌⤏➵•➵⤐╌╌➣⋆➣╌╌➔#
 //main.c (/5):
+
+
+
 
 
 

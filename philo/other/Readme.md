@@ -71,20 +71,12 @@ Run the program with the following arguments:
 The arguments must be integers between 0 and INT_MAX representing a time in milliseconds. For example:
 
 ```shell
-/philo 4 800 200 200 5
+./philo 4 800 200 200 5
 ```
 
 If the arguments are valid, the program will output the actions of each philosopher until one of them dies or until all of them have eaten number_of_times_each_philo_must_eat, if specified.
 
 
-
-
-
-
-## Notes
-
-- Modify `commands.txt` and `special_cases.sh` to include any additional test cases specific to your implementation.
-- Review `commands.txt` for a list of standard commands used during testing and `special_cases.sh` for special cases. 
 
 ## ➾ Contributing
 

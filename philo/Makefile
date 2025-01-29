@@ -11,14 +11,30 @@ CYAN    := \033[0;36m
 CURRENT_COLOR := \033[0;34m
 RESET   := \033[0m
 
+
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢   Variables:   ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 
 NAME        := philo
 CC          := cc
-CFLAGS      := -Wall -Werror -Wextra
+CFLAGS      := -Wall -Werror -Wextra -pthread
 RM          := rm -rf
 
-#◉───▣───▢◇▢───▣───◉•◉───▣───▢    philo srcs   ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
+#◉───▣───▢◇▢───▣───◉•◉───▣───▢   Formatting:   ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
+
+# Run 'make re MODE=pretty' for color formatting.
+# Run 'make re MODE=debug' for debug formatting.
+
+MODE	= none
+
+ifeq ($(MODE), pretty)
+	CFLAGS	+= -D DEBUG_FORMATTING=1
+endif
+
+ifeq ($(MODE), debug)
+	CFLAGS	+= -D DEBUG_FORMATTING=1 -fsanitize=thread -g
+endif
+
+#◉───▣───▢◇▢───▣───◉•◉───▣───▢    philo srcs:   ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 
 PHILO_SRCS  := main.c
 PHILO_OBJS  := $(PHILO_SRCS:.c=.o)
@@ -46,11 +62,14 @@ re: fclean all
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢   Valgrind   ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 
+VALGRIND := valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --error-limit=no --log-file=test/valgrind_outputs/valgrind_output_$(shell date +%Y%m%d_%H%M%S).log -s
+
 valgrind: all
 
 	@echo "$(CURRENT_COLOR)➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──Running Valgrind..──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──$(RESET)"
 #	@-$(VALGRIND) ./$(NAME) <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> [number_of_times_each_philo_must_eat]
-	@-$(VALGRIND) ./$(NAME) 4 800 200 200 5
+	@-$(VALGRIND) ./$(NAME) 
+#	@-$(VALGRIND) ./$(NAME) 4 800 200 200 5
 	@test/hs_files/./open_valgrind_log.sh
 	@echo "$(CURRENT_COLOR)➵⤐╌╌➣⋆➣╌─⤏➵•➵⤐─╌╌➣⋆➣── Valgrind completed. Check valgrind_output.log for details. ─╌➣⋆➣╌─⤏➵•➵⤐─╌╌➣⋆➣╌╌─$(RESET)"
 	
@@ -67,7 +86,9 @@ test: all
 clean_test:
 	test/hs_files/./clean_test.sh
 
-#◉───▣───▢◇▢───▣───◉•◉───▣───▢Norminette ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
+clean_all: clean_test fclean
+	
+#◉───▣───▢◇▢───▣───◉•◉───▣───▢ Norminette ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 
 norm:
 	@echo "$(CURRENT_COLOR)➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌── Checking Norminette: ──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌➔$(RESET)"
@@ -81,4 +102,4 @@ format:
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢ Phony targets ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 
-.PHONY: all clean fclean re format norm valgrind test clean_valgrind clean_test 
+.PHONY: all clean fclean re format norm valgrind test clean_valgrind clean_test clean_all
