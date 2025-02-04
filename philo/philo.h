@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/02/04 20:33:05 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/02/04 21:14:42 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,8 +105,6 @@ typedef struct s_philo
 
 }	t_philo;
 
-//#➵⤐──╌╌➣⋆➣╌─⤏➵•➵⤐──╌╌➣⋆➣╌╌── Enum  :──╌╌➣⋆➣╌╌⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
-
 //#➵⤐╌╌➣⋆➣╌─⤏➵•➵⤐╌╌➣⋆➣╌╌─Function Prototypes : :──➣⋆➣╌⤏➵•➵⤐╌╌➣⋆➣╌╌➔#
 // main.c (/5):
 // int main (int argc, char **argv);
@@ -122,8 +120,6 @@ int init_program(t_program *program, char **argv);
 void *philosopher_routine(void *arg);
 void *philosopher_routine(void *arg);
 int init_philo(t_program *program);
-
-
 
 
 // exit.c (/5)
