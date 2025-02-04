@@ -523,14 +523,21 @@ void *mi_hilo(void *arg) {
 int main() {
     pthread_t hilos[3];
     datos_hilo datos[3];
+	int i;
 
-    for (int i = 0; i < 3; i++) {
+	i=0;
+    while (i < 3) 
+	{
         datos[i].id = i + 1;
         pthread_create(&hilos[i], NULL, mi_hilo, &datos[i]);
+		i++;
     }
 
-    for (int i = 0; i < 3; i++) {
+	i=0;
+    while (i < 3)  
+	{
         pthread_join(hilos[i], NULL);
+		i++;
     }
 
     return 0;
@@ -550,13 +557,13 @@ Son dos conceptos completamente distintos en programación con hilos:
 * Cada filósofo es un hilo (pthread_create).
 * Los tenedores son mutex (pthread_mutex_t), para evitar que dos filósofos tomen el mismo tenedor al mismo tiempo.
 * Cada filósofo tiene un ciclo de vida:
-1. Tomar el tenedor izquierdo.
-2. Tomar el tenedor derecho.
-3. Comer durante time_to_eat milisegundos.
-4. Soltar ambos tenedores.
-5. Dormir durante time_to_sleep milisegundos.
-6. Pensar hasta que pueda volver a comer.
-7. Repetir el ciclo hasta que muera,  termine la simulación o que termine el numero de comidas (ver argc == 6).
+	1. Tomar el tenedor izquierdo.
+	2. Tomar el tenedor derecho.
+	3. Comer durante time_to_eat milisegundos.
+	4. Soltar ambos tenedores.
+	5. Dormir durante time_to_sleep milisegundos.
+	6. Pensar hasta que pueda volver a comer.
+	7. Repetir el ciclo hasta que muera,  termine la simulación o que termine el numero de comidas (ver argc == 6).
 
 ```
 void *filosofo(void *arg) {
@@ -708,10 +715,13 @@ int main() {
     struct timeval tv;
     
     // Obtener la hora actual
-    if (gettimeofday(&tv, NULL) == 0) {
+    if (gettimeofday(&tv, NULL) == 0) 
+	{
         printf("Segundos desde la época Unix: %ld\n", tv.tv_sec);
         printf("Microsegundos: %ld\n", tv.tv_usec);
-    } else {
+    } 
+	else 
+	{
         perror("Error al obtener la hora");
     }
 
@@ -728,13 +738,15 @@ Ejemplo de uso para medir el tiempo transcurrido:
 #include <sys/time.h>  // Para gettimeofday()
 
 // Función para calcular el tiempo transcurrido
-long long time_diff(struct timeval start, struct timeval end) {
+long long time_diff(struct timeval start, struct timeval end) 
+{
     long long start_usec = start.tv_sec * 1000000 + start.tv_usec;
     long long end_usec = end.tv_sec * 1000000 + end.tv_usec;
-    return end_usec - start_usec;  // Retorna la diferencia en microsegundos
+    return (end_usec - start_usec); 							 // Retorna la diferencia en microsegundos
 }
 
-int main() {
+int main() 
+{
     struct timeval start, end;
     
     // Obtener la hora de inicio

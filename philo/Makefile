@@ -67,9 +67,7 @@ VALGRIND := valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes
 valgrind: all
 
 	@echo "$(CURRENT_COLOR)➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──Running Valgrind..──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──$(RESET)"
-#	@-$(VALGRIND) ./$(NAME) <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> [number_of_times_each_philo_must_eat]
-#	@-$(VALGRIND) ./$(NAME) 
-	@-$(VALGRIND) ./$(NAME) 4 800 200 200 5
+	@-$(VALGRIND) ./$(NAME) 2 800 200 200 5
 	@test/hs_files/./open_valgrind_log.sh
 	@echo "$(CURRENT_COLOR)➵⤐╌╌➣⋆➣╌─⤏➵•➵⤐─╌╌➣⋆➣── Valgrind completed. Check valgrind_output.log for details. ─╌➣⋆➣╌─⤏➵•➵⤐─╌╌➣⋆➣╌╌─$(RESET)"
 	

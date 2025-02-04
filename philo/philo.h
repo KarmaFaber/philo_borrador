@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/02/04 11:55:27 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/02/04 20:33:05 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,7 +96,8 @@ typedef struct s_philo
 	unsigned int meals_eaten; // Número de comidas consumidas
 	time_t last_meal;         // Última vez que comió
 
-	pthread_mutex_t *fork; // Puntero al mutex del tenedor ç
+	pthread_mutex_t *l_fork; // Puntero al mutex del tenedor izquierdo
+	pthread_mutex_t *r_fork; // Puntero al mutex del tenedor derecho
 	
 	bool dead_philo;
 	
@@ -118,16 +119,21 @@ bool		check_argvs(int argc_var, char **argv_var);
 
 //init.c (/5)
 int init_program(t_program *program, char **argv);
-int init_philo(t_program *philo, char **argv);
+void *philosopher_routine(void *arg);
+void *philosopher_routine(void *arg);
+int init_philo(t_program *program);
+
 
 
 
 // exit.c (/5)
 int			error_msg(char *str, int exit_no);
+void free_all(t_program *program);
 
 
 // utils (/5):
 int			atol_unsigned(const char *nptr);
 long long	timestamp(void);
+void print_action(t_philo *philo, const char *action);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:40:27 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/02/04 11:02:46 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/02/04 21:08:13 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,19 +29,53 @@
  * @return 
  */
 
+
+
+
+static void see_struct_data(t_program *program)
+{
+    printf("=== Datos del programa ===\n");
+    printf("Número de filósofos       : %hu\n", program->num_philos);
+    printf("Tiempo para morir         : %ld ms\n", program->time_to_die);
+    printf("Tiempo para comer         : %ld ms\n", program->time_to_eat);
+    printf("Tiempo para dormir        : %ld ms\n", program->time_to_sleep);
+    printf("Número de comidas requeridas: %u\n", program->num_times_to_eat);
+    printf("Simulación iniciada en    : %ld ms\n", program->start_time);
+    printf("Estado de muerte global   : %s\n", program->dead ? "Sí" : "No");
+
+    printf("\n=== Datos de los filósofos ===\n");
+    for (int i = 0; i < program->num_philos; i++)
+    {
+        t_philo *philo = &program->philos[i];
+        printf("\n--- Filósofo %d ---\n", philo->id);
+        printf("ID                        : %hu\n", philo->id);
+        printf("Comidas consumidas        : %u\n", philo->meals_eaten);
+        printf("Última comida             : %ld ms\n", philo->last_meal);
+        printf("Estado de muerte          : %s\n", philo->dead_philo ? "Sí" : "No");
+        printf("Tenedor izquierdo (ptr)   : %p\n", (void *)philo->l_fork);
+        printf("Tenedor derecho (ptr)     : %p\n", (void *)philo->r_fork);
+    }
+}
+
+
+
+
 int main (int argc, char **argv)
 {
 	t_program program;
-	t_philo	philo;
 
 
 	
 	if (!check_argvs(argc, argv))
 		return (1);
 	
-	//init_program();
-	//init_philo();
-	//free_all();
+	if (!init_program(&program, argv))
+		return (1);
+	init_philo(&program);
+
+	see_struct_data(&program);
+	
+	free_all(&program);
 
 	return (0);
 }
