@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 13:38:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/01/29 21:21:58 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/02/04 10:55:02 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,21 @@ int	atol_unsigned(const char *nptr)
 	if (number > INT_MAX)
 		return (-1);
 	return ((int)number);
+}
+
+/**
+ * @brief 
+ *
+ * @param 
+ * @return 
+ */
+
+long long	timestamp(void)
+{
+	struct timeval	tv;
+
+	gettimeofday(&tv, NULL);
+	return (tv.tv_sec * 1000 + tv.tv_usec / 1000);
 }
 
 

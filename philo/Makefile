@@ -36,7 +36,7 @@ endif
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢    philo srcs:   ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 
-PHILO_SRCS  := main.c parce.c utils.c exit.c
+PHILO_SRCS  := main.c parce.c utils.c exit.c init.c
 PHILO_OBJS  := $(PHILO_SRCS:.c=.o)
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢     rules      ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
