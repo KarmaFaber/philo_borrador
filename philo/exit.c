@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 20:29:00 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/02/04 19:22:22 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/02/05 09:50:51 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,4 +52,5 @@ void free_all(t_program *program)
     // Liberar memoria reservada
     free(program->forks);
     free(program->philos);
+    free(program->forks_available);
 }

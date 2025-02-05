@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:40:27 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/02/04 21:08:13 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/02/05 10:01:50 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@
 
 static void see_struct_data(t_program *program)
 {
-    printf("=== Datos del programa ===\n");
+    printf("\n\n=== Datos del programa ===\n");
     printf("Número de filósofos       : %hu\n", program->num_philos);
     printf("Tiempo para morir         : %ld ms\n", program->time_to_die);
     printf("Tiempo para comer         : %ld ms\n", program->time_to_eat);
@@ -52,8 +52,7 @@ static void see_struct_data(t_program *program)
         printf("Comidas consumidas        : %u\n", philo->meals_eaten);
         printf("Última comida             : %ld ms\n", philo->last_meal);
         printf("Estado de muerte          : %s\n", philo->dead_philo ? "Sí" : "No");
-        printf("Tenedor izquierdo (ptr)   : %p\n", (void *)philo->l_fork);
-        printf("Tenedor derecho (ptr)     : %p\n", (void *)philo->r_fork);
+
     }
 }
 

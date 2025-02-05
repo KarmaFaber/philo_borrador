@@ -42,8 +42,9 @@ PHILO_OBJS  := $(PHILO_SRCS:.c=.o)
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢     rules      ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 
 all: $(NAME)
+# all: banner $(NAME)
 
-$(NAME): $(PHILO_OBJS) 
+$(NAME): $(PHILO_OBJS)
 	@$(CC) $(CFLAGS) $(PHILO_OBJS) -o $(NAME)
 	@echo "$(CURRENT_COLOR) ✅ $(NAME) created.\n$(RESET)"
 
@@ -60,6 +61,21 @@ fclean: clean
 
 re: fclean all
 
+#◉───▣───▢◇▢───▣───◉•◉───▣───▢     banner      ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
+
+banner:
+	@echo "$(CURRENT_COLOR)"
+	@echo " ██▓███   ██░ ██  ██▓ ██▓     ▒█████    ██████  ▒█████   ██▓███   ██░ ██ ▓█████  ██▀███    ██████ "
+	@echo "▓██░  ██▒▓██░ ██▒▓██▒▓██▒    ▒██▒  ██▒▒██    ▒ ▒██▒  ██▒▓██░  ██▒▓██░ ██▒▓█   ▀ ▓██ ▒ ██▒▒██    ▒ "
+	@echo "▓██░ ██▓▒▒██▀▀██░▒██▒▒██░    ▒██░  ██▒░ ▓██▄   ▒██░  ██▒▓██░ ██▓▒▒██▀▀██░▒███   ▓██ ░▄█ ▒░ ▓██▄   "
+	@echo "▒██▄█▓▒ ▒░▓█ ░██ ░██░▒██░    ▒██   ██░  ▒   ██▒▒██   ██░▒██▄█▓▒ ▒░▓█ ░██ ▒▓█  ▄ ▒██▀▀█▄    ▒   ██▒"
+	@echo "▒██▒ ░  ░░▓█▒░██▓░██░░██████▒░ ████▓▒░▒██████▒▒░ ████▓▒░▒██▒ ░  ░░▓█▒░██▓░▒████▒░██▓ ▒██▒▒██████▒▒"
+	@echo "▒▓▒░ ░  ░ ▒ ░░▒░▒░▓  ░ ▒░▓  ░░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░░ ▒░▒░▒░ ▒▓▒░ ░  ░ ▒ ░░▒░▒░░ ▒░ ░░ ▒▓ ░▒▓░▒ ▒▓▒ ▒ ░"
+	@echo "░▒ ░      ▒ ░▒░ ░ ▒ ░░ ░ ▒  ░  ░ ▒ ▒░ ░ ░▒  ░ ░  ░ ▒ ▒░ ░▒ ░      ▒ ░▒░ ░ ░ ░  ░  ░▒ ░ ▒░░ ░▒  ░ ░"
+	@echo "░░        ░  ░░ ░ ▒ ░  ░ ░   ░ ░ ░ ▒  ░  ░  ░  ░ ░ ░ ▒  ░░        ░  ░░ ░   ░     ░░   ░ ░  ░  ░  "
+	@echo "          ░  ░  ░ ░      ░  ░    ░ ░        ░      ░ ░            ░  ░  ░   ░  ░   ░           ░  "
+	@echo "$(RESET)"
+
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢   Valgrind   ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 
 VALGRIND := valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --error-limit=no --log-file=test/valgrind_outputs/valgrind_output_$(shell date +%Y%m%d_%H%M%S).log -s
@@ -67,8 +83,8 @@ VALGRIND := valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes
 valgrind: all
 
 	@echo "$(CURRENT_COLOR)➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──Running Valgrind..──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──$(RESET)"
-	@-$(VALGRIND) ./$(NAME) 2 800 200 200 5
-	@test/hs_files/./open_valgrind_log.sh
+	@-$(VALGRIND) ./$(NAME) 2 400 200 200 2
+#	@test/hs_files/./open_valgrind_log.sh
 	@echo "$(CURRENT_COLOR)➵⤐╌╌➣⋆➣╌─⤏➵•➵⤐─╌╌➣⋆➣── Valgrind completed. Check valgrind_output.log for details. ─╌➣⋆➣╌─⤏➵•➵⤐─╌╌➣⋆➣╌╌─$(RESET)"
 	
 clean_valgrind:

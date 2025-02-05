@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 13:38:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/02/04 20:33:26 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/02/05 10:08:00 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,11 +62,20 @@ long long	timestamp(void)
 void print_action(t_philo *philo, const char *action)
 {
 	pthread_mutex_lock(&philo->program->write_lock);
-	if (!philo->program->dead)
-		printf("%lld %hu %s\n", timestamp() - philo->program->start_time, philo->id, action);
+	printf("%lld %hu %s\n", timestamp() - philo->program->start_time, philo->id, action);
 	pthread_mutex_unlock(&philo->program->write_lock);
 }
 
 
-
+/*
+void print_action(t_philo *philo, const char *action)
+{
+	pthread_mutex_lock(&philo->program->write_lock);
+	if (!philo->program->dead)
+		printf("%lld %hu %s\n", timestamp() - philo->program->start_time, philo->id, action);
+	else 
+		printf("%lld %hu %s\n", timestamp() - philo->program->start_time, philo->id, action);
+	pthread_mutex_unlock(&philo->program->write_lock);
+}
+*/
 

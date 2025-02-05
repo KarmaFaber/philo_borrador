@@ -6,12 +6,14 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/02/04 21:14:42 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/02/05 12:13:49 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PHILO_H
 # define PHILO_H
+
+//#➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──formatting:──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
 
 # ifndef DEBUG_FORMATTING
 #  define DEBUG_FORMATTING 0
@@ -79,8 +81,10 @@ typedef struct s_program
 	time_t	time_to_eat;
 	time_t	time_to_sleep;
 
-	bool dead; 							// Bandera de estado de muerte (true = algún filósofo ha muerto)
-
+	bool dead; 							// Bandera de estado de muerte "global del programa" (true = algún filósofo ha muerto)
+	bool *forks_available; 				// indica si el tenedor está disponible
+	
+	pthread_mutex_t forks_lock;			// protege el acceso a los tenedores
 	pthread_mutex_t *forks;     		// Array de mutex para los tenedores
 	pthread_mutex_t write_lock; 		// Mutex para controlar las impresiones en pantalla
 	pthread_mutex_t dead_lock;  		// Mutex para proteger la variable `dead`
@@ -95,14 +99,11 @@ typedef struct s_philo
 	unsigned short int id;    // ID del filósofo
 	unsigned int meals_eaten; // Número de comidas consumidas
 	time_t last_meal;         // Última vez que comió
-
-	pthread_mutex_t *l_fork; // Puntero al mutex del tenedor izquierdo
-	pthread_mutex_t *r_fork; // Puntero al mutex del tenedor derecho
 	
 	bool dead_philo;
 	
 	t_program *program; // Referencia a la estructura principal
-
+	
 }	t_philo;
 
 //#➵⤐╌╌➣⋆➣╌─⤏➵•➵⤐╌╌➣⋆➣╌╌─Function Prototypes : :──➣⋆➣╌⤏➵•➵⤐╌╌➣⋆➣╌╌➔#
@@ -117,6 +118,7 @@ bool		check_argvs(int argc_var, char **argv_var);
 
 //init.c (/5)
 int init_program(t_program *program, char **argv);
+int monitor_dead(t_philo *philo);
 void *philosopher_routine(void *arg);
 void *philosopher_routine(void *arg);
 int init_philo(t_program *program);
