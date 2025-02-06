@@ -36,7 +36,7 @@ endif
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢    philo srcs:   ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 
-PHILO_SRCS  := main.c parce.c utils.c exit.c init.c
+PHILO_SRCS  := main.c parce.c utils.c exit.c init.c init_utils.c routines.c 
 PHILO_OBJS  := $(PHILO_SRCS:.c=.o)
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢     rules      ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
@@ -83,8 +83,9 @@ VALGRIND := valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes
 valgrind: all
 
 	@echo "$(CURRENT_COLOR)➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──Running Valgrind..──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──$(RESET)"
-	@-$(VALGRIND) ./$(NAME) 2 400 200 200 2
-#	@test/hs_files/./open_valgrind_log.sh
+#	@-$(VALGRIND) ./$(NAME) 2 800 200 200 1
+	@-$(VALGRIND) ./philo 2 800 200 200 
+	@test/hs_files/./open_valgrind_log.sh
 	@echo "$(CURRENT_COLOR)➵⤐╌╌➣⋆➣╌─⤏➵•➵⤐─╌╌➣⋆➣── Valgrind completed. Check valgrind_output.log for details. ─╌➣⋆➣╌─⤏➵•➵⤐─╌╌➣⋆➣╌╌─$(RESET)"
 	
 clean_valgrind:
@@ -98,7 +99,7 @@ test: all
 	@echo "$(CURRENT_COLOR)➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌── End of test. ──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌➔$(RESET)"
 
 clean_test:
-	test/hs_files/./clean_test.sh
+	@test/hs_files/clean_test.sh
 
 clean_all: clean_test fclean clean_valgrind
 	

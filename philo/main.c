@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:40:27 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/02/05 10:01:50 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/02/06 11:16:04 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,20 +19,8 @@
  * @return 
  */
 
-
-
-
-/**
- * @brief 
- *
- * @param 
- * @return 
- */
-
-
-
-
-static void see_struct_data(t_program *program)
+/*
+static void see_struct_data(t_program *program)   // borrar testeo
 {
     printf("\n\n=== Datos del programa ===\n");
     printf("Número de filósofos       : %hu\n", program->num_philos);
@@ -55,24 +43,22 @@ static void see_struct_data(t_program *program)
 
     }
 }
-
-
+*/
 
 
 int main (int argc, char **argv)
 {
 	t_program program;
 
-
-	
 	if (!check_argvs(argc, argv))
 		return (1);
 	
 	if (!init_program(&program, argv))
 		return (1);
-	init_philo(&program);
+	if(!init_philo(&program))   
+        return (1);
 
-	see_struct_data(&program);
+	//see_struct_data(&program);   // borrar testeo
 	
 	free_all(&program);
 
