@@ -1,11 +1,13 @@
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢error controlado:▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 parceo:
-./philo 201 800 200 200 2
-./philo 2 gsdf 200 200
-./philo 2 800 200 200 gsdf
+comando 							bash 						valgrind
+./philo 201 800 200 200 2			ok							ok
+./philo 2 gsdf 200 200				ok
+./philo 2 800 200 200 gsdf			ok
 
 muerte: (margenes de muerte)
-./philo 2 300 200 200 5
+comando 							bash 						valgrind
+./philo 2 300 200 200 5				ok							
 ./philo 2 400 200 200 2
 ./philo 7 200 100 100 1
 ./philo 7 300 200 200 1 

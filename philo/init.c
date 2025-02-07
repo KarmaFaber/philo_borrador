@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 10:42:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/02/06 12:52:07 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/02/07 10:22:17 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -113,7 +113,6 @@ void *philosopher_routine(void *arg)
 	//todas rutinas
     all_routines(philo, left_fork, right_fork);
 
-	
     return NULL;
 }
 
