@@ -19,21 +19,6 @@ CC          := cc
 CFLAGS      := -Wall -Werror -Wextra 
 RM          := rm -rf
 
-#◉───▣───▢◇▢───▣───◉•◉───▣───▢   Formatting:   ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
-
-# Run 'make re MODE=pretty' for color formatting.
-# Run 'make re MODE=debug' for debug formatting.
-
-MODE	= none
-
-ifeq ($(MODE), pretty)
-	CFLAGS	+= -D DEBUG_FORMATTING=1
-endif
-
-ifeq ($(MODE), debug)
-	CFLAGS	+= -D DEBUG_FORMATTING=1 -fsanitize=thread -g
-endif
-
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢    philo srcs:   ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 
 PHILO_SRCS  := main.c parce.c utils.c exit.c init.c init_utils.c routines.c 
