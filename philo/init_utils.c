@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 08:18:14 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/02/06 12:52:12 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/23 09:03:44 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,11 @@ void handle_single_philosopher(t_philo *philo)
     int left_fork = philo->id - 1;
 
     pthread_mutex_lock(&philo->program->forks[left_fork]);
-    print_action(philo, "has taken a fork (only one available)"); // corregir el texto de este print
+    print_action(philo, "has taken a fork (only one available)"); //🚩_testeo:  corregir el texto de este print
 
     // Esperar hasta morir
     while (!philosopher_dead(philo))    
-        usleep(1000); // Pequeña espera de tiempo dead, para no consumir CPU
+        usleep(1000); //🚩_testeo:  Pequeña espera de tiempo dead, para no consumir CPU
         
     pthread_mutex_unlock(&philo->program->forks[left_fork]);
 }
@@ -50,10 +50,10 @@ bool philosopher_dead(t_philo *philo)
     // Verificar si el filósofo está muerto
     if (philo->program->dead)
     {
-        pthread_mutex_unlock(&philo->program->dead_lock);  // Desbloquear el mutex dead
+        pthread_mutex_unlock(&philo->program->dead_lock);  //🚩_testeo:  Desbloquear el mutex dead
         return (true);  //true -philo muerto
     }
-    pthread_mutex_unlock(&philo->program->dead_lock);  // Desbloquear el mutex dead
+    pthread_mutex_unlock(&philo->program->dead_lock);  //🚩_testeo:  Desbloquear el mutex dead
     
 	//*** */ Revisar si este filósofo ha muerto por inanición
 	pthread_mutex_lock(&philo->program->meal_lock);
@@ -64,11 +64,11 @@ bool philosopher_dead(t_philo *philo)
 		philo->dead_philo = true;
 		philo->program->dead = true;
 		pthread_mutex_unlock(&philo->program->dead_lock);
-		print_action(philo, "\033[1;31m has died \033[0m"); //quitar el color y poner //print_action(philo, "has died");
+		print_action(philo, "\033[1;31mdied\033[0m"); //🚩_testeo: quitar el color y poner //print_action(philo, "died");
 		return (true);     //true -philo muerto
 	}
 	pthread_mutex_unlock(&philo->program->meal_lock);
-	return (false);   //false -philo vivo
+	return (false);   //🚩_testeo: false -philo vivo
 }
 
 /**
@@ -101,9 +101,9 @@ void take_two_forks(t_philo *philo, int left_fork, int right_fork)
 
             // Bloquear los mutex de los tenedores
             pthread_mutex_lock(&philo->program->forks[left_fork]);
-            print_action(philo, "has taken a fork LEFT"); // quitar LEFT
+            print_action(philo, "has taken a fork LEFT");                       //🚩_testeo quitar LEFT
             pthread_mutex_lock(&philo->program->forks[right_fork]);
-            print_action(philo, "has taken a fork RIGHT"); // quitar RIGHT
+            print_action(philo, "has taken a fork RIGHT");                      //🚩_testeo quitar RIGHT
 
             break;
         }
@@ -121,9 +121,9 @@ void take_two_forks(t_philo *philo, int left_fork, int right_fork)
 void free_forks(t_philo *philo, int left_fork, int right_fork)
 {
 	pthread_mutex_unlock(&philo->program->forks[left_fork]);
-	//print_action(philo, "ha soltado fork LEFT");				//quitar esto es de prueba
+	//print_action(philo, "ha soltado fork LEFT");				//🚩_testeo: quitar esto es de prueba
 	pthread_mutex_unlock(&philo->program->forks[right_fork]);
-	//print_action(philo, "ha soltado fork RIGHT");				//quitar esto es de prueba
+	//print_action(philo, "ha soltado fork RIGHT");				//🚩_testeo: quitar esto es de prueba
 
 	pthread_mutex_lock(&philo->program->forks_lock);
 	philo->program->forks_available[left_fork] = true;

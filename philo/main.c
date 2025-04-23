@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:40:27 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/02/06 11:16:04 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/23 10:02:45 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,6 @@ static void see_struct_data(t_program *program)   // borrar testeo
     }
 }
 */
-
 
 int main (int argc, char **argv)
 {

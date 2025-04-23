@@ -6,18 +6,12 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/02/06 12:52:16 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/23 09:29:10 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PHILO_H
 # define PHILO_H
-
-//#➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──formatting:──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
-
-# ifndef DEBUG_FORMATTING
-#  define DEBUG_FORMATTING 0
-# endif
 
 //#➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──includes:──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
 
@@ -32,39 +26,21 @@
 
 //#➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──Macros  :──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
 
-//#➵⤐──╌╌➣➣╌╌──Colors  :──╌╌➣➣╌╌➔#
-
-// letter color:
-# define NC "\e[0m" // Reset color
-# define BLACK "\e[30m"
-# define RED "\e[31m"
-# define GREEN "\e[32m"
-# define BLUE "\e[34m"
-# define PURPLE "\e[35m"
-# define CYAN "\e[36m"
-
-// background color:
-# define BG_RED "\e[41m"
-# define BG_GREEN "\e[42m"
-# define BG_YELLOW "\e[43m"
-# define BG_BLUE "\e[44m"
-# define BG_PURPLE "\e[45m"
-# define BG_CYAN "\e[46m"
-# define BG_WHITE "\e[47m"
-
-//#➵⤐──╌╌➣➣╌╌──OTHER: ──╌╌➣➣╌╌➔#
-
 # define MAX_PHILOS 200
 # define STR_MAX_PHILOS "200"
 
 //#➵⤐──╌╌➣➣╌╌──ERR. MSGS:  :──╌╌➣➣╌╌➔#
 
 # define STR_ERR_INPUT_DIGIT \
-	"Error: invalid input: \
-not a valid unsigned integer between 0 and 2147483647.\n"
-# define STR_ERR_THREAD "Error: Could not create thread.\n"
-# define STR_ERR_MALLOC "Error: Could not allocate memory.\n"
-# define STR_ERR_MUTEX "Error: Could not create mutex.\n"
+	"\001\033[1;31m\002Error: invalid input \
+(not a valid unsigned integer between 0 and 2147483647).\n\001\033[0m\002"
+
+# define STR_ERR_ARG "\001\033[1;31m\002Error: incorrect number of arguments.\n\001\033[0m\002"
+# define STR_ERR_P_NUM "\001\033[1;31m\002Error: incorrect number of philosophers.\n\001\033[0m\002"
+
+# define STR_ERR_THREAD "\001\033[1;31m\002Error: Could not create thread.\n\001\033[0m\002"
+# define STR_ERR_MALLOC "\001\033[1;31m\002Error: Could not allocate memory.\n\001\033[0m\002"
+# define STR_ERR_MUTEX "\001\033[1;31m\002Error: Could not create mutex.\n\001\033[0m\002"
 
 //#➵⤐──╌╌➣⋆➣╌─⤏➵•➵⤐──╌╌➣⋆➣╌╌──Structures  :──╌╌➣⋆➣╌╌⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
 

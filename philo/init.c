@@ -6,12 +6,11 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 10:42:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/02/07 10:22:17 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/23 10:36:01 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
-
 
 /**
  * @brief 
@@ -44,7 +43,7 @@ static int sub_init_program(t_program *program, char **argv)
 	if (!program->philos)
 	{
 		free(program->forks);
-		return (0);
+		return (printf("%s", STR_ERR_MALLOC), 0);
 	}
 	return (1);
 }
@@ -62,12 +61,12 @@ int init_program(t_program *program, char **argv)
 	
 	i = 0;
 	if (!sub_init_program(program, argv))
-		return (0);
+		return (printf("%s", STR_ERR_MALLOC), 0);
 		
 	// Asignar memoria para los mutex de los tenedores
     program->forks = malloc(sizeof(pthread_mutex_t) * program->num_philos);
 	if (!program->forks)
-		return (0);
+		return (printf("%s", STR_ERR_MALLOC), 0);
     while (i < program->num_philos)
 	{
         pthread_mutex_init(&program->forks[i], NULL);
@@ -77,7 +76,7 @@ int init_program(t_program *program, char **argv)
 	// Asignar memoria para el array de forks_available
 	program->forks_available = malloc(sizeof(bool) * program->num_philos);
 	if (!program->forks_available)
-		return (0);
+		return (printf("%s", STR_ERR_MALLOC), 0);
 	i = 0;
 	while (i < program->num_philos)
 	{
@@ -113,10 +112,8 @@ void *philosopher_routine(void *arg)
 	//todas rutinas
     all_routines(philo, left_fork, right_fork);
 
-    return NULL;
+    return (NULL);
 }
-
-
 
 /**
  * @brief 
