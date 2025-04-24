@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 19:36:20 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/23 11:27:56 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/24 09:19:18 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,34 +66,43 @@ void all_routines (t_philo *philo, int left_fork, int right_fork)
 {
 	//todas las rutinas
     while (!philo->program->dead && (philo->program->num_times_to_eat == 0 || philo->meals_eaten < philo->program->num_times_to_eat))
-    {
-        if (philosopher_dead(philo)) // este chekeo es importante para que no siga ejecutando despues de died
-            break; // Si el filósofo muere, detener la ejecución de las rutinas
-        
+    {   
         // Intentar tomar los 2 tenedores
         take_two_forks(philo, left_fork, right_fork);
 
 		if (philosopher_dead(philo))
+        {
+            printf("\033[1;32mbreak por philo muerto 2: %d \n\033[0m", philo->id); //🚩_testeo:
             break; // Si el filósofo muere, detener la ejecución de las rutinas
+        }
 		// Comer
 		eat_routine(philo);
         // Liberar los tenedores
         free_forks(philo, left_fork, right_fork);
 
 		if (philosopher_dead(philo))
+        {
+            printf("\033[1;32mbreak por philo muerto 3: %d \n\033[0m", philo->id); //🚩_testeo:
             break; // Si el filósofo muere, detener la ejecución de las rutinas
+        }
 			
         // Dormir
         sleep_routine(philo);
 
 		if (philosopher_dead(philo))
+        {
+            printf("\033[1;32mbreak por philo muerto 4: %d \n\033[0m", philo->id); //🚩_testeo:
             break; // Si el filósofo muere, detener la ejecución de las rutinas
+        }
 			
         // Pensar
         think_routine(philo);
 
         if (philosopher_dead(philo))
+        {
+            printf("\033[1;32mbreak por philo muerto 5: %d \n\033[0m", philo->id); //🚩_testeo:
             break; // Si el filósofo muere, detener la ejecución de las rutinas
+        }
     }
     
 	

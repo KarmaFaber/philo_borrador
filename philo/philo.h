@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/23 09:29:10 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/24 09:08:03 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,7 +77,7 @@ typedef struct s_philo
 	unsigned int meals_eaten; // Número de comidas consumidas
 	time_t last_meal;         // Última vez que comió
 	
-	bool dead_philo;
+	bool dead_philo;		//estado muerto de cada philo[i++]
 	
 	t_program *program; // Referencia a la estructura principal
 	
