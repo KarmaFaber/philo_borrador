@@ -1,0 +1,14 @@
+==31046== Memcheck, a memory error detector
+==31046== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==31046== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==31046== Command: ./philo 8 410 200 200 4
+==31046== Parent PID: 31043
+==31046== 
+==31046== 
+==31046== HEAP SUMMARY:
+==31046==     in use at exit: 0 bytes in 0 blocks
+==31046==   total heap usage: 12 allocs, 12 frees, 3,848 bytes allocated
+==31046== 
+==31046== All heap blocks were freed -- no leaks are possible
+==31046== 
+==31046== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

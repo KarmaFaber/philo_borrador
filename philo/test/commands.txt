@@ -41,15 +41,25 @@ comando 							bash 						valgrind
 ./philo 118 411 200 171 1 			ok							fallo
 ./philo	59 547 200 162 1 			ok							fallo
 ./philo 4 519 200 181 2 			ok							fallo
+
 ./philo 150 1136 200 64 5
+./philo 151 1136 200 64 5
+
 ./philo 10 667 200 200 4
-./philo 27 751 200 200 9
+./philo 27 751 200 200 9			falla en tiempo de imprecin 10 ms
 ./philo 5 826 200 200 3
 ./philo 7 300 100 100 1
 ./philo 7 250 100 100 1
 ./philo 2 420 200 200 2
 ./philo 2 410 200 200 2
 ./philo 8 410 200 200 4				falla +/-
+./philo 150 1136 200 64 2
+
+./philo 2 800 200 200 100
+./philo 3 800 200 200 100			falla - ph impares
+
+./philo 10 800 200 200 50
+./philo 17 800 200 200 50			falla - ph impares
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢ current test :▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 

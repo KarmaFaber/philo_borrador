@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 10:42:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/23 11:15:32 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/24 12:17:35 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,8 @@
 static int sub_init_program(t_program *program, char **argv)
 {
 	program->start_time = timestamp();
-	program->dead = false;				
+	program->dead = false;		
+	program->dead_p_num = 0;		
 	program->num_philos = atol_unsigned(argv[1]);
 	program->time_to_die = atol_unsigned(argv[2]);
 	program->time_to_eat =  atol_unsigned(argv[3]);
@@ -36,6 +37,7 @@ static int sub_init_program(t_program *program, char **argv)
 	// Inicializar los mutex generales
     pthread_mutex_init(&program->write_lock, NULL);
     pthread_mutex_init(&program->dead_lock, NULL);
+	pthread_mutex_init(&program->dead_num_lock, NULL);
     pthread_mutex_init(&program->meal_lock, NULL);
 	pthread_mutex_init(&program->forks_lock, NULL); // Mutex para proteger las flags de tenedores
 	// Asignar memoria para el array de filósofos
@@ -95,7 +97,9 @@ int init_program(t_program *program, char **argv)
  
 void *philosopher_routine(void *arg)
 {
-    t_philo *philo = (t_philo *)arg;
+    t_philo *philo;
+
+	philo = (t_philo *)arg;
     int left_fork;
     int right_fork;	
 

@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 08:18:14 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/23 11:07:11 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/24 11:21:53 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ void handle_single_philosopher(t_philo *philo)
 
 bool philosopher_dead(t_philo *philo)
 {
-	//*** */ Revisar si el programa ya ha declarado la muerte de un filósofo
+	// Revisar si el programa ya ha declarado la muerte de un filósofo
 	// Bloquear el mutex para acceder de manera segura a la variable 'dead'
     pthread_mutex_lock(&philo->program->dead_lock);
     // Verificar si el filósofo está muerto
@@ -55,7 +55,7 @@ bool philosopher_dead(t_philo *philo)
     }
     pthread_mutex_unlock(&philo->program->dead_lock);  //🚩_testeo:  Desbloquear el mutex dead
     
-	//*** */ Revisar si este filósofo ha muerto por inanición
+	// Revisar si este filósofo ha muerto por inanición
 	pthread_mutex_lock(&philo->program->meal_lock);
 	if (timestamp() - philo->last_meal >= philo->program->time_to_die)
 	{
@@ -64,12 +64,24 @@ bool philosopher_dead(t_philo *philo)
 		philo->dead_philo = true;
 		philo->program->dead = true;
 		pthread_mutex_unlock(&philo->program->dead_lock);
-		print_action(philo, "\033[1;31mdied\033[0m"); //🚩_testeo: quitar el color y poner //print_action(philo, "died");
+        // Actualizar el contador protegido
+		pthread_mutex_lock(&philo->program->dead_num_lock);
+		philo->program->dead_p_num++;
+        if (philo->program->dead_p_num == 1)
+        {
+		    print_action(philo, "\033[1;31mdied\033[0m"); 
+        }
+        pthread_mutex_unlock(&philo->program->dead_num_lock);
 		return (true);     //true -philo muerto
 	}
 	pthread_mutex_unlock(&philo->program->meal_lock);
-	return (false);   //🚩_testeo: false -philo vivo
+	return (false);   //philo vivo
 }
+    
+
+
+
+
 
 /**
  * @brief 
@@ -84,6 +96,43 @@ Cada filósofo toma su tenedor derecho (ID % num_philos).
 El último filósofo (ID = num_philos) toma el primer tenedor (ID % num_philos = 0), asegurando que el círculo sea continuo.
  */
 
+void take_two_forks(t_philo *philo, int left_fork, int right_fork)
+{
+    while (1)
+    {
+        if (philosopher_dead(philo))
+            break;
+
+        pthread_mutex_lock(&philo->program->forks_lock);
+        if (philo->program->forks_available[left_fork] && philo->program->forks_available[right_fork])
+        {
+            philo->program->forks_available[left_fork] = false;
+            philo->program->forks_available[right_fork] = false;
+            pthread_mutex_unlock(&philo->program->forks_lock);
+
+            // ⚠️ Verificar muerte justo antes de tomar forks
+            if (philosopher_dead(philo))
+            {
+                // Devolver forks porque ya no los necesita
+                pthread_mutex_lock(&philo->program->forks_lock);
+                philo->program->forks_available[left_fork] = true;
+                philo->program->forks_available[right_fork] = true;
+                pthread_mutex_unlock(&philo->program->forks_lock);
+                break;
+            }
+
+            pthread_mutex_lock(&philo->program->forks[left_fork]);
+            print_action(philo, "has taken a fork LEFT");
+            pthread_mutex_lock(&philo->program->forks[right_fork]);
+            print_action(philo, "has taken a fork RIGHT");
+            break;
+        }
+        pthread_mutex_unlock(&philo->program->forks_lock);
+    }
+}
+
+ 
+/*
 void take_two_forks(t_philo *philo, int left_fork, int right_fork)
 {
     while (1)
@@ -110,6 +159,7 @@ void take_two_forks(t_philo *philo, int left_fork, int right_fork)
         pthread_mutex_unlock(&philo->program->forks_lock);
     }
 }
+*/
 
 /**
  * @brief 

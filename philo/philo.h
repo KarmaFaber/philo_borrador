@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/24 09:08:03 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/24 10:50:50 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,6 +57,7 @@ typedef struct s_program
 	time_t	time_to_eat;
 	time_t	time_to_sleep;
 
+	int dead_p_num;
 	bool 	dead; 							// Bandera de estado de muerte "global del programa" (true = algún filósofo ha muerto)
 	bool 	*forks_available; 				// indica si el tenedor está disponible
 	
@@ -64,6 +65,7 @@ typedef struct s_program
 	pthread_mutex_t 	*forks;     		// Array de mutex para los tenedores
 	pthread_mutex_t 	write_lock; 		// Mutex para controlar las impresiones en pantalla
 	pthread_mutex_t 	dead_lock;  		// Mutex para proteger la variable `dead`
+	pthread_mutex_t 	dead_num_lock;  		// Mutex para proteger la variable `dead`
 	pthread_mutex_t 	meal_lock;  		// Mutex para verificar si todos comieron
 	
 	struct s_philo 		*philos; 			// Array de filósofos
