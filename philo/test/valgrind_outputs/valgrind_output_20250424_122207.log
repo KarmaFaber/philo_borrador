@@ -1,0 +1,14 @@
+==54873== Memcheck, a memory error detector
+==54873== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==54873== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==54873== Command: ./philo 8 410 200 200 4
+==54873== Parent PID: 54839
+==54873== 
+==54873== 
+==54873== HEAP SUMMARY:
+==54873==     in use at exit: 0 bytes in 0 blocks
+==54873==   total heap usage: 12 allocs, 12 frees, 3,848 bytes allocated
+==54873== 
+==54873== All heap blocks were freed -- no leaks are possible
+==54873== 
+==54873== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

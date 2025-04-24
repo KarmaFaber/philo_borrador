@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 19:36:20 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/24 11:27:22 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/24 12:30:20 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,6 +91,7 @@ void all_routines (t_philo *philo, int left_fork, int right_fork)
 		if (philosopher_dead(philo))
         {
             //printf("\033[1;32mbreak por philo muerto 2: %d \n\033[0m", philo->id); //🚩_testeo:
+            free_forks(philo, left_fork, right_fork);
             break; // Si el filósofo muere, detener la ejecución de las rutinas
         }
 		// Comer
@@ -117,10 +118,10 @@ void all_routines (t_philo *philo, int left_fork, int right_fork)
         // Pensar
         think_routine(philo);
 
-        if (philosopher_dead(philo))
-        {
-            //printf("\033[1;32mbreak por philo muerto 5: %d \n\033[0m", philo->id); //🚩_testeo:
-            break; // Si el filósofo muere, detener la ejecución de las rutinas
-        }
+        //if (philosopher_dead(philo))
+        //{
+        //    //printf("\033[1;32mbreak por philo muerto 5: %d \n\033[0m", philo->id); //🚩_testeo:
+        //    break; // Si el filósofo muere, detener la ejecución de las rutinas
+        //}
     }
 }
