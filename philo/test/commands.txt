@@ -32,15 +32,37 @@ comando 							bash 						valgrind
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢n comidas:▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 comando 							bash 						valgrind
-./philo 2 800 200 200 2				ok							fallo
-./philo 4 800 200 200 2				ok							fallo
+./philo 2 800 200 200 2				ok							
+./philo 4 800 200 200 2				ok							
+
+./philo 5 800 200 200 200			ok
+./philo 199 800 200 200 2			falla: > 10 ms + muere con tiemp de sobra + sigue imprimiendo rutinas de otros
+
+./philo 17 800 200 200 2			falla: > 10 ms + muere con tiemp de sobra
+./philo 17 800 100 100 2			ok
+./philo 17 800 150 150 2			ok
+./philo 87 800 150 150 2			ok
+./philo 17 800 150 150 8			ok
+./philo 17 800 150 150 20			ok
+
+./philo 7 800 200 200 2				falla: > 10 ms + muere con tiemp de sobra
+./philo 17 800 200 200 2			falla: > 10 ms + muere con tiemp de sobra
+./philo 87 800 200 200 2			fall a veces: muere + sigue imprimiendo rutinas de otros
+./philo 17 800 200 200 8			falla: > 10 ms + muere con tiemp de sobra		
+./philo 17 800 200 020 20			falla: > 10 ms + muere con tiemp de sobra	
+
+./philo 50 800 200 200 2			fall a veces: muere +  ms en - + sigue imprimiendo rutinas de otros
+./philo 51 800 200 200 2			fall a veces: muere +  ms en - + sigue imprimiendo rutinas de otros
+
+./philo 4 800 200 200 50			falla: > 10 ms + muere con tiemp de sobra
+./philo 7 800 200 200 50
 
 ./philo 5 800 200 200 2				fallo						fallo
 
-./philo 10 800 200 200 5			ok							fallo
-./philo 118 411 200 171 1 			ok							fallo
-./philo	59 547 200 162 1 			ok							fallo
-./philo 4 519 200 181 2 			ok							fallo
+./philo 10 800 200 200 5			
+./philo 118 411 200 171 1 			
+./philo	59 547 200 162 1 			
+./philo 4 519 200 181 2 			
 
 ./philo 150 1136 200 64 5
 ./philo 151 1136 200 64 5
@@ -49,7 +71,12 @@ comando 							bash 						valgrind
 ./philo 27 751 200 200 9			falla en tiempo de imprecin 10 ms
 ./philo 5 826 200 200 3
 ./philo 7 300 100 100 1
+
 ./philo 7 250 100 100 1
+./philo 7 250 100 100 10
+
+./philo 7 250 100 100 1
+./philo 7 100 100 100 3
 ./philo 2 420 200 200 2
 ./philo 2 410 200 200 2
 ./philo 8 410 200 200 4				falla +/-

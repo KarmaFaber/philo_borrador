@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 08:18:14 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/24 11:21:53 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/25 08:53:34 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,14 +21,15 @@
 
 void handle_single_philosopher(t_philo *philo)
 {
-    int left_fork = philo->id - 1;
+    int left_fork;
 
+    left_fork = philo->id - 1;
     pthread_mutex_lock(&philo->program->forks[left_fork]);
     print_action(philo, "has taken a fork (only one available)"); //🚩_testeo:  corregir el texto de este print
 
     // Esperar hasta morir
     while (!philosopher_dead(philo))    
-        usleep(1000); //🚩_testeo:  Pequeña espera de tiempo dead, para no consumir CPU
+        precise_sleep(1, philo); //  Pequeña espera de tiempo dead, para no consumir CPU
         
     pthread_mutex_unlock(&philo->program->forks[left_fork]);
 }
@@ -44,39 +45,39 @@ void handle_single_philosopher(t_philo *philo)
 
 bool philosopher_dead(t_philo *philo)
 {
-	// Revisar si el programa ya ha declarado la muerte de un filósofo
-	// Bloquear el mutex para acceder de manera segura a la variable 'dead'
-    pthread_mutex_lock(&philo->program->dead_lock);
-    // Verificar si el filósofo está muerto
-    if (philo->program->dead)
-    {
-        pthread_mutex_unlock(&philo->program->dead_lock);  //🚩_testeo:  Desbloquear el mutex dead
-        return (true);  //true -philo muerto
-    }
-    pthread_mutex_unlock(&philo->program->dead_lock);  //🚩_testeo:  Desbloquear el mutex dead
-    
+	// Revisar si ya se ha registrado la muerte de algún filósofo
+	pthread_mutex_lock(&philo->program->dead_num_lock);
+	if (philo->program->dead_p_num > 0)
+	{
+		pthread_mutex_unlock(&philo->program->dead_num_lock);
+		return (true); // Ya hay un filósofo muerto
+	}
+	pthread_mutex_unlock(&philo->program->dead_num_lock);
+
 	// Revisar si este filósofo ha muerto por inanición
 	pthread_mutex_lock(&philo->program->meal_lock);
 	if (timestamp() - philo->last_meal >= philo->program->time_to_die)
 	{
 		pthread_mutex_unlock(&philo->program->meal_lock);
-		pthread_mutex_lock(&philo->program->dead_lock);
+
 		philo->dead_philo = true;
-		philo->program->dead = true;
-		pthread_mutex_unlock(&philo->program->dead_lock);
-        // Actualizar el contador protegido
+
+		// Incrementar el contador de muertes de forma segura
 		pthread_mutex_lock(&philo->program->dead_num_lock);
 		philo->program->dead_p_num++;
-        if (philo->program->dead_p_num == 1)
+		if (philo->program->dead_p_num == 1)
         {
-		    print_action(philo, "\033[1;31mdied\033[0m"); 
+            //print_action(philo, "\001\033[1;31m\002died\001\033[0m\002");
+            print_action(philo, DIE);
         }
-        pthread_mutex_unlock(&philo->program->dead_num_lock);
-		return (true);     //true -philo muerto
+		pthread_mutex_unlock(&philo->program->dead_num_lock);
+
+		return (true); // Filósofo muerto
 	}
 	pthread_mutex_unlock(&philo->program->meal_lock);
-	return (false);   //philo vivo
+	return (false); // Filósofo vivo
 }
+
     
 
 
@@ -96,12 +97,13 @@ Cada filósofo toma su tenedor derecho (ID % num_philos).
 El último filósofo (ID = num_philos) toma el primer tenedor (ID % num_philos = 0), asegurando que el círculo sea continuo.
  */
 
-void take_two_forks(t_philo *philo, int left_fork, int right_fork)
+
+bool take_two_forks(t_philo *philo, int left_fork, int right_fork)
 {
     while (1)
     {
         if (philosopher_dead(philo))
-            break;
+            return false;
 
         pthread_mutex_lock(&philo->program->forks_lock);
         if (philo->program->forks_available[left_fork] && philo->program->forks_available[right_fork])
@@ -118,17 +120,19 @@ void take_two_forks(t_philo *philo, int left_fork, int right_fork)
                 philo->program->forks_available[left_fork] = true;
                 philo->program->forks_available[right_fork] = true;
                 pthread_mutex_unlock(&philo->program->forks_lock);
-                break;
+                return false;
             }
 
             pthread_mutex_lock(&philo->program->forks[left_fork]);
             print_action(philo, "has taken a fork LEFT");
             pthread_mutex_lock(&philo->program->forks[right_fork]);
             print_action(philo, "has taken a fork RIGHT");
-            break;
+            return true; // ✅ éxito
         }
         pthread_mutex_unlock(&philo->program->forks_lock);
+        
     }
+    
 }
 
  
@@ -159,7 +163,8 @@ void take_two_forks(t_philo *philo, int left_fork, int right_fork)
         pthread_mutex_unlock(&philo->program->forks_lock);
     }
 }
-*/
+    */
+
 
 /**
  * @brief 

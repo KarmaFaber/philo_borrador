@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:40:27 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/24 09:11:17 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/25 08:51:57 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ static void see_struct_data(t_program *program)   // borrar testeo
     printf("Tiempo para dormir        : %ld ms\n", program->time_to_sleep);
     printf("Número de comidas requeridas: %u\n", program->num_times_to_eat);
     printf("Simulación iniciada en    : %ld ms\n", program->start_time);
-    printf("Estado de muerte global   : %s\n", program->dead ? "Sí" : "No");
+    printf("Estado de muerte global   : %d\n", program->dead_p_num);
 
     printf("\n=== Datos de los filósofos ===\n");
     for (int i = 0; i < program->num_philos; i++)
@@ -54,11 +54,15 @@ int main (int argc, char **argv)
 	
 	if (!init_program(&program, argv))
 		return (1);
+    
+    //program.start_time = timestamp();
 	if(!init_philo(&program))   
         return (1);
 
 	//see_struct_data(&program);   // borrar testeo
 	
+    final_print(&program);
+    
 	free_all(&program);
 
 	return (0);

@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 13:38:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/24 12:16:25 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/24 15:59:21 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,15 +76,26 @@ void print_action(t_philo *philo, const char *action)
 }
 
 
-/*
-void print_action(t_philo *philo, const char *action)
+/**
+ * @brief 
+ *
+ * @param 
+ * @return 
+ */
+void precise_sleep(long long duration, t_philo *philo)
 {
-	pthread_mutex_lock(&philo->program->write_lock);
-	if (!philo->program->dead)
-		printf("%lld %hu %s\n", timestamp() - philo->program->start_time, philo->id, action);
-	else 
-		printf("%lld %hu %s\n", timestamp() - philo->program->start_time, philo->id, action);
-	pthread_mutex_unlock(&philo->program->write_lock);
+	long long start = timestamp();
+	while (!philosopher_dead(philo) && (timestamp() - start < duration))
+		usleep(100);  // dormir por pedacitos de 100us
 }
-*/
+
+void	final_print(t_program *program)
+{
+	printf("						\n");
+	if (program->dead_p_num <= 0)
+		printf("\001\033[1;32m\002	(☞ﾟヮﾟ)☞ no one died today	\n\001\033[0m\002");
+	else
+		printf("\001\033[1;31m\002	¯\\_(ツ)_/¯			\n\001\033[0m\002");
+	printf("						\n");
+}
 

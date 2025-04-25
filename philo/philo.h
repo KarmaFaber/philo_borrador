@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/24 12:30:10 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/25 09:02:45 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,14 @@
 # define STR_ERR_MALLOC "\001\033[1;31m\002Error: Could not allocate memory.\n\001\033[0m\002"
 # define STR_ERR_MUTEX "\001\033[1;31m\002Error: Could not create mutex.\n\001\033[0m\002"
 
+# define EAT "is eating"
+# define SLEEP "is sleeping"
+# define THINK "is thinking"
+# define DIE "\001\033[1;31m\002died\001\033[0m\002"
+//# define DIE "\e[0;31mDIED (ভ_ ভ)\e[m"
+
+
+
 //#➵⤐──╌╌➣⋆➣╌─⤏➵•➵⤐──╌╌➣⋆➣╌╌──Structures  :──╌╌➣⋆➣╌╌⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
 
 // unsigned short int num = 65535; 2 bytes.
@@ -58,14 +66,14 @@ typedef struct s_program
 	time_t	time_to_sleep;
 
 	int dead_p_num;
-	bool 	dead; 							// Bandera de estado de muerte "global del programa" (true = algún filósofo ha muerto)
+	//bool 	dead; 							// Bandera de estado de muerte "global del programa" (true = algún filósofo ha muerto)
 	bool 	*forks_available; 				// indica si el tenedor está disponible
 	
 	pthread_mutex_t 	forks_lock;			// protege el acceso a los tenedores
 	pthread_mutex_t 	*forks;     		// Array de mutex para los tenedores
 	pthread_mutex_t 	write_lock; 		// Mutex para controlar las impresiones en pantalla
-	pthread_mutex_t 	dead_lock;  		// Mutex para proteger la variable `dead`
-	pthread_mutex_t 	dead_num_lock;  		// Mutex para proteger la variable `dead`
+	//pthread_mutex_t 	dead_lock;  		// Mutex para proteger la variable `dead`
+	pthread_mutex_t 	dead_num_lock;  	// Mutex para proteger la variable `dead`
 	pthread_mutex_t 	meal_lock;  		// Mutex para verificar si todos comieron
 	
 	struct s_philo 		*philos; 			// Array de filósofos
@@ -105,14 +113,16 @@ int init_philo(t_program *program);
 //init_utils.c (/5)
 void handle_single_philosopher(t_philo *philo);
 bool philosopher_dead(t_philo *philo);
-void take_two_forks(t_philo *philo, int left_fork, int right_fork);
+bool take_two_forks(t_philo *philo, int left_fork, int right_fork);
 void free_forks(t_philo *philo, int left_fork, int right_fork);
 
 
 // routines.c (/5)
-void eat_routine(t_philo *philo);
-void sleep_routine (t_philo *philo);
-void think_routine(t_philo *philo);
+//void eat_routine(t_philo *philo);
+bool take_forks_and_eat(t_philo *philo, int left_fork, int right_fork);
+
+bool sleep_routine (t_philo *philo);
+bool think_routine(t_philo *philo);
 void all_routines (t_philo *philo, int left_fork, int right_fork);
 
 
@@ -125,5 +135,7 @@ void free_all(t_program *program);
 int			atol_unsigned(const char *nptr);
 long long	timestamp(void);
 void print_action(t_philo *philo, const char *action);
+void precise_sleep(long long duration, t_philo *philo);
+void	final_print(t_program *program);
 
 #endif

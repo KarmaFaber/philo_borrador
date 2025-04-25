@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 20:29:00 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/02/05 09:50:51 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/24 12:34:43 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ void free_all(t_program *program)
 	
     // Destruir los mutexes globales
     pthread_mutex_destroy(&program->write_lock);
-    pthread_mutex_destroy(&program->dead_lock);
+    pthread_mutex_destroy(&program->dead_num_lock);
     pthread_mutex_destroy(&program->meal_lock);
 
     // Liberar memoria reservada
