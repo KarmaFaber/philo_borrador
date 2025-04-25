@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/25 09:02:45 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:41:25 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,7 +99,7 @@ typedef struct s_philo
 
 
 // parce.c (/5)
-// static bool contain_digits_only(char *str);
+// static bool contain_digits_only(char *str);			// 🚩 testeo
 bool		check_argvs(int argc_var, char **argv_var);
 
 
@@ -112,18 +112,20 @@ int init_philo(t_program *program);
 
 //init_utils.c (/5)
 void handle_single_philosopher(t_philo *philo);
+void check_death_print_delay(t_philo *philo);			// 🚩 testeo
 bool philosopher_dead(t_philo *philo);
 bool take_two_forks(t_philo *philo, int left_fork, int right_fork);
 void free_forks(t_philo *philo, int left_fork, int right_fork);
 
 
 // routines.c (/5)
-//void eat_routine(t_philo *philo);
 bool take_forks_and_eat(t_philo *philo, int left_fork, int right_fork);
-
-bool sleep_routine (t_philo *philo);
-bool think_routine(t_philo *philo);
+bool slepp_and_think_routine(t_philo *philo);
 void all_routines (t_philo *philo, int left_fork, int right_fork);
+
+//bool sleep_routine (t_philo *philo);
+//bool think_routine(t_philo *philo);
+//void eat_routine(t_philo *philo);
 
 
 // exit.c (/5)

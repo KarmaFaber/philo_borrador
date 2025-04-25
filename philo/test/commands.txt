@@ -31,35 +31,67 @@ comando 							bash 						valgrind
 ./philo 7 400 100 100				falla +/-
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢n comidas:▢───▣───◉•◉───▣───▢◇▢───▣───◉#
-comando 							bash 						valgrind
+
+🚩-------800 200 200 ms-------🚩
+
+comando 							bash 						
 ./philo 2 800 200 200 2				ok							
+./philo 2 800 200 200 100			
 ./philo 4 800 200 200 2				ok							
-
 ./philo 5 800 200 200 200			ok
-./philo 199 800 200 200 2			falla: > 10 ms + muere con tiemp de sobra + sigue imprimiendo rutinas de otros
+./philo 7 800 200 200 2				ok
+./philo 7 800 200 200 29		
+./philo 10 800 200 200 51			
+./philo 17 800 200 200 51			
+./philo 17 800 200 200 2			
+./philo 27 800 200 200 2			ok
+./philo 26 800 200 200 2			ok
+./philo 56 800 200 200 2			ok
+./philo 57 800 200 200 2			ok
+./philo 56 800 200 200 200			ok
+./philo 77 800 200 200 2			ok
+./philo 78 800 200 200 2			ok
+./philo 98 800 200 200 2			ok
+./philo 98 800 200 200 7			
+./philo 98 800 200 200 77			
+./philo 99 800 200 200 2			ok
+./philo 99 800 200 200 5			
+./philo 99 800 200 200 100		
+./philo 120 800 200 200 2			ok
+./philo 121 800 200 200 2			ok
+./philo 150 800 200 200 2			
+./philo 151 800 200 200 2		
+./philo 199 800 200 200 2			
+./philo 198 800 200 200 2		
+./philo 5 826 200 200 3				
 
-./philo 17 800 200 200 2			falla: > 10 ms + muere con tiemp de sobra
+🚩------- 800 150 150  ms-------🚩
 ./philo 17 800 100 100 2			ok
 ./philo 17 800 150 150 2			ok
 ./philo 87 800 150 150 2			ok
 ./philo 17 800 150 150 8			ok
 ./philo 17 800 150 150 20			ok
 
-./philo 7 800 200 200 2				falla: > 10 ms + muere con tiemp de sobra
-./philo 17 800 200 200 2			falla: > 10 ms + muere con tiemp de sobra
-./philo 87 800 200 200 2			fall a veces: muere + sigue imprimiendo rutinas de otros
-./philo 17 800 200 200 8			falla: > 10 ms + muere con tiemp de sobra		
-./philo 17 800 200 020 20			falla: > 10 ms + muere con tiemp de sobra	
 
-./philo 50 800 200 200 2			fall a veces: muere +  ms en - + sigue imprimiendo rutinas de otros
-./philo 51 800 200 200 2			fall a veces: muere +  ms en - + sigue imprimiendo rutinas de otros
 
-./philo 4 800 200 200 50			falla: > 10 ms + muere con tiemp de sobra
-./philo 7 800 200 200 50
+🚩------- 800 250 250  ms-------🚩
 
-./philo 5 800 200 200 2				fallo						fallo
 
-./philo 10 800 200 200 5			
+
+
+🚩------- 800 300 300  ms-------🚩
+
+
+🚩------- 800 350 350  ms-------🚩
+
+
+./philo 3 650 200 200 2
+./philo 8 650 200 200 2
+
+./philo 199 400 200 200 2
+./philo 99 400 200 200 2
+
+
 ./philo 118 411 200 171 1 			
 ./philo	59 547 200 162 1 			
 ./philo 4 519 200 181 2 			
@@ -68,8 +100,8 @@ comando 							bash 						valgrind
 ./philo 151 1136 200 64 5
 
 ./philo 10 667 200 200 4
-./philo 27 751 200 200 9			falla en tiempo de imprecin 10 ms
-./philo 5 826 200 200 3
+./philo 27 751 200 200 9			
+
 ./philo 7 300 100 100 1
 
 ./philo 7 250 100 100 1
@@ -79,15 +111,54 @@ comando 							bash 						valgrind
 ./philo 7 100 100 100 3
 ./philo 2 420 200 200 2
 ./philo 2 410 200 200 2
-./philo 8 410 200 200 4				falla +/-
+./philo 8 410 200 200 4				
 ./philo 150 1136 200 64 2
 
-./philo 2 800 200 200 100
-./philo 3 800 200 200 100			falla - ph impares
 
-./philo 10 800 200 200 50
-./philo 17 800 200 200 50			falla - ph impares
 
-#◉───▣───▢◇▢───▣───◉•◉───▣───▢ current test :▢───▣───◉•◉───▣───▢◇▢───▣───◉#
+ #◉───▣───▢◇▢───▣───◉•◉───▣───▢comandos defensa: comandos obligatorios▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 
- ./philo 17 250 100 100 (revisar, a veces imprime 2 muertes)
+./philo 1 800 200 200 (deberia morir)
+./philo 5 800 200 200  (no deberia morir)
+./philo 5 800 200 200 7  (no deberia morir)
+
+./philo 4 410 200 200 (no deberia morir)
+./philo 4 410 200 200 10 (no deberia morir)
+
+./philo 4 310 200 100 (deberia morir)
+./philo 4 310 155 155 (deberia morir)
+
+./philo 4 310 100 200  (no deberia morir)
+./philo 4 310 150 150 (no deberia morir)
+
+
+(no deberia morir):
+./philo 5 800 200 200
+./philo 4 600 150 150
+./philo 3 500 100 100
+./philo 6 310 100 200
+./philo 4 310 150 150
+./philo 5 800 300 300
+
+
+(deberia morir):
+./philo 4 310 200 100       # 200 + 100 = 300ms, solo 10ms de margen (puede morir si hay delay)
+./philo 4 310 250 100       # 350ms > 310ms → debería morir
+./philo 4 310 100 250       # Igual que arriba
+./philo 4 400 200 200       # Puede ser un borde si hay 1 solo tenedor disponible
+./philo 3 310 200 200       # Menos tenedores = más espera = puede morir
+
+
+
+CASOS EXTREMOS (estrés y detección de errores):
+
+./philo 100 800 200 200      # Muchos filósofos → ver si todos comen correctamente
+./philo 5 1 1 1              # Muerte instantánea, debería imprimir rápidamente
+./philo 2 5000 1000 1000 10     # Solo 2 filósofos, todo debe ir bien (sin contención)
+./philo 2 150 70 70 20
+./philo 1 310 200 200        # 1 filósofo solo, si tu código no maneja bien el deadlock, puede colgarse
+
+
+
+
+
