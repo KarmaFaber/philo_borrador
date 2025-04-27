@@ -21,7 +21,7 @@ RM          := rm -rf
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢    philo srcs:   ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 
-PHILO_SRCS  := main.c parce.c utils.c exit.c init.c init_utils.c routines.c 
+PHILO_SRCS  := main.c parce.c utils.c exit.c init.c init_utils.c routines.c folder_management.c
 PHILO_OBJS  := $(PHILO_SRCS:.c=.o)
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢     rules      ▢───▣───◉•◉───▣───▢◇▢───▣───◉#

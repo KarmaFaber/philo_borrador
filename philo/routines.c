@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 19:36:20 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/25 10:51:42 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/27 09:25:43 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ bool take_forks_and_eat(t_philo *philo, int left_fork, int right_fork)
     {
         return false;
     }
+
     print_action(philo, EAT);
     pthread_mutex_lock(&philo->program->meal_lock);
     philo->last_meal = timestamp();
@@ -49,18 +50,22 @@ bool take_forks_and_eat(t_philo *philo, int left_fork, int right_fork)
 
 bool slepp_and_think_routine(t_philo *philo)
 {
+    
     if (philosopher_dead(philo))
     {
         return false ;
     }
+        
     
 	print_action(philo, SLEEP);
     precise_sleep(philo->program->time_to_sleep, philo);
     
+    
     if (philosopher_dead(philo))
     {
         return false ;
     }
+        
     print_action(philo, THINK);
 
     return true;

@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 08:18:14 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/27 08:47:10 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/27 09:18:15 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,7 +81,7 @@ bool philosopher_dead(t_philo *philo)
 		if (philo->program->dead_p_num == 1)
         {
             check_death_print_delay(philo);   // 🚩 testeo:
-            print_action(philo, DIE);
+            print_dead(philo, DIE);
         }
 		pthread_mutex_unlock(&philo->program->dead_num_lock);
 

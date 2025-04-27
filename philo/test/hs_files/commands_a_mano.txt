@@ -5,8 +5,6 @@
 ./philo 2 gsdf 200 200				
 ./philo 2 800 200 200 gsdf	
 
-
-
 # Deberían vivir # bucles infinitos
 ./philo 2 800 200 200
 ./philo 11 800 200 200

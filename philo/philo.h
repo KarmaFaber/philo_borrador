@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/25 11:41:25 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/27 09:18:06 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,8 +46,6 @@
 # define SLEEP "is sleeping"
 # define THINK "is thinking"
 # define DIE "\001\033[1;31m\002died\001\033[0m\002"
-//# define DIE "\e[0;31mDIED (ভ_ ভ)\e[m"
-
 
 
 //#➵⤐──╌╌➣⋆➣╌─⤏➵•➵⤐──╌╌➣⋆➣╌╌──Structures  :──╌╌➣⋆➣╌╌⤏➵•➵⤐──╌╌➣⋆➣╌╌➔#
@@ -86,9 +84,7 @@ typedef struct s_philo
 	unsigned short int id;    // ID del filósofo
 	unsigned int meals_eaten; // Número de comidas consumidas
 	time_t last_meal;         // Última vez que comió
-	
 	bool dead_philo;		//estado muerto de cada philo[i++]
-	
 	t_program *program; // Referencia a la estructura principal
 	
 }	t_philo;
@@ -99,7 +95,7 @@ typedef struct s_philo
 
 
 // parce.c (/5)
-// static bool contain_digits_only(char *str);			// 🚩 testeo
+// static bool contain_digits_only(char *str);			
 bool		check_argvs(int argc_var, char **argv_var);
 
 
@@ -129,15 +125,16 @@ void all_routines (t_philo *philo, int left_fork, int right_fork);
 
 
 // exit.c (/5)
-int	error_msg(char *str, int exit_no);
-void free_all(t_program *program);
+int		error_msg(char *str, int exit_no);
+void	free_all(t_program *program);
 
 
 // utils (/5):
 int			atol_unsigned(const char *nptr);
 long long	timestamp(void);
-void print_action(t_philo *philo, const char *action);
-void precise_sleep(long long duration, t_philo *philo);
-void	final_print(t_program *program);
+void		print_action(t_philo *philo, const char *action);
+void		print_dead(t_philo *philo, const char *action);
+void		precise_sleep(long long duration, t_philo *philo);
+void		final_print(t_program *program);
 
 #endif

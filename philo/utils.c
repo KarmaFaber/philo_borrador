@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 13:38:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/27 08:38:27 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/27 09:20:43 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,6 +69,17 @@ long	timestamp(void)
  */
 
 void print_action(t_philo *philo, const char *action)
+{
+	if (philosopher_dead(philo))
+    {
+        return ;
+    }
+	pthread_mutex_lock(&philo->program->write_lock);
+	printf("%lld %hu %s\n", timestamp() - philo->program->start_time, philo->id, action);
+	pthread_mutex_unlock(&philo->program->write_lock);
+}
+
+void print_dead(t_philo *philo, const char *action)
 {
 	pthread_mutex_lock(&philo->program->write_lock);
 	printf("%lld %hu %s\n", timestamp() - philo->program->start_time, philo->id, action);
