@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 09:55:39 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/23 10:03:05 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/27 13:03:26 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@
  * @brief 
  *
  * @param 
- *
  * @return 
  */
+
 // 1 -true
 // 0- false
 
@@ -34,6 +34,31 @@ static bool contain_digits_only(char *str)
 		i++;
 	 }
 	return (1);
+}
+
+ /**
+ * @brief Converts a digit-only string into a positive integer.
+ *
+ * @param sptr: sring to convert
+ * @return Returns the converted number between 0 and INT MAX.
+ * @return	Returns -1 if the converted number exceeds INT MAX.
+ */
+
+int	atol_unsigned(const char *nptr)
+{
+	unsigned long int	number;
+	int i;
+
+	i=0;
+	number = 0;
+	while (nptr[i] && (nptr[i] >= '0' && nptr[i] <= '9'))
+	{
+		number = number * 10 + (nptr[i] - '0');
+		i++;
+	}
+	if (number > INT_MAX)
+		return (-1);
+	return ((int)number);
 }
 
 /**

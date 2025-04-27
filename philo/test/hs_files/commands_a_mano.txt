@@ -22,3 +22,13 @@
 ./philo 17 250 100 100
 ./philo 7 300 100 100
 ./philo 7 400 100 100
+
+
+# Dudosos tras formateo/optimizacion
+./philo 12 600 200 100 7
+./philo 17 450 100 100 3
+./philo 10 500 200 100 3
+./philo 2 150 70 70 20
+./philo 7 300 100 100 1
+./philo 7 250 100 100 1
+./philo 199 550 200 200 2

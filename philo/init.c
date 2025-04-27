@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 10:42:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/24 13:31:51 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/27 13:02:37 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,7 @@
  */
 
 static int sub_init_program(t_program *program, char **argv)
-{
-	//program->start_time = timestamp();
-	//program->dead = false;		
+{		
 	program->dead_p_num = 0;		
 	program->num_philos = atol_unsigned(argv[1]);
 	program->time_to_die = atol_unsigned(argv[2]);
@@ -36,7 +34,6 @@ static int sub_init_program(t_program *program, char **argv)
 		return (0);
 	// Inicializar los mutex generales
     pthread_mutex_init(&program->write_lock, NULL);
-    //pthread_mutex_init(&program->dead_lock, NULL);
 	pthread_mutex_init(&program->dead_num_lock, NULL);
     pthread_mutex_init(&program->meal_lock, NULL);
 	pthread_mutex_init(&program->forks_lock, NULL); // Mutex para proteger las flags de tenedores
@@ -94,15 +91,36 @@ int init_program(t_program *program, char **argv)
  * @param 
  * @return 
  */
+
+void handle_single_philosopher(t_philo *philo)
+{
+	int left_fork;
+
+	left_fork = philo->id - 1;
+	pthread_mutex_lock(&philo->program->forks[left_fork]);
+	//print_action(philo, "has taken a fork (only one available)"); //🚩_testeo:  corregir el texto de este print
+
+	// Esperar hasta morir
+	while (!philosopher_dead(philo))    
+		precise_sleep(1, philo); //  Pequeña espera de tiempo dead, para no consumir CPU
+		
+	pthread_mutex_unlock(&philo->program->forks[left_fork]);
+}
+
+/**
+ * @brief 
+ *
+ * @param 
+ * @return 
+ */
  
 void *philosopher_routine(void *arg)
 {
     t_philo *philo;
-
-	philo = (t_philo *)arg;
-    int left_fork;
+	int left_fork;
     int right_fork;	
 
+	philo = (t_philo *)arg;
 	left_fork = philo->id - 1;
 	right_fork = (philo->id) % philo->program->num_philos;
 
@@ -110,7 +128,7 @@ void *philosopher_routine(void *arg)
     if (philo->program->num_philos == 1)
     {
         handle_single_philosopher(philo);
-        return NULL;
+        return (NULL);
     }
 
 	//todas rutinas
@@ -131,9 +149,7 @@ int init_philo(t_program *program)
 	int i;
 	 
 	i = 0;
-
 	program->start_time = timestamp(); 
-	
     while (i < program->num_philos)    // Crear los hilos de los filósofos
     {
 		program->philos[i].id = i + 1;  // Asignar un ID único a cada filósofo

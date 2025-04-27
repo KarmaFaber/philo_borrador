@@ -6,11 +6,55 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 19:36:20 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/27 09:25:43 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/27 13:03:54 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
+/**
+ * @brief 
+ *
+ * @param 
+ * @return 
+ */
+
+// 1 -true -philo muerto
+// 0 -false -philo vivo
+
+bool philosopher_dead(t_philo *philo)
+{
+	// Revisar si ya se ha registrado la muerte de algún filósofo
+	pthread_mutex_lock(&philo->program->dead_num_lock);
+	if (philo->program->dead_p_num > 0)
+	{
+		pthread_mutex_unlock(&philo->program->dead_num_lock);
+		return (true); // Ya hay un filósofo muerto
+	}
+	pthread_mutex_unlock(&philo->program->dead_num_lock);
+
+	// Revisar si este filósofo ha muerto por inanición
+	pthread_mutex_lock(&philo->program->meal_lock);
+	if (timestamp() - philo->last_meal >= philo->program->time_to_die)
+	{
+		pthread_mutex_unlock(&philo->program->meal_lock);
+
+		philo->dead_philo = true;
+
+		// Incrementar el contador de muertes de forma segura
+		pthread_mutex_lock(&philo->program->dead_num_lock);
+		philo->program->dead_p_num++;
+		if (philo->program->dead_p_num == 1)
+        {
+            //check_death_print_delay(philo);   // 🚩 testeo:
+            print_dead(philo, DIE);
+        }
+		pthread_mutex_unlock(&philo->program->dead_num_lock);
+
+		return (true); // Filósofo muerto
+	}
+	pthread_mutex_unlock(&philo->program->meal_lock);
+	return (false); // Filósofo vivo
+}
 
 /**
  * @brief 
@@ -60,7 +104,6 @@ bool slepp_and_think_routine(t_philo *philo)
 	print_action(philo, SLEEP);
     precise_sleep(philo->program->time_to_sleep, philo);
     
-    
     if (philosopher_dead(philo))
     {
         return false ;
@@ -104,50 +147,4 @@ void all_routines (t_philo *philo, int left_fork, int right_fork)
     }
 }
 
-
-
-
-/*
-void eat_routine(t_philo *philo)
-{
-    if (philosopher_dead(philo))
-    {
-        return;
-    }
-    print_action(philo, EAT);
-    pthread_mutex_lock(&philo->program->meal_lock);
-    philo->last_meal = timestamp();
-    pthread_mutex_unlock(&philo->program->meal_lock);
-    precise_sleep(philo->program->time_to_eat, philo);
-    philo->meals_eaten++;
-}
-*/
-
- /*
-bool	sleep_routine(t_philo *philo)
-{
-    if (philosopher_dead(philo))
-    {
-        return false ;
-    }
-    
-	print_action(philo, SLEEP);
-    precise_sleep(philo->program->time_to_sleep, philo);
-    return true;
-    //usleep(philo->program->time_to_sleep * 1000);
-	
-}
-
-*/
-/*
-bool	think_routine(t_philo *philo)
-{
-    if (philosopher_dead(philo))
-    {
-        return false;
-    }
-	print_action(philo, THINK);
-    return true;
-}
-*/
 

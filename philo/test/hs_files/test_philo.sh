@@ -21,7 +21,7 @@ run_test_set() {
     local expected=$2
     echo "Probando $file (esperado: $expected)" >> $LOG_FILE
     while IFS= read -r cmd; do
-        for i in {1..5}; do
+        for i in {1..20}; do
             output="$OUT_DIR/$(echo $cmd | tr -s ' ' '_' | tr '/' '_')_$i.txt"
 
             timeout $TIMEOUT_DURATION $cmd > "$output" 2>&1
