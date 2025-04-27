@@ -69,7 +69,7 @@ valgrind: all
 
 	@echo "$(CURRENT_COLOR)➵⤐──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──Running Valgrind..──╌╌➣⋆➣╌╌──⤏➵•➵⤐──╌╌➣⋆➣╌╌──$(RESET)"
 #	@-$(VALGRIND) ./$(NAME) 2 800 200 200 1
-	@-$(VALGRIND) ./philo 8 410 200 200 4
+	@-$(VALGRIND) ./philo 11 800 150 150 12
 #	@-$(VALGRIND) ./philo 2 300 200 200 5
 	@test/hs_files/./open_valgrind_log.sh
 	@echo "$(CURRENT_COLOR)➵⤐╌╌➣⋆➣╌─⤏➵•➵⤐─╌╌➣⋆➣── Valgrind completed. Check valgrind_output.log for details. ─╌➣⋆➣╌─⤏➵•➵⤐─╌╌➣⋆➣╌╌─$(RESET)"

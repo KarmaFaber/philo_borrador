@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 13:38:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/25 10:52:07 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/27 08:38:27 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,9 +105,9 @@ void	final_print(t_program *program)
 {
 	printf("						\n");
 	if (program->dead_p_num <= 0)
-		printf("\001\033[1;32m\002	(☞ﾟヮﾟ)☞ no one died today	\n\001\033[0m\002");
+		printf("\001\033[1;32m\002    ツ ☞ ☞ no one died today   \n\001\033[0m\002");
 	else
-		printf("\001\033[1;31m\002	¯\\_(ツ)_/¯			\n\001\033[0m\002");
+		printf("\001\033[1;31m\002    ☠  sad day ☠   \n\001\033[0m\002");
 	printf("						\n");
 }
 
