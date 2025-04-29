@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 19:36:20 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/27 13:03:54 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/29 11:25:30 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ bool philosopher_dead(t_philo *philo)
 		philo->program->dead_p_num++;
 		if (philo->program->dead_p_num == 1)
         {
-            //check_death_print_delay(philo);   // 🚩 testeo:
+            check_death_print_delay(philo);   // 🚩 testeo:
             print_dead(philo, DIE);
         }
 		pthread_mutex_unlock(&philo->program->dead_num_lock);
@@ -92,7 +92,7 @@ bool take_forks_and_eat(t_philo *philo, int left_fork, int right_fork)
  * @return 
  */
 
-bool slepp_and_think_routine(t_philo *philo)
+bool sleep_and_think_routine(t_philo *philo)
 {
     
     if (philosopher_dead(philo))
@@ -141,10 +141,8 @@ void all_routines (t_philo *philo, int left_fork, int right_fork)
         free_forks(philo, left_fork, right_fork);
 			
         // Dormir y Pensar
-        if (!slepp_and_think_routine(philo))
+        if (!sleep_and_think_routine(philo))
             break;
 
     }
 }
-
-

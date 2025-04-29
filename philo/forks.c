@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/27 09:32:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/27 13:01:16 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/28 09:17:35 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,20 +39,20 @@ void	lock_and_announce_forks(t_philo *philo, int left_fork, int right_fork)
 	if (philo->id % 2 == 0)
 	{
 		pthread_mutex_lock(&philo->program->forks[right_fork]);
-		//print_action(philo, "has taken a fork RIGHT");  // 🚩 testeo
-		print_action(philo, TAKE_FORK);
+		print_action(philo, "has taken a fork RIGHT");  // 🚩 testeo
+		//print_action(philo, TAKE_FORK);
 		pthread_mutex_lock(&philo->program->forks[left_fork]);
-		//print_action(philo, "has taken a fork LEFT"); // 🚩 testeo
-		print_action(philo, TAKE_FORK);
+		print_action(philo, "has taken a fork LEFT"); // 🚩 testeo
+		//print_action(philo, TAKE_FORK);
 	}
 	else
 	{
 		pthread_mutex_lock(&philo->program->forks[left_fork]);
-		//print_action(philo, "has taken a fork LEFT");			// 🚩 testeo
-		print_action(philo, TAKE_FORK);
+		print_action(philo, "has taken a fork LEFT");			// 🚩 testeo
+		//print_action(philo, TAKE_FORK);
 		pthread_mutex_lock(&philo->program->forks[right_fork]);
-		//print_action(philo, "has taken a fork RIGHT");		// 🚩 testeo
-		print_action(philo, TAKE_FORK);
+		print_action(philo, "has taken a fork RIGHT");		// 🚩 testeo
+		//print_action(philo, TAKE_FORK);
 	}
 }
 /**

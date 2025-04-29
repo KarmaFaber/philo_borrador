@@ -32,13 +32,22 @@ run_test_set() {
             fi
 
             if [ "$expected" == "die" ]; then
-                grep "died" "$output" > /dev/null
-                died=$?
-                if [ $died -eq 0 ]; then
-                    echo "[OK] $cmd (muerte detectada - exec $i)" >> $LOG_FILE
-                else
+                # Buscar línea de "died"
+                died_line=$(grep -n "died" "$output" | tail -n 1 | cut -d: -f1)
+
+                if [ -z "$died_line" ]; then
                     echo "[FALLO] $cmd (no murió nadie pero debía - exec $i)" >> $LOG_FILE
+                else
+                    # Verificar si hay algo después de la línea "died"
+                    total_lines=$(wc -l < "$output")
+                    if [ "$died_line" -eq "$total_lines" ]; then
+                        echo "[OK] $cmd (muerte correcta - exec $i)" >> $LOG_FILE
+                    else
+                        next_line=$(sed -n "$((died_line + 1))p" "$output")
+                        echo "[FALLO] $cmd (hay output tras 'died': '$next_line' - exec $i)" >> $LOG_FILE
+                    fi
                 fi
+
             elif [ "$expected" == "live" ]; then
                 grep "no one died today" "$output" > /dev/null
                 survived=$?

@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/27 13:03:43 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/29 11:16:54 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,17 +57,22 @@ typedef struct s_program
 {
 	unsigned short int 		num_philos; 			// Número total de filósofos
 	unsigned int 			num_times_to_eat; 		// Número de veces que deben comer
+	
 	int dead_p_num;									//nemero de filosofos muertos
+	
 	bool 	*forks_available; 						// indica si el tenedor está disponible
+	
 	time_t	start_time;
 	time_t	time_to_die;
 	time_t	time_to_eat;
 	time_t	time_to_sleep;
-	pthread_mutex_t 	forks_lock;			// protege el acceso a los tenedores
-	pthread_mutex_t 	*forks;     		// Array de mutex para los tenedores
-	pthread_mutex_t 	write_lock; 		// Mutex para controlar las impresiones en pantalla
-	pthread_mutex_t 	dead_num_lock;  	// Mutex para proteger la variable `dead`
-	pthread_mutex_t 	meal_lock;  		// Mutex para verificar si todos comieron
+	
+	pthread_mutex_t 	forks_lock;			//  ✅ protege el acceso a los tenedores
+	pthread_mutex_t 	*forks;     		//  ✅ Array de mutex para los tenedores
+	pthread_mutex_t 	write_lock; 		//  ✅ Mutex para controlar las impresiones en pantalla
+	pthread_mutex_t 	dead_num_lock;  	// ✅ Mutex para proteger la variable `dead`
+	pthread_mutex_t 	meal_lock;  		// ⚠️ Mutex para verificar si todos comieron
+	
 	struct s_philo 		*philos; 			// Array de filósofos
 }	t_program;
 
@@ -111,7 +116,7 @@ void	free_forks(t_philo *philo, int left_fork, int right_fork);
 // routines.c (/5)
 bool philosopher_dead(t_philo *philo);
 bool take_forks_and_eat(t_philo *philo, int left_fork, int right_fork);
-bool slepp_and_think_routine(t_philo *philo);
+bool sleep_and_think_routine(t_philo *philo);
 void all_routines (t_philo *philo, int left_fork, int right_fork);
 
 
@@ -129,7 +134,7 @@ void		final_print(t_program *program);
 
 
 //test/test_functions.c
-//void check_death_print_delay(t_philo *philo);
+void check_death_print_delay(t_philo *philo);
 //void see_struct_data(t_program *program) 
 
 #endif

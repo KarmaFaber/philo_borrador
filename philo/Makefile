@@ -22,7 +22,7 @@ RM          := rm -rf
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢    philo srcs:   ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
 
 PHILO_SRCS  := main.c parce.c utils.c exit.c init.c routines.c forks.c	\
-#test/test_functions.c
+test/test_functions.c
 PHILO_OBJS  := $(PHILO_SRCS:.c=.o)
 
 #◉───▣───▢◇▢───▣───◉•◉───▣───▢     rules      ▢───▣───◉•◉───▣───▢◇▢───▣───◉#
