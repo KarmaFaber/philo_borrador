@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/29 11:16:54 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/29 12:01:21 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ typedef struct s_program
 	pthread_mutex_t 	*forks;     		//  ✅ Array de mutex para los tenedores
 	pthread_mutex_t 	write_lock; 		//  ✅ Mutex para controlar las impresiones en pantalla
 	pthread_mutex_t 	dead_num_lock;  	// ✅ Mutex para proteger la variable `dead`
-	pthread_mutex_t 	meal_lock;  		// ⚠️ Mutex para verificar si todos comieron
+	//pthread_mutex_t 	meal_lock;  		// ⚠️ Mutex para verificar si todos comieron
 	
 	struct s_philo 		*philos; 			// Array de filósofos
 }	t_program;

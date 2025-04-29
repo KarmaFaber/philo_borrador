@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 19:36:20 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/29 11:25:30 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/29 12:01:53 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,10 @@ bool philosopher_dead(t_philo *philo)
 	pthread_mutex_unlock(&philo->program->dead_num_lock);
 
 	// Revisar si este filósofo ha muerto por inanición
-	pthread_mutex_lock(&philo->program->meal_lock);
+	//pthread_mutex_lock(&philo->program->meal_lock);
 	if (timestamp() - philo->last_meal >= philo->program->time_to_die)
 	{
-		pthread_mutex_unlock(&philo->program->meal_lock);
+		//pthread_mutex_unlock(&philo->program->meal_lock);
 
 		philo->dead_philo = true;
 
@@ -52,7 +52,7 @@ bool philosopher_dead(t_philo *philo)
 
 		return (true); // Filósofo muerto
 	}
-	pthread_mutex_unlock(&philo->program->meal_lock);
+	//pthread_mutex_unlock(&philo->program->meal_lock);
 	return (false); // Filósofo vivo
 }
 
@@ -75,9 +75,9 @@ bool take_forks_and_eat(t_philo *philo, int left_fork, int right_fork)
     }
 
     print_action(philo, EAT);
-    pthread_mutex_lock(&philo->program->meal_lock);
+    //pthread_mutex_lock(&philo->program->meal_lock);
     philo->last_meal = timestamp();
-    pthread_mutex_unlock(&philo->program->meal_lock);
+    //pthread_mutex_unlock(&philo->program->meal_lock);
     precise_sleep(philo->program->time_to_eat, philo);
     philo->meals_eaten++;
     

@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 10:42:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/27 13:02:37 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/29 12:02:10 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ static int sub_init_program(t_program *program, char **argv)
 	// Inicializar los mutex generales
     pthread_mutex_init(&program->write_lock, NULL);
 	pthread_mutex_init(&program->dead_num_lock, NULL);
-    pthread_mutex_init(&program->meal_lock, NULL);
+    //pthread_mutex_init(&program->meal_lock, NULL);
 	pthread_mutex_init(&program->forks_lock, NULL); // Mutex para proteger las flags de tenedores
 	// Asignar memoria para el array de filósofos
 	program->philos = malloc(sizeof(t_philo) * program->num_philos);
