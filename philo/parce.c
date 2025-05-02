@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 09:55:39 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/04/27 13:03:26 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/04/30 09:07:00 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,17 +78,22 @@ bool check_argvs (int argc_var, char **argv_var)
 	
 	i = 1;
 	if (argc_var - 1 < 4 || argc_var - 1 > 5) // argc != 5 y  argc != 6
-		return (error_msg (STR_ERR_ARG, 0));
+		return (printf("%s", STR_ERR_ARG), 0);
+		//return (error_msg (STR_ERR_ARG, 0));
 		
 	while (i < argc_var)
 	{
 		if (!contain_digits_only(argv_var[i])) // solo digitos 
-			return (error_msg (STR_ERR_INPUT_DIGIT, 0));
+			return (printf("%s", STR_ERR_INPUT_DIGIT), 0);
+			//return (error_msg (STR_ERR_INPUT_DIGIT, 0));
+			
 		number = atol_unsigned (argv_var[i]);
 		if (i == 1 && (number <= 0 || number > MAX_PHILOS)) // numero de philos limitado a max_philos argv [1]
-			return (error_msg(STR_ERR_P_NUM, 0));
+			return (printf("%s", STR_ERR_P_NUM), 0);
+			//return (error_msg(STR_ERR_P_NUM, 0));
 		if (i != 1 && number == -1) // number > INT_MAX
-			return (error_msg(STR_ERR_INPUT_DIGIT, 0));
+			return (printf("%s", STR_ERR_INPUT_DIGIT), 0);
+			//return (error_msg(STR_ERR_INPUT_DIGIT, 0));
 		i++;
 	}
 	return (1);

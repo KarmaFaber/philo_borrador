@@ -20,7 +20,7 @@ void see_struct_data(t_program *program)   // borrar testeo
         printf("ID                        : %hu\n", philo->id);
         printf("Comidas consumidas        : %u\n", philo->meals_eaten);
         printf("Última comida             : %ld ms\n", philo->last_meal);
-        printf("Estado de muerte          : %s\n", philo->dead_philo ? "Sí" : "No");
+        //printf("Estado de muerte          : %s\n", philo->dead_philo ? "Sí" : "No");
 
     }
 }
