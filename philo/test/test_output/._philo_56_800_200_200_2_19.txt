@@ -1,0 +1,562 @@
+3 3 has taken a fork LEFT
+3 3 has taken a fork RIGHT
+3 3 is eating
+3 5 has taken a fork LEFT
+3 9 has taken a fork LEFT
+3 9 has taken a fork RIGHT
+3 9 is eating
+3 5 has taken a fork RIGHT
+3 5 is eating
+3 1 has taken a fork LEFT
+3 1 has taken a fork RIGHT
+3 1 is eating
+3 7 has taken a fork LEFT
+3 7 has taken a fork RIGHT
+3 7 is eating
+4 21 has taken a fork LEFT
+4 21 has taken a fork RIGHT
+4 21 is eating
+4 41 has taken a fork LEFT
+4 41 has taken a fork RIGHT
+4 27 has taken a fork LEFT
+4 37 has taken a fork LEFT
+4 35 has taken a fork LEFT
+4 27 has taken a fork RIGHT
+4 35 has taken a fork RIGHT
+4 37 has taken a fork RIGHT
+4 29 has taken a fork LEFT
+4 13 has taken a fork LEFT
+4 29 has taken a fork RIGHT
+4 29 is eating
+4 35 is eating
+4 13 has taken a fork RIGHT
+4 15 has taken a fork LEFT
+4 13 is eating
+4 39 has taken a fork LEFT
+4 17 has taken a fork LEFT
+4 39 has taken a fork RIGHT
+4 17 has taken a fork RIGHT
+4 37 is eating
+4 33 has taken a fork LEFT
+4 11 has taken a fork LEFT
+4 41 is eating
+4 23 has taken a fork LEFT
+4 17 is eating
+4 39 is eating
+4 27 is eating
+4 11 has taken a fork RIGHT
+4 25 has taken a fork LEFT
+4 11 is eating
+4 33 has taken a fork RIGHT
+4 33 is eating
+4 31 has taken a fork LEFT
+4 31 has taken a fork RIGHT
+4 31 is eating
+4 25 has taken a fork RIGHT
+4 25 is eating
+4 19 has taken a fork LEFT
+4 19 has taken a fork RIGHT
+4 19 is eating
+4 15 has taken a fork RIGHT
+4 15 is eating
+4 23 has taken a fork RIGHT
+4 23 is eating
+5 53 has taken a fork LEFT
+5 53 has taken a fork RIGHT
+5 53 is eating
+5 45 has taken a fork LEFT
+5 45 has taken a fork RIGHT
+5 45 is eating
+5 49 has taken a fork LEFT
+5 49 has taken a fork RIGHT
+5 49 is eating
+5 55 has taken a fork LEFT
+5 55 has taken a fork RIGHT
+5 55 is eating
+5 43 has taken a fork LEFT
+5 43 has taken a fork RIGHT
+5 43 is eating
+5 47 has taken a fork LEFT
+5 47 has taken a fork RIGHT
+5 47 is eating
+6 51 has taken a fork LEFT
+6 51 has taken a fork RIGHT
+13 51 is eating
+203 7 is sleeping
+203 1 is sleeping
+203 3 is sleeping
+203 5 is sleeping
+203 6 has taken a fork RIGHT
+203 6 has taken a fork LEFT
+203 6 is eating
+203 9 is sleeping
+203 2 has taken a fork RIGHT
+203 2 has taken a fork LEFT
+203 2 is eating
+203 8 has taken a fork RIGHT
+203 8 has taken a fork LEFT
+203 8 is eating
+203 4 has taken a fork RIGHT
+203 4 has taken a fork LEFT
+203 4 is eating
+204 27 is sleeping
+204 25 is sleeping
+204 15 is sleeping
+204 17 is sleeping
+204 35 is sleeping
+204 11 is sleeping
+204 39 is sleeping
+204 13 is sleeping
+204 37 is sleeping
+204 29 is sleeping
+204 14 has taken a fork RIGHT
+204 14 has taken a fork LEFT
+204 18 has taken a fork RIGHT
+204 18 has taken a fork LEFT
+204 18 is eating
+204 19 is sleeping
+204 14 is eating
+204 41 is sleeping
+204 36 has taken a fork RIGHT
+204 36 has taken a fork LEFT
+204 36 is eating
+204 31 is sleeping
+204 16 has taken a fork RIGHT
+204 16 has taken a fork LEFT
+204 26 has taken a fork RIGHT
+204 26 has taken a fork LEFT
+204 23 is sleeping
+204 26 is eating
+204 16 is eating
+204 21 is sleeping
+204 38 has taken a fork RIGHT
+204 12 has taken a fork RIGHT
+204 33 is sleeping
+204 12 has taken a fork LEFT
+204 38 has taken a fork LEFT
+204 38 is eating
+204 20 has taken a fork RIGHT
+204 20 has taken a fork LEFT
+204 20 is eating
+204 28 has taken a fork RIGHT
+204 28 has taken a fork LEFT
+204 28 is eating
+204 10 has taken a fork RIGHT
+204 10 has taken a fork LEFT
+204 10 is eating
+204 22 has taken a fork RIGHT
+204 22 has taken a fork LEFT
+204 30 has taken a fork RIGHT
+204 30 has taken a fork LEFT
+204 24 has taken a fork RIGHT
+204 24 has taken a fork LEFT
+204 24 is eating
+204 30 is eating
+204 22 is eating
+204 34 has taken a fork RIGHT
+204 34 has taken a fork LEFT
+204 34 is eating
+204 12 is eating
+204 32 has taken a fork RIGHT
+204 32 has taken a fork LEFT
+204 40 has taken a fork RIGHT
+204 40 has taken a fork LEFT
+204 40 is eating
+204 32 is eating
+205 55 is sleeping
+205 45 is sleeping
+205 43 is sleeping
+205 44 has taken a fork RIGHT
+205 47 is sleeping
+205 46 has taken a fork RIGHT
+205 46 has taken a fork LEFT
+205 46 is eating
+205 44 has taken a fork LEFT
+205 53 is sleeping
+205 49 is sleeping
+205 42 has taken a fork RIGHT
+205 42 has taken a fork LEFT
+205 42 is eating
+205 56 has taken a fork RIGHT
+205 56 has taken a fork LEFT
+205 56 is eating
+205 48 has taken a fork RIGHT
+205 48 has taken a fork LEFT
+205 48 is eating
+205 44 is eating
+205 54 has taken a fork RIGHT
+205 54 has taken a fork LEFT
+205 54 is eating
+213 51 is sleeping
+213 50 has taken a fork RIGHT
+213 50 has taken a fork LEFT
+213 50 is eating
+213 52 has taken a fork RIGHT
+213 52 has taken a fork LEFT
+213 52 is eating
+403 4 is sleeping
+403 5 is thinking
+403 2 is sleeping
+403 6 is sleeping
+403 7 is thinking
+403 1 is thinking
+403 8 is sleeping
+403 3 is thinking
+403 9 is thinking
+404 38 is sleeping
+404 17 is thinking
+404 26 is sleeping
+404 39 is thinking
+404 29 is thinking
+404 24 is sleeping
+404 23 is thinking
+404 35 is thinking
+404 41 is thinking
+404 11 is thinking
+404 10 is sleeping
+404 15 is thinking
+404 28 is sleeping
+404 32 is sleeping
+404 40 is sleeping
+404 27 is thinking
+404 34 is sleeping
+404 12 is sleeping
+404 36 is sleeping
+404 37 is thinking
+404 25 is thinking
+404 19 is thinking
+404 21 is thinking
+404 31 is thinking
+404 16 is sleeping
+404 14 is sleeping
+404 30 is sleeping
+404 33 is thinking
+404 22 is sleeping
+404 18 is sleeping
+404 20 is sleeping
+404 13 is thinking
+405 43 is thinking
+405 53 is thinking
+405 48 is sleeping
+405 55 is thinking
+405 49 is thinking
+405 44 is sleeping
+405 54 is sleeping
+405 46 is sleeping
+405 42 is sleeping
+405 45 is thinking
+405 47 is thinking
+405 56 is sleeping
+406 5 has taken a fork LEFT
+406 5 has taken a fork RIGHT
+406 5 is eating
+406 3 has taken a fork LEFT
+406 3 has taken a fork RIGHT
+406 3 is eating
+406 9 has taken a fork LEFT
+406 9 has taken a fork RIGHT
+406 9 is eating
+406 7 has taken a fork LEFT
+406 7 has taken a fork RIGHT
+406 7 is eating
+406 1 has taken a fork LEFT
+406 1 has taken a fork RIGHT
+406 1 is eating
+407 13 has taken a fork LEFT
+407 13 has taken a fork RIGHT
+407 13 is eating
+407 41 has taken a fork LEFT
+407 41 has taken a fork RIGHT
+407 41 is eating
+407 29 has taken a fork LEFT
+407 29 has taken a fork RIGHT
+407 29 is eating
+407 37 has taken a fork LEFT
+407 37 has taken a fork RIGHT
+407 37 is eating
+407 23 has taken a fork LEFT
+407 11 has taken a fork LEFT
+407 11 has taken a fork RIGHT
+407 11 is eating
+407 23 has taken a fork RIGHT
+407 21 has taken a fork LEFT
+407 35 has taken a fork LEFT
+407 35 has taken a fork RIGHT
+407 15 has taken a fork LEFT
+407 15 has taken a fork RIGHT
+407 15 is eating
+407 17 has taken a fork LEFT
+407 17 has taken a fork RIGHT
+407 17 is eating
+407 39 has taken a fork LEFT
+407 39 has taken a fork RIGHT
+407 39 is eating
+407 21 has taken a fork RIGHT
+407 27 has taken a fork LEFT
+407 21 is eating
+407 25 has taken a fork LEFT
+407 25 has taken a fork RIGHT
+407 25 is eating
+407 35 is eating
+407 23 is eating
+407 33 has taken a fork LEFT
+407 33 has taken a fork RIGHT
+407 33 is eating
+407 27 has taken a fork RIGHT
+407 31 has taken a fork LEFT
+407 27 is eating
+407 31 has taken a fork RIGHT
+407 31 is eating
+407 19 has taken a fork LEFT
+407 19 has taken a fork RIGHT
+407 19 is eating
+408 47 has taken a fork LEFT
+408 47 has taken a fork RIGHT
+408 47 is eating
+408 55 has taken a fork LEFT
+408 55 has taken a fork RIGHT
+408 55 is eating
+408 45 has taken a fork LEFT
+408 45 has taken a fork RIGHT
+408 45 is eating
+408 43 has taken a fork LEFT
+408 43 has taken a fork RIGHT
+408 43 is eating
+413 51 is thinking
+413 52 is sleeping
+413 53 has taken a fork LEFT
+413 49 has taken a fork LEFT
+413 49 has taken a fork RIGHT
+413 49 is eating
+413 53 has taken a fork RIGHT
+413 53 is eating
+413 50 is sleeping
+416 51 has taken a fork LEFT
+416 51 has taken a fork RIGHT
+416 51 is eating
+603 2 is thinking
+603 4 is thinking
+603 6 is thinking
+603 8 is thinking
+604 36 is thinking
+604 24 is thinking
+604 38 is thinking
+604 16 is thinking
+604 40 is thinking
+604 12 is thinking
+604 26 is thinking
+604 20 is thinking
+604 18 is thinking
+604 10 is thinking
+604 34 is thinking
+604 32 is thinking
+604 22 is thinking
+604 14 is thinking
+604 30 is thinking
+604 28 is thinking
+605 56 is thinking
+605 54 is thinking
+605 42 is thinking
+605 46 is thinking
+605 44 is thinking
+605 48 is thinking
+606 1 is sleeping
+606 7 is sleeping
+606 9 is sleeping
+606 5 is sleeping
+606 3 is sleeping
+607 27 is sleeping
+607 31 is sleeping
+607 37 is sleeping
+607 15 is sleeping
+607 13 is sleeping
+607 21 is sleeping
+607 11 is sleeping
+607 17 is sleeping
+607 35 is sleeping
+607 41 is sleeping
+607 39 is sleeping
+607 33 is sleeping
+607 29 is sleeping
+607 19 is sleeping
+607 25 is sleeping
+607 23 is sleeping
+608 47 is sleeping
+608 4 has taken a fork RIGHT
+608 4 has taken a fork LEFT
+608 4 is eating
+608 8 has taken a fork RIGHT
+608 8 has taken a fork LEFT
+608 8 is eating
+608 45 is sleeping
+608 55 is sleeping
+608 43 is sleeping
+608 2 has taken a fork RIGHT
+608 2 has taken a fork LEFT
+608 2 is eating
+608 6 has taken a fork RIGHT
+608 6 has taken a fork LEFT
+608 6 is eating
+609 18 has taken a fork RIGHT
+609 18 has taken a fork LEFT
+609 20 has taken a fork RIGHT
+609 16 has taken a fork RIGHT
+609 18 is eating
+609 28 has taken a fork RIGHT
+609 28 has taken a fork LEFT
+609 16 has taken a fork LEFT
+609 16 is eating
+609 28 is eating
+609 10 has taken a fork RIGHT
+609 10 has taken a fork LEFT
+609 14 has taken a fork RIGHT
+609 10 is eating
+609 20 has taken a fork LEFT
+609 34 has taken a fork RIGHT
+609 24 has taken a fork RIGHT
+609 24 has taken a fork LEFT
+609 24 is eating
+609 34 has taken a fork LEFT
+609 34 is eating
+609 20 is eating
+609 22 has taken a fork RIGHT
+609 22 has taken a fork LEFT
+609 22 is eating
+609 32 has taken a fork RIGHT
+609 14 has taken a fork LEFT
+609 30 has taken a fork RIGHT
+609 36 has taken a fork RIGHT
+609 36 has taken a fork LEFT
+609 32 has taken a fork LEFT
+609 36 is eating
+609 32 is eating
+609 26 has taken a fork RIGHT
+609 26 has taken a fork LEFT
+609 30 has taken a fork LEFT
+609 38 has taken a fork RIGHT
+609 38 has taken a fork LEFT
+609 38 is eating
+609 40 has taken a fork RIGHT
+609 40 has taken a fork LEFT
+609 40 is eating
+609 14 is eating
+609 26 is eating
+609 30 is eating
+609 12 has taken a fork RIGHT
+609 12 has taken a fork LEFT
+609 12 is eating
+610 42 has taken a fork RIGHT
+610 42 has taken a fork LEFT
+610 42 is eating
+610 44 has taken a fork RIGHT
+610 44 has taken a fork LEFT
+610 44 is eating
+610 46 has taken a fork RIGHT
+610 46 has taken a fork LEFT
+610 46 is eating
+610 56 has taken a fork RIGHT
+610 56 has taken a fork LEFT
+610 56 is eating
+613 54 has taken a fork RIGHT
+613 50 is thinking
+613 54 has taken a fork LEFT
+613 54 is eating
+613 53 is sleeping
+613 52 is thinking
+613 49 is sleeping
+613 48 has taken a fork RIGHT
+613 48 has taken a fork LEFT
+613 48 is eating
+616 51 is sleeping
+618 52 has taken a fork RIGHT
+618 52 has taken a fork LEFT
+618 52 is eating
+618 50 has taken a fork RIGHT
+618 50 has taken a fork LEFT
+618 50 is eating
+806 1 is thinking
+806 3 is thinking
+806 9 is thinking
+806 5 is thinking
+806 7 is thinking
+807 27 is thinking
+807 41 is thinking
+807 13 is thinking
+807 11 is thinking
+807 15 is thinking
+807 29 is thinking
+807 37 is thinking
+807 35 is thinking
+807 17 is thinking
+807 23 is thinking
+807 25 is thinking
+807 31 is thinking
+807 39 is thinking
+807 19 is thinking
+807 33 is thinking
+807 21 is thinking
+808 2 is sleeping
+808 55 is thinking
+808 8 is sleeping
+808 47 is thinking
+808 45 is thinking
+808 4 is sleeping
+808 43 is thinking
+808 6 is sleeping
+809 40 is sleeping
+809 18 is sleeping
+809 26 is sleeping
+809 34 is sleeping
+809 32 is sleeping
+809 24 is sleeping
+809 16 is sleeping
+809 12 is sleeping
+809 14 is sleeping
+809 30 is sleeping
+809 36 is sleeping
+809 28 is sleeping
+809 38 is sleeping
+809 10 is sleeping
+809 20 is sleeping
+809 22 is sleeping
+810 44 is sleeping
+810 42 is sleeping
+810 46 is sleeping
+810 56 is sleeping
+813 49 is thinking
+813 54 is sleeping
+813 48 is sleeping
+813 53 is thinking
+816 51 is thinking
+818 52 is sleeping
+818 50 is sleeping
+1008 4 is thinking
+1008 6 is thinking
+1008 2 is thinking
+1008 8 is thinking
+1009 26 is thinking
+1009 28 is thinking
+1009 36 is thinking
+1009 32 is thinking
+1009 10 is thinking
+1009 22 is thinking
+1009 30 is thinking
+1009 20 is thinking
+1009 18 is thinking
+1009 16 is thinking
+1009 40 is thinking
+1009 38 is thinking
+1009 12 is thinking
+1009 24 is thinking
+1009 34 is thinking
+1009 14 is thinking
+1010 44 is thinking
+1010 46 is thinking
+1010 56 is thinking
+1010 42 is thinking
+1013 48 is thinking
+1013 54 is thinking
+1018 52 is thinking
+1018 50 is thinking
+[1;32m    ツ ☞ ☞ no one died today   
+[0m

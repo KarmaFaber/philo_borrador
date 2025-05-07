@@ -1,0 +1,71 @@
+4 5 has taken a fork LEFT
+4 1 has taken a fork LEFT
+4 1 has taken a fork RIGHT
+4 1 is eating
+4 13 has taken a fork LEFT
+4 13 has taken a fork RIGHT
+4 11 has taken a fork LEFT
+4 13 is eating
+4 3 has taken a fork LEFT
+4 3 has taken a fork RIGHT
+4 3 is eating
+4 15 has taken a fork LEFT
+4 15 has taken a fork RIGHT
+4 9 has taken a fork LEFT
+4 19 has taken a fork LEFT
+4 19 has taken a fork RIGHT
+4 19 is eating
+4 9 has taken a fork RIGHT
+4 5 has taken a fork RIGHT
+4 17 has taken a fork LEFT
+4 5 is eating
+4 11 has taken a fork RIGHT
+4 17 has taken a fork RIGHT
+4 9 is eating
+4 17 is eating
+4 15 is eating
+4 11 is eating
+4 7 has taken a fork LEFT
+4 7 has taken a fork RIGHT
+4 7 is eating
+354 7 is sleeping
+354 19 is sleeping
+354 3 is sleeping
+354 5 is sleeping
+354 4 has taken a fork RIGHT
+354 4 has taken a fork LEFT
+354 4 is eating
+354 17 is sleeping
+354 6 has taken a fork RIGHT
+354 6 has taken a fork LEFT
+354 6 is eating
+354 11 is sleeping
+354 21 has taken a fork LEFT
+354 21 has taken a fork RIGHT
+354 1 is sleeping
+354 21 is eating
+354 9 is sleeping
+354 8 has taken a fork RIGHT
+354 8 has taken a fork LEFT
+354 16 has taken a fork RIGHT
+354 16 has taken a fork LEFT
+354 16 is eating
+354 8 is eating
+354 2 has taken a fork RIGHT
+354 2 has taken a fork LEFT
+354 2 is eating
+354 10 has taken a fork RIGHT
+354 10 has taken a fork LEFT
+354 15 is sleeping
+354 10 is eating
+356 13 is sleeping
+356 12 has taken a fork RIGHT
+356 14 has taken a fork RIGHT
+356 14 has taken a fork LEFT
+356 14 is eating
+356 12 has taken a fork LEFT
+356 12 is eating
+356 18 has taken a fork RIGHT
+356 18 has taken a fork LEFT
+356 18 is eating
+451 20 [1;31mdied[0m

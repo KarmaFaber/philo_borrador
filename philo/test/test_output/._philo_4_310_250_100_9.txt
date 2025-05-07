@@ -1,0 +1,15 @@
+3 3 has taken a fork LEFT
+3 3 has taken a fork RIGHT
+3 3 is eating
+3 1 has taken a fork LEFT
+3 1 has taken a fork RIGHT
+3 1 is eating
+253 1 is sleeping
+253 2 has taken a fork RIGHT
+253 2 has taken a fork LEFT
+253 2 is eating
+253 3 is sleeping
+253 4 has taken a fork RIGHT
+253 4 has taken a fork LEFT
+253 4 is eating
+313 1 [1;31mdied[0m

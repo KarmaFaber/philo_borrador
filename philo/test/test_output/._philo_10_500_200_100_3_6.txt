@@ -1,0 +1,152 @@
+3 5 has taken a fork LEFT
+3 5 has taken a fork RIGHT
+3 5 is eating
+3 3 has taken a fork LEFT
+3 1 has taken a fork LEFT
+3 1 has taken a fork RIGHT
+3 1 is eating
+3 3 has taken a fork RIGHT
+3 3 is eating
+3 7 has taken a fork LEFT
+3 7 has taken a fork RIGHT
+3 7 is eating
+3 9 has taken a fork LEFT
+3 9 has taken a fork RIGHT
+3 9 is eating
+203 3 is sleeping
+203 1 is sleeping
+203 7 is sleeping
+203 9 is sleeping
+203 10 has taken a fork RIGHT
+203 8 has taken a fork RIGHT
+203 10 has taken a fork LEFT
+203 10 is eating
+203 8 has taken a fork LEFT
+203 5 is sleeping
+203 2 has taken a fork RIGHT
+203 2 has taken a fork LEFT
+203 2 is eating
+203 8 is eating
+203 6 has taken a fork RIGHT
+203 4 has taken a fork RIGHT
+203 4 has taken a fork LEFT
+203 4 is eating
+203 6 has taken a fork LEFT
+203 6 is eating
+303 1 is thinking
+303 9 is thinking
+303 3 is thinking
+303 7 is thinking
+303 5 is thinking
+403 2 is sleeping
+403 6 is sleeping
+403 8 is sleeping
+403 10 is sleeping
+403 9 has taken a fork LEFT
+403 3 has taken a fork LEFT
+403 5 has taken a fork LEFT
+403 5 has taken a fork RIGHT
+403 5 is eating
+403 1 has taken a fork LEFT
+403 1 has taken a fork RIGHT
+403 1 is eating
+403 7 has taken a fork LEFT
+403 9 has taken a fork RIGHT
+403 7 has taken a fork RIGHT
+403 7 is eating
+403 4 is sleeping
+403 3 has taken a fork RIGHT
+403 3 is eating
+403 9 is eating
+503 10 is thinking
+503 6 is thinking
+503 8 is thinking
+503 2 is thinking
+503 4 is thinking
+603 1 is sleeping
+603 3 is sleeping
+603 2 has taken a fork RIGHT
+603 2 has taken a fork LEFT
+603 2 is eating
+603 9 is sleeping
+603 10 has taken a fork RIGHT
+603 10 has taken a fork LEFT
+603 10 is eating
+603 8 has taken a fork RIGHT
+603 4 has taken a fork RIGHT
+603 6 has taken a fork RIGHT
+603 5 is sleeping
+603 6 has taken a fork LEFT
+603 6 is eating
+603 4 has taken a fork LEFT
+603 4 is eating
+603 7 is sleeping
+603 8 has taken a fork LEFT
+603 8 is eating
+703 9 is thinking
+703 7 is thinking
+703 1 is thinking
+703 3 is thinking
+703 5 is thinking
+803 8 is sleeping
+803 4 is sleeping
+803 2 is sleeping
+803 3 has taken a fork LEFT
+803 3 has taken a fork RIGHT
+803 3 is eating
+803 10 is sleeping
+803 6 is sleeping
+803 9 has taken a fork LEFT
+803 9 has taken a fork RIGHT
+803 9 is eating
+803 5 has taken a fork LEFT
+803 5 has taken a fork RIGHT
+803 5 is eating
+803 7 has taken a fork LEFT
+803 7 has taken a fork RIGHT
+803 7 is eating
+803 1 has taken a fork LEFT
+803 1 has taken a fork RIGHT
+803 1 is eating
+903 8 is thinking
+903 10 is thinking
+903 4 is thinking
+903 2 is thinking
+903 6 is thinking
+1003 3 is sleeping
+1003 5 is sleeping
+1003 2 has taken a fork RIGHT
+1003 7 is sleeping
+1003 6 has taken a fork RIGHT
+1003 1 is sleeping
+1003 2 has taken a fork LEFT
+1003 2 is eating
+1003 9 is sleeping
+1003 8 has taken a fork RIGHT
+1003 8 has taken a fork LEFT
+1003 8 is eating
+1003 4 has taken a fork RIGHT
+1003 4 has taken a fork LEFT
+1003 4 is eating
+1003 6 has taken a fork LEFT
+1003 6 is eating
+1003 10 has taken a fork RIGHT
+1003 10 has taken a fork LEFT
+1003 10 is eating
+1103 3 is thinking
+1103 5 is thinking
+1103 9 is thinking
+1103 7 is thinking
+1103 1 is thinking
+1203 4 is sleeping
+1203 6 is sleeping
+1203 10 is sleeping
+1203 2 is sleeping
+1203 8 is sleeping
+1303 2 is thinking
+1303 10 is thinking
+1303 8 is thinking
+1303 4 is thinking
+1303 6 is thinking
+[1;32m    ツ ☞ ☞ no one died today   
+[0m

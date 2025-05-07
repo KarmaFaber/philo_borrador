@@ -1,0 +1,42 @@
+3 1 has taken a fork LEFT
+3 1 has taken a fork RIGHT
+3 1 is eating
+312 2 has taken a fork RIGHT
+312 2 has taken a fork LEFT
+312 2 is eating
+321 1 is sleeping
+471 1 is thinking
+620 2 is sleeping
+620 1 has taken a fork LEFT
+620 1 has taken a fork RIGHT
+620 1 is eating
+770 2 is thinking
+920 1 is sleeping
+920 2 has taken a fork RIGHT
+920 2 has taken a fork LEFT
+920 2 is eating
+1070 1 is thinking
+1220 1 has taken a fork LEFT
+1220 1 has taken a fork RIGHT
+1220 1 is eating
+1220 2 is sleeping
+1370 2 is thinking
+1520 1 is sleeping
+1520 2 has taken a fork RIGHT
+1520 2 has taken a fork LEFT
+1520 2 is eating
+1670 1 is thinking
+1820 2 is sleeping
+1820 1 has taken a fork LEFT
+1820 1 has taken a fork RIGHT
+1820 1 is eating
+1970 2 is thinking
+2120 2 has taken a fork RIGHT
+2120 2 has taken a fork LEFT
+2120 2 is eating
+2120 1 is sleeping
+2270 1 is thinking
+2420 2 is sleeping
+2570 2 is thinking
+[1;32m    ツ ☞ ☞ no one died today   
+[0m

@@ -1,0 +1,108 @@
+4 5 has taken a fork LEFT
+4 5 has taken a fork RIGHT
+4 5 is eating
+4 1 has taken a fork LEFT
+4 3 has taken a fork LEFT
+4 3 has taken a fork RIGHT
+4 3 is eating
+4 9 has taken a fork LEFT
+4 13 has taken a fork LEFT
+4 9 has taken a fork RIGHT
+4 9 is eating
+4 13 has taken a fork RIGHT
+4 13 is eating
+4 7 has taken a fork LEFT
+4 1 has taken a fork RIGHT
+4 1 is eating
+4 7 has taken a fork RIGHT
+4 7 is eating
+4 11 has taken a fork LEFT
+4 11 has taken a fork RIGHT
+4 11 is eating
+304 11 is sleeping
+304 10 has taken a fork RIGHT
+304 3 is sleeping
+304 10 has taken a fork LEFT
+304 7 is sleeping
+304 9 is sleeping
+304 1 is sleeping
+304 13 is sleeping
+304 10 is eating
+304 2 has taken a fork RIGHT
+304 12 has taken a fork RIGHT
+304 2 has taken a fork LEFT
+304 12 has taken a fork LEFT
+304 2 is eating
+304 12 is eating
+304 8 has taken a fork RIGHT
+304 8 has taken a fork LEFT
+304 8 is eating
+304 14 has taken a fork RIGHT
+304 14 has taken a fork LEFT
+304 14 is eating
+304 5 is sleeping
+304 6 has taken a fork RIGHT
+304 6 has taken a fork LEFT
+304 6 is eating
+304 4 has taken a fork RIGHT
+304 4 has taken a fork LEFT
+304 4 is eating
+604 1 is thinking
+604 12 is sleeping
+604 11 is thinking
+604 3 is thinking
+604 10 is sleeping
+604 13 is thinking
+604 7 is thinking
+604 14 is sleeping
+604 5 is thinking
+604 9 is thinking
+607 13 has taken a fork LEFT
+607 13 has taken a fork RIGHT
+607 13 is eating
+608 11 has taken a fork LEFT
+608 11 has taken a fork RIGHT
+608 11 is eating
+609 6 is sleeping
+609 5 has taken a fork LEFT
+610 8 is sleeping
+610 9 has taken a fork LEFT
+610 9 has taken a fork RIGHT
+610 9 is eating
+610 5 has taken a fork RIGHT
+610 5 is eating
+610 4 is sleeping
+610 7 has taken a fork LEFT
+610 7 has taken a fork RIGHT
+610 7 is eating
+611 2 is sleeping
+611 1 has taken a fork LEFT
+611 1 has taken a fork RIGHT
+611 1 is eating
+611 3 has taken a fork LEFT
+611 3 has taken a fork RIGHT
+611 3 is eating
+904 14 is thinking
+904 10 is thinking
+904 12 is thinking
+907 13 is sleeping
+908 11 is sleeping
+909 12 has taken a fork RIGHT
+909 12 has taken a fork LEFT
+909 12 is eating
+909 6 is thinking
+910 4 is thinking
+910 8 is thinking
+910 5 is sleeping
+910 9 is sleeping
+910 10 has taken a fork RIGHT
+910 10 has taken a fork LEFT
+910 10 is eating
+910 7 is sleeping
+911 3 is sleeping
+911 1 is sleeping
+911 14 has taken a fork RIGHT
+911 14 has taken a fork LEFT
+911 14 is eating
+911 2 is thinking
+914 2 [1;31mdied[0m

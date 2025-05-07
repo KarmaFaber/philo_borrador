@@ -1,0 +1,3981 @@
+3 3 has taken a fork LEFT
+3 3 has taken a fork RIGHT
+3 3 is eating
+3 5 has taken a fork LEFT
+3 5 has taken a fork RIGHT
+3 5 is eating
+203 5 is sleeping
+203 1 has taken a fork LEFT
+203 1 has taken a fork RIGHT
+203 1 is eating
+203 3 is sleeping
+203 4 has taken a fork RIGHT
+203 4 has taken a fork LEFT
+203 4 is eating
+403 1 is sleeping
+403 4 is sleeping
+403 5 is thinking
+403 2 has taken a fork RIGHT
+403 2 has taken a fork LEFT
+403 2 is eating
+403 3 is thinking
+406 5 has taken a fork LEFT
+406 5 has taken a fork RIGHT
+406 5 is eating
+603 2 is sleeping
+603 1 is thinking
+603 4 is thinking
+603 3 has taken a fork LEFT
+603 3 has taken a fork RIGHT
+603 3 is eating
+606 5 is sleeping
+606 1 has taken a fork LEFT
+606 1 has taken a fork RIGHT
+606 1 is eating
+803 2 is thinking
+803 3 is sleeping
+803 4 has taken a fork RIGHT
+803 4 has taken a fork LEFT
+803 4 is eating
+806 5 is thinking
+806 1 is sleeping
+808 2 has taken a fork RIGHT
+808 2 has taken a fork LEFT
+808 2 is eating
+1003 4 is sleeping
+1003 3 is thinking
+1003 5 has taken a fork LEFT
+1003 5 has taken a fork RIGHT
+1003 5 is eating
+1006 1 is thinking
+1008 3 has taken a fork LEFT
+1008 3 has taken a fork RIGHT
+1008 3 is eating
+1008 2 is sleeping
+1203 4 is thinking
+1203 1 has taken a fork LEFT
+1203 1 has taken a fork RIGHT
+1203 1 is eating
+1203 5 is sleeping
+1208 2 is thinking
+1208 3 is sleeping
+1208 4 has taken a fork RIGHT
+1208 4 has taken a fork LEFT
+1208 4 is eating
+1403 2 has taken a fork RIGHT
+1403 2 has taken a fork LEFT
+1403 2 is eating
+1403 1 is sleeping
+1403 5 is thinking
+1408 4 is sleeping
+1408 5 has taken a fork LEFT
+1408 5 has taken a fork RIGHT
+1408 5 is eating
+1408 3 is thinking
+1603 3 has taken a fork LEFT
+1603 3 has taken a fork RIGHT
+1603 3 is eating
+1603 2 is sleeping
+1603 1 is thinking
+1608 1 has taken a fork LEFT
+1608 1 has taken a fork RIGHT
+1608 1 is eating
+1608 5 is sleeping
+1608 4 is thinking
+1803 3 is sleeping
+1803 2 is thinking
+1803 4 has taken a fork RIGHT
+1803 4 has taken a fork LEFT
+1803 4 is eating
+1808 5 is thinking
+1808 1 is sleeping
+1808 2 has taken a fork RIGHT
+1808 2 has taken a fork LEFT
+1808 2 is eating
+2003 3 is thinking
+2003 5 has taken a fork LEFT
+2003 5 has taken a fork RIGHT
+2003 5 is eating
+2003 4 is sleeping
+2008 2 is sleeping
+2008 3 has taken a fork LEFT
+2008 3 has taken a fork RIGHT
+2008 3 is eating
+2008 1 is thinking
+2203 4 is thinking
+2203 1 has taken a fork LEFT
+2203 1 has taken a fork RIGHT
+2203 1 is eating
+2203 5 is sleeping
+2208 2 is thinking
+2208 3 is sleeping
+2208 4 has taken a fork RIGHT
+2208 4 has taken a fork LEFT
+2208 4 is eating
+2403 5 is thinking
+2403 2 has taken a fork RIGHT
+2403 2 has taken a fork LEFT
+2403 2 is eating
+2403 1 is sleeping
+2408 4 is sleeping
+2408 5 has taken a fork LEFT
+2408 5 has taken a fork RIGHT
+2408 5 is eating
+2408 3 is thinking
+2603 2 is sleeping
+2603 3 has taken a fork LEFT
+2603 3 has taken a fork RIGHT
+2603 3 is eating
+2603 1 is thinking
+2608 4 is thinking
+2608 5 is sleeping
+2608 1 has taken a fork LEFT
+2608 1 has taken a fork RIGHT
+2608 1 is eating
+2803 2 is thinking
+2803 4 has taken a fork RIGHT
+2803 4 has taken a fork LEFT
+2803 4 is eating
+2803 3 is sleeping
+2808 1 is sleeping
+2808 2 has taken a fork RIGHT
+2808 5 is thinking
+2808 2 has taken a fork LEFT
+2808 2 is eating
+3003 4 is sleeping
+3003 5 has taken a fork LEFT
+3003 5 has taken a fork RIGHT
+3003 5 is eating
+3003 3 is thinking
+3008 2 is sleeping
+3008 3 has taken a fork LEFT
+3008 3 has taken a fork RIGHT
+3008 3 is eating
+3008 1 is thinking
+3203 4 is thinking
+3203 1 has taken a fork LEFT
+3203 1 has taken a fork RIGHT
+3203 1 is eating
+3203 5 is sleeping
+3208 4 has taken a fork RIGHT
+3208 2 is thinking
+3208 4 has taken a fork LEFT
+3208 4 is eating
+3208 3 is sleeping
+3403 5 is thinking
+3403 1 is sleeping
+3403 2 has taken a fork RIGHT
+3403 2 has taken a fork LEFT
+3403 2 is eating
+3408 3 is thinking
+3408 4 is sleeping
+3408 5 has taken a fork LEFT
+3408 5 has taken a fork RIGHT
+3408 5 is eating
+3603 1 is thinking
+3603 2 is sleeping
+3603 3 has taken a fork LEFT
+3603 3 has taken a fork RIGHT
+3603 3 is eating
+3608 4 is thinking
+3608 5 is sleeping
+3608 1 has taken a fork LEFT
+3608 1 has taken a fork RIGHT
+3608 1 is eating
+3803 2 is thinking
+3803 3 is sleeping
+3803 4 has taken a fork RIGHT
+3803 4 has taken a fork LEFT
+3803 4 is eating
+3808 5 is thinking
+3808 1 is sleeping
+3808 2 has taken a fork RIGHT
+3808 2 has taken a fork LEFT
+3808 2 is eating
+4003 5 has taken a fork LEFT
+4003 5 has taken a fork RIGHT
+4003 5 is eating
+4003 3 is thinking
+4003 4 is sleeping
+4008 2 is sleeping
+4008 3 has taken a fork LEFT
+4008 3 has taken a fork RIGHT
+4008 1 is thinking
+4008 3 is eating
+4203 1 has taken a fork LEFT
+4203 1 has taken a fork RIGHT
+4203 1 is eating
+4203 5 is sleeping
+4203 4 is thinking
+4208 3 is sleeping
+4208 4 has taken a fork RIGHT
+4208 4 has taken a fork LEFT
+4208 4 is eating
+4208 2 is thinking
+4403 2 has taken a fork RIGHT
+4403 2 has taken a fork LEFT
+4403 2 is eating
+4403 5 is thinking
+4403 1 is sleeping
+4408 5 has taken a fork LEFT
+4408 5 has taken a fork RIGHT
+4408 5 is eating
+4408 4 is sleeping
+4408 3 is thinking
+4603 1 is thinking
+4603 2 is sleeping
+4603 3 has taken a fork LEFT
+4603 3 has taken a fork RIGHT
+4603 3 is eating
+4608 1 has taken a fork LEFT
+4608 1 has taken a fork RIGHT
+4608 1 is eating
+4608 5 is sleeping
+4608 4 is thinking
+4803 3 is sleeping
+4803 4 has taken a fork RIGHT
+4803 4 has taken a fork LEFT
+4803 4 is eating
+4803 2 is thinking
+4808 5 is thinking
+4808 1 is sleeping
+4808 2 has taken a fork RIGHT
+4808 2 has taken a fork LEFT
+4808 2 is eating
+5003 3 is thinking
+5003 4 is sleeping
+5003 5 has taken a fork LEFT
+5003 5 has taken a fork RIGHT
+5003 5 is eating
+5008 1 is thinking
+5008 2 is sleeping
+5008 3 has taken a fork LEFT
+5008 3 has taken a fork RIGHT
+5008 3 is eating
+5203 4 is thinking
+5203 1 has taken a fork LEFT
+5203 1 has taken a fork RIGHT
+5203 1 is eating
+5203 5 is sleeping
+5208 4 has taken a fork RIGHT
+5208 4 has taken a fork LEFT
+5208 4 is eating
+5208 3 is sleeping
+5208 2 is thinking
+5403 1 is sleeping
+5403 2 has taken a fork RIGHT
+5403 2 has taken a fork LEFT
+5403 2 is eating
+5403 5 is thinking
+5408 4 is sleeping
+5408 5 has taken a fork LEFT
+5408 5 has taken a fork RIGHT
+5408 5 is eating
+5408 3 is thinking
+5603 1 is thinking
+5603 3 has taken a fork LEFT
+5603 3 has taken a fork RIGHT
+5603 3 is eating
+5603 2 is sleeping
+5608 4 is thinking
+5608 5 is sleeping
+5608 1 has taken a fork LEFT
+5608 1 has taken a fork RIGHT
+5608 1 is eating
+5803 3 is sleeping
+5803 2 is thinking
+5806 4 has taken a fork RIGHT
+5806 4 has taken a fork LEFT
+5806 4 is eating
+5808 1 is sleeping
+5808 2 has taken a fork RIGHT
+5808 2 has taken a fork LEFT
+5808 2 is eating
+5808 5 is thinking
+6003 3 is thinking
+6006 4 is sleeping
+6006 5 has taken a fork LEFT
+6006 5 has taken a fork RIGHT
+6006 5 is eating
+6008 1 is thinking
+6008 2 is sleeping
+6008 3 has taken a fork LEFT
+6008 3 has taken a fork RIGHT
+6008 3 is eating
+6206 1 has taken a fork LEFT
+6206 1 has taken a fork RIGHT
+6206 1 is eating
+6206 5 is sleeping
+6206 4 is thinking
+6208 2 is thinking
+6208 3 is sleeping
+6211 4 has taken a fork RIGHT
+6211 4 has taken a fork LEFT
+6211 4 is eating
+6406 5 is thinking
+6406 2 has taken a fork RIGHT
+6406 2 has taken a fork LEFT
+6406 2 is eating
+6406 1 is sleeping
+6408 3 is thinking
+6411 4 is sleeping
+6411 5 has taken a fork LEFT
+6411 5 has taken a fork RIGHT
+6411 5 is eating
+6606 2 is sleeping
+6606 1 is thinking
+6606 3 has taken a fork LEFT
+6606 3 has taken a fork RIGHT
+6606 3 is eating
+6611 5 is sleeping
+6611 1 has taken a fork LEFT
+6611 1 has taken a fork RIGHT
+6611 1 is eating
+6611 4 is thinking
+6806 3 is sleeping
+6806 4 has taken a fork RIGHT
+6806 4 has taken a fork LEFT
+6806 4 is eating
+6806 2 is thinking
+6811 5 is thinking
+6811 2 has taken a fork RIGHT
+6811 2 has taken a fork LEFT
+6811 2 is eating
+6811 1 is sleeping
+7006 4 is sleeping
+7006 5 has taken a fork LEFT
+7006 5 has taken a fork RIGHT
+7006 5 is eating
+7006 3 is thinking
+7011 1 is thinking
+7011 2 is sleeping
+7011 3 has taken a fork LEFT
+7011 3 has taken a fork RIGHT
+7011 3 is eating
+7206 4 is thinking
+7206 5 is sleeping
+7206 1 has taken a fork LEFT
+7206 1 has taken a fork RIGHT
+7206 1 is eating
+7211 3 is sleeping
+7211 4 has taken a fork RIGHT
+7211 4 has taken a fork LEFT
+7211 4 is eating
+7211 2 is thinking
+7406 1 is sleeping
+7406 5 is thinking
+7406 2 has taken a fork RIGHT
+7406 2 has taken a fork LEFT
+7406 2 is eating
+7411 3 is thinking
+7411 4 is sleeping
+7411 5 has taken a fork LEFT
+7411 5 has taken a fork RIGHT
+7411 5 is eating
+7606 1 is thinking
+7606 3 has taken a fork LEFT
+7606 3 has taken a fork RIGHT
+7606 3 is eating
+7606 2 is sleeping
+7611 4 is thinking
+7611 1 has taken a fork LEFT
+7611 1 has taken a fork RIGHT
+7611 1 is eating
+7611 5 is sleeping
+7806 3 is sleeping
+7806 4 has taken a fork RIGHT
+7806 4 has taken a fork LEFT
+7806 4 is eating
+7806 2 is thinking
+7811 1 is sleeping
+7811 2 has taken a fork RIGHT
+7811 2 has taken a fork LEFT
+7811 2 is eating
+7811 5 is thinking
+8007 3 is thinking
+8007 5 has taken a fork LEFT
+8007 5 has taken a fork RIGHT
+8007 5 is eating
+8007 4 is sleeping
+8011 2 is sleeping
+8011 3 has taken a fork LEFT
+8011 3 has taken a fork RIGHT
+8011 3 is eating
+8011 1 is thinking
+8207 4 is thinking
+8207 5 is sleeping
+8207 1 has taken a fork LEFT
+8207 1 has taken a fork RIGHT
+8207 1 is eating
+8211 2 is thinking
+8211 3 is sleeping
+8212 4 has taken a fork RIGHT
+8212 4 has taken a fork LEFT
+8212 4 is eating
+8407 5 is thinking
+8407 1 is sleeping
+8407 2 has taken a fork RIGHT
+8407 2 has taken a fork LEFT
+8407 2 is eating
+8411 3 is thinking
+8412 5 has taken a fork LEFT
+8412 5 has taken a fork RIGHT
+8412 5 is eating
+8412 4 is sleeping
+8607 1 is thinking
+8607 3 has taken a fork LEFT
+8607 3 has taken a fork RIGHT
+8607 3 is eating
+8607 2 is sleeping
+8612 4 is thinking
+8612 5 is sleeping
+8612 1 has taken a fork LEFT
+8612 1 has taken a fork RIGHT
+8612 1 is eating
+8807 3 is sleeping
+8807 4 has taken a fork RIGHT
+8807 4 has taken a fork LEFT
+8807 4 is eating
+8807 2 is thinking
+8812 1 is sleeping
+8812 2 has taken a fork RIGHT
+8812 2 has taken a fork LEFT
+8812 2 is eating
+8812 5 is thinking
+9007 3 is thinking
+9007 5 has taken a fork LEFT
+9007 5 has taken a fork RIGHT
+9007 5 is eating
+9007 4 is sleeping
+9012 2 is sleeping
+9012 3 has taken a fork LEFT
+9012 3 has taken a fork RIGHT
+9012 3 is eating
+9012 1 is thinking
+9207 4 is thinking
+9207 5 is sleeping
+9207 1 has taken a fork LEFT
+9207 1 has taken a fork RIGHT
+9207 1 is eating
+9212 2 is thinking
+9212 3 is sleeping
+9212 4 has taken a fork RIGHT
+9212 4 has taken a fork LEFT
+9212 4 is eating
+9407 1 is sleeping
+9407 5 is thinking
+9407 2 has taken a fork RIGHT
+9407 2 has taken a fork LEFT
+9407 2 is eating
+9412 4 is sleeping
+9412 5 has taken a fork LEFT
+9412 5 has taken a fork RIGHT
+9412 5 is eating
+9412 3 is thinking
+9607 2 is sleeping
+9607 3 has taken a fork LEFT
+9607 3 has taken a fork RIGHT
+9607 3 is eating
+9607 1 is thinking
+9612 5 is sleeping
+9612 4 is thinking
+9612 1 has taken a fork LEFT
+9612 1 has taken a fork RIGHT
+9612 1 is eating
+9807 2 is thinking
+9807 3 is sleeping
+9807 4 has taken a fork RIGHT
+9807 4 has taken a fork LEFT
+9807 4 is eating
+9812 5 is thinking
+9812 1 is sleeping
+9812 2 has taken a fork RIGHT
+9812 2 has taken a fork LEFT
+9812 2 is eating
+10007 4 is sleeping
+10007 5 has taken a fork LEFT
+10007 5 has taken a fork RIGHT
+10007 5 is eating
+10007 3 is thinking
+10012 1 is thinking
+10012 2 is sleeping
+10012 3 has taken a fork LEFT
+10012 3 has taken a fork RIGHT
+10012 3 is eating
+10207 5 is sleeping
+10207 4 is thinking
+10207 1 has taken a fork LEFT
+10207 1 has taken a fork RIGHT
+10207 1 is eating
+10212 3 is sleeping
+10212 4 has taken a fork RIGHT
+10212 4 has taken a fork LEFT
+10212 4 is eating
+10212 2 is thinking
+10407 5 is thinking
+10407 1 is sleeping
+10407 2 has taken a fork RIGHT
+10407 2 has taken a fork LEFT
+10407 2 is eating
+10412 4 is sleeping
+10412 3 is thinking
+10412 5 has taken a fork LEFT
+10412 5 has taken a fork RIGHT
+10412 5 is eating
+10607 1 is thinking
+10607 2 is sleeping
+10607 3 has taken a fork LEFT
+10607 3 has taken a fork RIGHT
+10607 3 is eating
+10612 5 is sleeping
+10612 1 has taken a fork LEFT
+10612 1 has taken a fork RIGHT
+10612 1 is eating
+10612 4 is thinking
+10807 3 is sleeping
+10807 2 is thinking
+10807 4 has taken a fork RIGHT
+10807 4 has taken a fork LEFT
+10807 4 is eating
+10812 5 is thinking
+10812 1 is sleeping
+10812 2 has taken a fork RIGHT
+10812 2 has taken a fork LEFT
+10812 2 is eating
+11007 4 is sleeping
+11007 5 has taken a fork LEFT
+11007 5 has taken a fork RIGHT
+11007 5 is eating
+11007 3 is thinking
+11012 1 is thinking
+11012 2 is sleeping
+11012 3 has taken a fork LEFT
+11012 3 has taken a fork RIGHT
+11012 3 is eating
+11207 1 has taken a fork LEFT
+11207 1 has taken a fork RIGHT
+11207 1 is eating
+11207 5 is sleeping
+11207 4 is thinking
+11212 3 is sleeping
+11212 4 has taken a fork RIGHT
+11212 4 has taken a fork LEFT
+11212 4 is eating
+11212 2 is thinking
+11407 1 is sleeping
+11407 5 is thinking
+11407 2 has taken a fork RIGHT
+11407 2 has taken a fork LEFT
+11407 2 is eating
+11412 3 is thinking
+11412 4 is sleeping
+11412 5 has taken a fork LEFT
+11412 5 has taken a fork RIGHT
+11412 5 is eating
+11607 1 is thinking
+11607 2 is sleeping
+11607 3 has taken a fork LEFT
+11607 3 has taken a fork RIGHT
+11607 3 is eating
+11612 4 is thinking
+11612 5 is sleeping
+11612 1 has taken a fork LEFT
+11612 1 has taken a fork RIGHT
+11612 1 is eating
+11807 2 is thinking
+11807 4 has taken a fork RIGHT
+11807 4 has taken a fork LEFT
+11807 4 is eating
+11807 3 is sleeping
+11812 1 is sleeping
+11812 5 is thinking
+11812 2 has taken a fork RIGHT
+11812 2 has taken a fork LEFT
+11812 2 is eating
+12007 3 is thinking
+12007 4 is sleeping
+12007 5 has taken a fork LEFT
+12007 5 has taken a fork RIGHT
+12007 5 is eating
+12012 1 is thinking
+12012 3 has taken a fork LEFT
+12012 3 has taken a fork RIGHT
+12012 3 is eating
+12012 2 is sleeping
+12207 1 has taken a fork LEFT
+12207 1 has taken a fork RIGHT
+12207 1 is eating
+12207 5 is sleeping
+12207 4 is thinking
+12212 4 has taken a fork RIGHT
+12212 4 has taken a fork LEFT
+12212 4 is eating
+12212 3 is sleeping
+12212 2 is thinking
+12407 5 is thinking
+12407 1 is sleeping
+12407 2 has taken a fork RIGHT
+12407 2 has taken a fork LEFT
+12407 2 is eating
+12412 3 is thinking
+12412 4 is sleeping
+12412 5 has taken a fork LEFT
+12412 5 has taken a fork RIGHT
+12412 5 is eating
+12607 2 is sleeping
+12607 1 is thinking
+12607 3 has taken a fork LEFT
+12607 3 has taken a fork RIGHT
+12607 3 is eating
+12612 4 is thinking
+12612 1 has taken a fork LEFT
+12612 1 has taken a fork RIGHT
+12612 1 is eating
+12612 5 is sleeping
+12807 3 is sleeping
+12807 2 is thinking
+12807 4 has taken a fork RIGHT
+12807 4 has taken a fork LEFT
+12807 4 is eating
+12812 5 is thinking
+12812 1 is sleeping
+12812 2 has taken a fork RIGHT
+12812 2 has taken a fork LEFT
+12812 2 is eating
+13007 5 has taken a fork LEFT
+13007 5 has taken a fork RIGHT
+13007 5 is eating
+13007 4 is sleeping
+13007 3 is thinking
+13012 2 is sleeping
+13012 3 has taken a fork LEFT
+13012 3 has taken a fork RIGHT
+13012 3 is eating
+13012 1 is thinking
+13207 4 is thinking
+13207 5 is sleeping
+13207 1 has taken a fork LEFT
+13207 1 has taken a fork RIGHT
+13207 1 is eating
+13212 2 is thinking
+13212 3 is sleeping
+13212 4 has taken a fork RIGHT
+13212 4 has taken a fork LEFT
+13212 4 is eating
+13407 1 is sleeping
+13407 2 has taken a fork RIGHT
+13407 2 has taken a fork LEFT
+13407 2 is eating
+13407 5 is thinking
+13412 3 is thinking
+13412 4 is sleeping
+13412 5 has taken a fork LEFT
+13412 5 has taken a fork RIGHT
+13412 5 is eating
+13607 1 is thinking
+13607 2 is sleeping
+13607 3 has taken a fork LEFT
+13607 3 has taken a fork RIGHT
+13607 3 is eating
+13612 4 is thinking
+13612 5 is sleeping
+13612 1 has taken a fork LEFT
+13612 1 has taken a fork RIGHT
+13612 1 is eating
+13807 2 is thinking
+13807 4 has taken a fork RIGHT
+13807 4 has taken a fork LEFT
+13807 4 is eating
+13807 3 is sleeping
+13812 1 is sleeping
+13812 2 has taken a fork RIGHT
+13812 2 has taken a fork LEFT
+13812 2 is eating
+13812 5 is thinking
+14007 5 has taken a fork LEFT
+14007 3 is thinking
+14007 5 has taken a fork RIGHT
+14007 5 is eating
+14007 4 is sleeping
+14012 1 is thinking
+14012 2 is sleeping
+14012 3 has taken a fork LEFT
+14012 3 has taken a fork RIGHT
+14012 3 is eating
+14207 1 has taken a fork LEFT
+14207 1 has taken a fork RIGHT
+14207 1 is eating
+14207 4 is thinking
+14207 5 is sleeping
+14212 3 is sleeping
+14212 4 has taken a fork RIGHT
+14212 4 has taken a fork LEFT
+14212 4 is eating
+14212 2 is thinking
+14407 1 is sleeping
+14407 5 is thinking
+14407 2 has taken a fork RIGHT
+14407 2 has taken a fork LEFT
+14407 2 is eating
+14412 3 is thinking
+14412 5 has taken a fork LEFT
+14412 5 has taken a fork RIGHT
+14412 5 is eating
+14412 4 is sleeping
+14607 3 has taken a fork LEFT
+14607 3 has taken a fork RIGHT
+14607 3 is eating
+14607 2 is sleeping
+14607 1 is thinking
+14612 4 is thinking
+14612 5 is sleeping
+14612 1 has taken a fork LEFT
+14612 1 has taken a fork RIGHT
+14612 1 is eating
+14807 2 is thinking
+14807 3 is sleeping
+14807 4 has taken a fork RIGHT
+14807 4 has taken a fork LEFT
+14807 4 is eating
+14812 5 is thinking
+14812 2 has taken a fork RIGHT
+14812 2 has taken a fork LEFT
+14812 2 is eating
+14812 1 is sleeping
+15007 5 has taken a fork LEFT
+15007 5 has taken a fork RIGHT
+15007 5 is eating
+15007 3 is thinking
+15007 4 is sleeping
+15012 2 is sleeping
+15012 3 has taken a fork LEFT
+15012 3 has taken a fork RIGHT
+15012 3 is eating
+15012 1 is thinking
+15207 4 is thinking
+15207 1 has taken a fork LEFT
+15207 1 has taken a fork RIGHT
+15207 1 is eating
+15207 5 is sleeping
+15212 2 is thinking
+15212 3 is sleeping
+15212 4 has taken a fork RIGHT
+15212 4 has taken a fork LEFT
+15212 4 is eating
+15407 5 is thinking
+15407 1 is sleeping
+15407 2 has taken a fork RIGHT
+15407 2 has taken a fork LEFT
+15407 2 is eating
+15412 4 is sleeping
+15412 5 has taken a fork LEFT
+15412 5 has taken a fork RIGHT
+15412 5 is eating
+15412 3 is thinking
+15607 1 is thinking
+15607 2 is sleeping
+15607 3 has taken a fork LEFT
+15607 3 has taken a fork RIGHT
+15607 3 is eating
+15612 5 is sleeping
+15612 1 has taken a fork LEFT
+15612 1 has taken a fork RIGHT
+15612 1 is eating
+15612 4 is thinking
+15807 3 is sleeping
+15807 4 has taken a fork RIGHT
+15807 4 has taken a fork LEFT
+15807 4 is eating
+15807 2 is thinking
+15812 5 is thinking
+15812 1 is sleeping
+15812 2 has taken a fork RIGHT
+15812 2 has taken a fork LEFT
+15812 2 is eating
+16007 3 is thinking
+16007 4 is sleeping
+16007 5 has taken a fork LEFT
+16007 5 has taken a fork RIGHT
+16007 5 is eating
+16012 1 is thinking
+16012 3 has taken a fork LEFT
+16012 3 has taken a fork RIGHT
+16012 3 is eating
+16012 2 is sleeping
+16207 4 is thinking
+16207 5 is sleeping
+16207 1 has taken a fork LEFT
+16207 1 has taken a fork RIGHT
+16207 1 is eating
+16212 2 is thinking
+16212 3 is sleeping
+16212 4 has taken a fork RIGHT
+16212 4 has taken a fork LEFT
+16212 4 is eating
+16407 5 is thinking
+16407 1 is sleeping
+16407 2 has taken a fork RIGHT
+16407 2 has taken a fork LEFT
+16407 2 is eating
+16412 3 is thinking
+16412 4 is sleeping
+16412 5 has taken a fork LEFT
+16412 5 has taken a fork RIGHT
+16412 5 is eating
+16607 2 is sleeping
+16607 3 has taken a fork LEFT
+16607 3 has taken a fork RIGHT
+16607 3 is eating
+16607 1 is thinking
+16612 4 is thinking
+16612 5 is sleeping
+16612 1 has taken a fork LEFT
+16612 1 has taken a fork RIGHT
+16612 1 is eating
+16807 3 is sleeping
+16807 4 has taken a fork RIGHT
+16807 4 has taken a fork LEFT
+16807 4 is eating
+16807 2 is thinking
+16812 5 is thinking
+16812 2 has taken a fork RIGHT
+16812 2 has taken a fork LEFT
+16812 2 is eating
+16812 1 is sleeping
+17007 4 is sleeping
+17007 5 has taken a fork LEFT
+17007 5 has taken a fork RIGHT
+17007 5 is eating
+17007 3 is thinking
+17012 1 is thinking
+17012 3 has taken a fork LEFT
+17012 3 has taken a fork RIGHT
+17012 3 is eating
+17012 2 is sleeping
+17207 4 is thinking
+17207 5 is sleeping
+17207 1 has taken a fork LEFT
+17207 1 has taken a fork RIGHT
+17207 1 is eating
+17212 3 is sleeping
+17212 4 has taken a fork RIGHT
+17212 4 has taken a fork LEFT
+17212 4 is eating
+17212 2 is thinking
+17407 5 is thinking
+17407 1 is sleeping
+17407 2 has taken a fork RIGHT
+17407 2 has taken a fork LEFT
+17407 2 is eating
+17412 4 is sleeping
+17412 5 has taken a fork LEFT
+17412 5 has taken a fork RIGHT
+17412 5 is eating
+17412 3 is thinking
+17607 1 is thinking
+17607 2 is sleeping
+17607 3 has taken a fork LEFT
+17607 3 has taken a fork RIGHT
+17607 3 is eating
+17612 5 is sleeping
+17612 1 has taken a fork LEFT
+17612 1 has taken a fork RIGHT
+17612 1 is eating
+17612 4 is thinking
+17807 4 has taken a fork RIGHT
+17807 4 has taken a fork LEFT
+17807 4 is eating
+17807 2 is thinking
+17807 3 is sleeping
+17812 1 is sleeping
+17812 2 has taken a fork RIGHT
+17812 2 has taken a fork LEFT
+17812 2 is eating
+17812 5 is thinking
+18007 3 is thinking
+18007 5 has taken a fork LEFT
+18007 5 has taken a fork RIGHT
+18007 5 is eating
+18007 4 is sleeping
+18012 2 is sleeping
+18012 3 has taken a fork LEFT
+18012 3 has taken a fork RIGHT
+18012 3 is eating
+18012 1 is thinking
+18207 4 is thinking
+18207 5 is sleeping
+18207 1 has taken a fork LEFT
+18207 1 has taken a fork RIGHT
+18207 1 is eating
+18212 2 is thinking
+18212 3 is sleeping
+18212 4 has taken a fork RIGHT
+18212 4 has taken a fork LEFT
+18212 4 is eating
+18407 2 has taken a fork RIGHT
+18407 2 has taken a fork LEFT
+18407 2 is eating
+18407 5 is thinking
+18407 1 is sleeping
+18412 3 is thinking
+18412 5 has taken a fork LEFT
+18412 5 has taken a fork RIGHT
+18412 5 is eating
+18412 4 is sleeping
+18607 2 is sleeping
+18607 1 is thinking
+18607 3 has taken a fork LEFT
+18607 3 has taken a fork RIGHT
+18607 3 is eating
+18612 4 is thinking
+18612 1 has taken a fork LEFT
+18612 1 has taken a fork RIGHT
+18612 1 is eating
+18612 5 is sleeping
+18807 4 has taken a fork RIGHT
+18807 4 has taken a fork LEFT
+18807 4 is eating
+18807 3 is sleeping
+18807 2 is thinking
+18812 5 is thinking
+18812 1 is sleeping
+18812 2 has taken a fork RIGHT
+18812 2 has taken a fork LEFT
+18812 2 is eating
+19007 5 has taken a fork LEFT
+19007 5 has taken a fork RIGHT
+19007 5 is eating
+19007 4 is sleeping
+19007 3 is thinking
+19012 1 is thinking
+19012 2 is sleeping
+19012 3 has taken a fork LEFT
+19012 3 has taken a fork RIGHT
+19012 3 is eating
+19207 4 is thinking
+19207 5 is sleeping
+19207 1 has taken a fork LEFT
+19207 1 has taken a fork RIGHT
+19207 1 is eating
+19212 2 is thinking
+19212 3 is sleeping
+19212 4 has taken a fork RIGHT
+19212 4 has taken a fork LEFT
+19212 4 is eating
+19407 5 is thinking
+19407 1 is sleeping
+19407 2 has taken a fork RIGHT
+19407 2 has taken a fork LEFT
+19407 2 is eating
+19412 3 is thinking
+19412 5 has taken a fork LEFT
+19412 5 has taken a fork RIGHT
+19412 5 is eating
+19412 4 is sleeping
+19607 2 is sleeping
+19607 3 has taken a fork LEFT
+19607 3 has taken a fork RIGHT
+19607 3 is eating
+19607 1 is thinking
+19612 4 is thinking
+19612 5 is sleeping
+19612 1 has taken a fork LEFT
+19612 1 has taken a fork RIGHT
+19612 1 is eating
+19807 2 is thinking
+19807 4 has taken a fork RIGHT
+19807 4 has taken a fork LEFT
+19807 4 is eating
+19807 3 is sleeping
+19812 5 is thinking
+19812 1 is sleeping
+19812 2 has taken a fork RIGHT
+19812 2 has taken a fork LEFT
+19812 2 is eating
+20007 3 is thinking
+20007 5 has taken a fork LEFT
+20007 5 has taken a fork RIGHT
+20007 5 is eating
+20007 4 is sleeping
+20012 2 is sleeping
+20012 1 is thinking
+20012 3 has taken a fork LEFT
+20012 3 has taken a fork RIGHT
+20012 3 is eating
+20207 4 is thinking
+20207 5 is sleeping
+20207 1 has taken a fork LEFT
+20207 1 has taken a fork RIGHT
+20207 1 is eating
+20212 2 is thinking
+20212 4 has taken a fork RIGHT
+20212 4 has taken a fork LEFT
+20212 4 is eating
+20212 3 is sleeping
+20407 5 is thinking
+20407 1 is sleeping
+20407 2 has taken a fork RIGHT
+20407 2 has taken a fork LEFT
+20407 2 is eating
+20412 3 is thinking
+20412 4 is sleeping
+20412 5 has taken a fork LEFT
+20412 5 has taken a fork RIGHT
+20412 5 is eating
+20607 3 has taken a fork LEFT
+20607 3 has taken a fork RIGHT
+20607 3 is eating
+20607 2 is sleeping
+20607 1 is thinking
+20612 4 is thinking
+20612 5 is sleeping
+20612 1 has taken a fork LEFT
+20612 1 has taken a fork RIGHT
+20612 1 is eating
+20807 4 has taken a fork RIGHT
+20807 2 is thinking
+20807 4 has taken a fork LEFT
+20807 4 is eating
+20807 3 is sleeping
+20812 5 is thinking
+20812 2 has taken a fork RIGHT
+20812 2 has taken a fork LEFT
+20812 2 is eating
+20812 1 is sleeping
+21007 3 is thinking
+21007 4 is sleeping
+21007 5 has taken a fork LEFT
+21007 5 has taken a fork RIGHT
+21007 5 is eating
+21012 2 is sleeping
+21012 3 has taken a fork LEFT
+21012 3 has taken a fork RIGHT
+21012 3 is eating
+21012 1 is thinking
+21207 4 is thinking
+21207 5 is sleeping
+21207 1 has taken a fork LEFT
+21207 1 has taken a fork RIGHT
+21207 1 is eating
+21212 3 is sleeping
+21212 2 is thinking
+21212 4 has taken a fork RIGHT
+21212 4 has taken a fork LEFT
+21212 4 is eating
+21407 5 is thinking
+21407 1 is sleeping
+21407 2 has taken a fork RIGHT
+21407 2 has taken a fork LEFT
+21407 2 is eating
+21412 3 is thinking
+21412 5 has taken a fork LEFT
+21412 5 has taken a fork RIGHT
+21412 5 is eating
+21412 4 is sleeping
+21607 1 is thinking
+21607 2 is sleeping
+21607 3 has taken a fork LEFT
+21607 3 has taken a fork RIGHT
+21607 3 is eating
+21612 4 is thinking
+21612 5 is sleeping
+21612 1 has taken a fork LEFT
+21612 1 has taken a fork RIGHT
+21612 1 is eating
+21807 3 is sleeping
+21807 2 is thinking
+21807 4 has taken a fork RIGHT
+21807 4 has taken a fork LEFT
+21807 4 is eating
+21812 1 is sleeping
+21812 5 is thinking
+21812 2 has taken a fork RIGHT
+21812 2 has taken a fork LEFT
+21812 2 is eating
+22007 3 is thinking
+22007 5 has taken a fork LEFT
+22007 5 has taken a fork RIGHT
+22007 5 is eating
+22007 4 is sleeping
+22012 3 has taken a fork LEFT
+22012 3 has taken a fork RIGHT
+22012 3 is eating
+22012 2 is sleeping
+22012 1 is thinking
+22207 5 is sleeping
+22207 1 has taken a fork LEFT
+22207 1 has taken a fork RIGHT
+22207 1 is eating
+22207 4 is thinking
+22212 3 is sleeping
+22212 2 is thinking
+22212 4 has taken a fork RIGHT
+22212 4 has taken a fork LEFT
+22212 4 is eating
+22407 1 is sleeping
+22407 5 is thinking
+22407 2 has taken a fork RIGHT
+22407 2 has taken a fork LEFT
+22407 2 is eating
+22412 5 has taken a fork LEFT
+22412 3 is thinking
+22412 5 has taken a fork RIGHT
+22412 5 is eating
+22412 4 is sleeping
+22607 1 is thinking
+22607 2 is sleeping
+22607 3 has taken a fork LEFT
+22607 3 has taken a fork RIGHT
+22607 3 is eating
+22612 1 has taken a fork LEFT
+22612 1 has taken a fork RIGHT
+22612 1 is eating
+22612 5 is sleeping
+22612 4 is thinking
+22807 3 is sleeping
+22807 2 is thinking
+22807 4 has taken a fork RIGHT
+22807 4 has taken a fork LEFT
+22807 4 is eating
+22812 1 is sleeping
+22812 5 is thinking
+22812 2 has taken a fork RIGHT
+22812 2 has taken a fork LEFT
+22812 2 is eating
+23007 3 is thinking
+23007 5 has taken a fork LEFT
+23007 5 has taken a fork RIGHT
+23007 5 is eating
+23007 4 is sleeping
+23012 1 is thinking
+23012 2 is sleeping
+23012 3 has taken a fork LEFT
+23012 3 has taken a fork RIGHT
+23012 3 is eating
+23207 5 is sleeping
+23207 1 has taken a fork LEFT
+23207 1 has taken a fork RIGHT
+23207 1 is eating
+23207 4 is thinking
+23212 3 is sleeping
+23212 2 is thinking
+23212 4 has taken a fork RIGHT
+23212 4 has taken a fork LEFT
+23212 4 is eating
+23407 2 has taken a fork RIGHT
+23407 2 has taken a fork LEFT
+23407 2 is eating
+23407 5 is thinking
+23407 1 is sleeping
+23412 3 is thinking
+23412 5 has taken a fork LEFT
+23412 5 has taken a fork RIGHT
+23412 5 is eating
+23412 4 is sleeping
+23607 1 is thinking
+23607 2 is sleeping
+23607 3 has taken a fork LEFT
+23607 3 has taken a fork RIGHT
+23607 3 is eating
+23612 5 is sleeping
+23612 4 is thinking
+23612 1 has taken a fork LEFT
+23612 1 has taken a fork RIGHT
+23612 1 is eating
+23807 2 is thinking
+23807 3 is sleeping
+23807 4 has taken a fork RIGHT
+23807 4 has taken a fork LEFT
+23807 4 is eating
+23812 5 is thinking
+23812 1 is sleeping
+23812 2 has taken a fork RIGHT
+23812 2 has taken a fork LEFT
+23812 2 is eating
+24007 3 is thinking
+24007 4 is sleeping
+24007 5 has taken a fork LEFT
+24007 5 has taken a fork RIGHT
+24007 5 is eating
+24012 1 is thinking
+24012 2 is sleeping
+24012 3 has taken a fork LEFT
+24012 3 has taken a fork RIGHT
+24012 3 is eating
+24207 4 is thinking
+24207 5 is sleeping
+24207 1 has taken a fork LEFT
+24207 1 has taken a fork RIGHT
+24207 1 is eating
+24212 2 is thinking
+24212 3 is sleeping
+24212 4 has taken a fork RIGHT
+24212 4 has taken a fork LEFT
+24212 4 is eating
+24407 5 is thinking
+24407 2 has taken a fork RIGHT
+24407 2 has taken a fork LEFT
+24407 2 is eating
+24407 1 is sleeping
+24412 3 is thinking
+24412 5 has taken a fork LEFT
+24412 5 has taken a fork RIGHT
+24412 5 is eating
+24412 4 is sleeping
+24607 2 is sleeping
+24607 1 is thinking
+24607 3 has taken a fork LEFT
+24607 3 has taken a fork RIGHT
+24607 3 is eating
+24612 5 is sleeping
+24612 1 has taken a fork LEFT
+24612 1 has taken a fork RIGHT
+24612 1 is eating
+24612 4 is thinking
+24807 3 is sleeping
+24807 4 has taken a fork RIGHT
+24807 4 has taken a fork LEFT
+24807 4 is eating
+24807 2 is thinking
+24812 5 is thinking
+24812 1 is sleeping
+24812 2 has taken a fork RIGHT
+24812 2 has taken a fork LEFT
+24812 2 is eating
+25007 4 is sleeping
+25007 5 has taken a fork LEFT
+25007 5 has taken a fork RIGHT
+25007 5 is eating
+25007 3 is thinking
+25012 1 is thinking
+25012 2 is sleeping
+25012 3 has taken a fork LEFT
+25012 3 has taken a fork RIGHT
+25012 3 is eating
+25207 5 is sleeping
+25207 4 is thinking
+25207 1 has taken a fork LEFT
+25207 1 has taken a fork RIGHT
+25207 1 is eating
+25212 2 is thinking
+25212 3 is sleeping
+25212 4 has taken a fork RIGHT
+25212 4 has taken a fork LEFT
+25212 4 is eating
+25407 1 is sleeping
+25407 5 is thinking
+25407 2 has taken a fork RIGHT
+25407 2 has taken a fork LEFT
+25407 2 is eating
+25412 4 is sleeping
+25412 5 has taken a fork LEFT
+25412 5 has taken a fork RIGHT
+25412 5 is eating
+25412 3 is thinking
+25607 1 is thinking
+25607 3 has taken a fork LEFT
+25607 3 has taken a fork RIGHT
+25607 3 is eating
+25607 2 is sleeping
+25612 4 is thinking
+25612 1 has taken a fork LEFT
+25612 1 has taken a fork RIGHT
+25612 1 is eating
+25612 5 is sleeping
+25807 2 is thinking
+25807 3 is sleeping
+25807 4 has taken a fork RIGHT
+25807 4 has taken a fork LEFT
+25807 4 is eating
+25812 1 is sleeping
+25812 5 is thinking
+25812 2 has taken a fork RIGHT
+25812 2 has taken a fork LEFT
+25812 2 is eating
+26007 4 is sleeping
+26007 5 has taken a fork LEFT
+26007 5 has taken a fork RIGHT
+26007 5 is eating
+26007 3 is thinking
+26012 1 is thinking
+26012 2 is sleeping
+26012 3 has taken a fork LEFT
+26012 3 has taken a fork RIGHT
+26012 3 is eating
+26207 4 is thinking
+26207 1 has taken a fork LEFT
+26207 1 has taken a fork RIGHT
+26207 1 is eating
+26207 5 is sleeping
+26212 2 is thinking
+26212 3 is sleeping
+26212 4 has taken a fork RIGHT
+26212 4 has taken a fork LEFT
+26212 4 is eating
+26407 1 is sleeping
+26407 2 has taken a fork RIGHT
+26407 2 has taken a fork LEFT
+26407 2 is eating
+26407 5 is thinking
+26412 3 is thinking
+26412 5 has taken a fork LEFT
+26412 5 has taken a fork RIGHT
+26412 5 is eating
+26412 4 is sleeping
+26607 1 is thinking
+26607 2 is sleeping
+26607 3 has taken a fork LEFT
+26607 3 has taken a fork RIGHT
+26607 3 is eating
+26612 1 has taken a fork LEFT
+26612 1 has taken a fork RIGHT
+26612 1 is eating
+26612 5 is sleeping
+26612 4 is thinking
+26807 2 is thinking
+26807 3 is sleeping
+26807 4 has taken a fork RIGHT
+26807 4 has taken a fork LEFT
+26807 4 is eating
+26812 5 is thinking
+26812 1 is sleeping
+26812 2 has taken a fork RIGHT
+26812 2 has taken a fork LEFT
+26812 2 is eating
+27007 3 is thinking
+27007 5 has taken a fork LEFT
+27007 5 has taken a fork RIGHT
+27007 5 is eating
+27007 4 is sleeping
+27012 3 has taken a fork LEFT
+27012 3 has taken a fork RIGHT
+27012 3 is eating
+27012 2 is sleeping
+27012 1 is thinking
+27207 4 is thinking
+27207 1 has taken a fork LEFT
+27207 1 has taken a fork RIGHT
+27207 1 is eating
+27207 5 is sleeping
+27212 2 is thinking
+27212 4 has taken a fork RIGHT
+27212 4 has taken a fork LEFT
+27212 4 is eating
+27212 3 is sleeping
+27407 1 is sleeping
+27407 2 has taken a fork RIGHT
+27407 2 has taken a fork LEFT
+27407 2 is eating
+27407 5 is thinking
+27412 3 is thinking
+27412 4 is sleeping
+27412 5 has taken a fork LEFT
+27412 5 has taken a fork RIGHT
+27412 5 is eating
+27607 3 has taken a fork LEFT
+27607 3 has taken a fork RIGHT
+27607 3 is eating
+27607 2 is sleeping
+27607 1 is thinking
+27612 5 is sleeping
+27612 1 has taken a fork LEFT
+27612 1 has taken a fork RIGHT
+27612 1 is eating
+27612 4 is thinking
+27807 2 is thinking
+27807 3 is sleeping
+27807 4 has taken a fork RIGHT
+27807 4 has taken a fork LEFT
+27807 4 is eating
+27812 5 is thinking
+27812 2 has taken a fork RIGHT
+27812 2 has taken a fork LEFT
+27812 2 is eating
+27812 1 is sleeping
+28007 3 is thinking
+28007 5 has taken a fork LEFT
+28007 5 has taken a fork RIGHT
+28007 5 is eating
+28007 4 is sleeping
+28012 1 is thinking
+28012 2 is sleeping
+28012 3 has taken a fork LEFT
+28012 3 has taken a fork RIGHT
+28012 3 is eating
+28207 4 is thinking
+28207 5 is sleeping
+28207 1 has taken a fork LEFT
+28207 1 has taken a fork RIGHT
+28207 1 is eating
+28212 3 is sleeping
+28212 4 has taken a fork RIGHT
+28212 4 has taken a fork LEFT
+28212 4 is eating
+28212 2 is thinking
+28407 1 is sleeping
+28407 2 has taken a fork RIGHT
+28407 2 has taken a fork LEFT
+28407 2 is eating
+28407 5 is thinking
+28412 3 is thinking
+28412 4 is sleeping
+28412 5 has taken a fork LEFT
+28412 5 has taken a fork RIGHT
+28412 5 is eating
+28607 2 is sleeping
+28607 3 has taken a fork LEFT
+28607 3 has taken a fork RIGHT
+28607 3 is eating
+28607 1 is thinking
+28612 5 is sleeping
+28612 1 has taken a fork LEFT
+28612 1 has taken a fork RIGHT
+28612 1 is eating
+28612 4 is thinking
+28807 2 is thinking
+28807 3 is sleeping
+28807 4 has taken a fork RIGHT
+28807 4 has taken a fork LEFT
+28807 4 is eating
+28812 1 is sleeping
+28812 5 is thinking
+28812 2 has taken a fork RIGHT
+28812 2 has taken a fork LEFT
+28812 2 is eating
+29007 4 is sleeping
+29007 3 is thinking
+29007 5 has taken a fork LEFT
+29007 5 has taken a fork RIGHT
+29007 5 is eating
+29012 3 has taken a fork LEFT
+29012 3 has taken a fork RIGHT
+29012 3 is eating
+29012 2 is sleeping
+29012 1 is thinking
+29207 4 is thinking
+29207 1 has taken a fork LEFT
+29207 1 has taken a fork RIGHT
+29207 1 is eating
+29207 5 is sleeping
+29212 3 is sleeping
+29212 4 has taken a fork RIGHT
+29212 4 has taken a fork LEFT
+29212 4 is eating
+29212 2 is thinking
+29407 1 is sleeping
+29407 5 is thinking
+29407 2 has taken a fork RIGHT
+29407 2 has taken a fork LEFT
+29407 2 is eating
+29412 4 is sleeping
+29412 5 has taken a fork LEFT
+29412 5 has taken a fork RIGHT
+29412 5 is eating
+29412 3 is thinking
+29607 1 is thinking
+29607 3 has taken a fork LEFT
+29607 3 has taken a fork RIGHT
+29607 3 is eating
+29607 2 is sleeping
+29612 4 is thinking
+29612 1 has taken a fork LEFT
+29612 1 has taken a fork RIGHT
+29612 1 is eating
+29612 5 is sleeping
+29807 2 is thinking
+29807 4 has taken a fork RIGHT
+29807 4 has taken a fork LEFT
+29807 4 is eating
+29807 3 is sleeping
+29812 5 is thinking
+29812 1 is sleeping
+29812 2 has taken a fork RIGHT
+29812 2 has taken a fork LEFT
+29812 2 is eating
+30007 5 has taken a fork LEFT
+30007 5 has taken a fork RIGHT
+30007 5 is eating
+30007 4 is sleeping
+30007 3 is thinking
+30012 2 is sleeping
+30012 1 is thinking
+30012 3 has taken a fork LEFT
+30012 3 has taken a fork RIGHT
+30012 3 is eating
+30207 5 is sleeping
+30207 1 has taken a fork LEFT
+30207 1 has taken a fork RIGHT
+30207 1 is eating
+30207 4 is thinking
+30212 4 has taken a fork RIGHT
+30212 4 has taken a fork LEFT
+30212 4 is eating
+30212 3 is sleeping
+30212 2 is thinking
+30407 5 is thinking
+30407 2 has taken a fork RIGHT
+30407 2 has taken a fork LEFT
+30407 2 is eating
+30407 1 is sleeping
+30412 3 is thinking
+30412 4 is sleeping
+30412 5 has taken a fork LEFT
+30412 5 has taken a fork RIGHT
+30412 5 is eating
+30607 1 is thinking
+30607 2 is sleeping
+30607 3 has taken a fork LEFT
+30607 3 has taken a fork RIGHT
+30607 3 is eating
+30612 4 is thinking
+30612 5 is sleeping
+30612 1 has taken a fork LEFT
+30612 1 has taken a fork RIGHT
+30612 1 is eating
+30807 3 is sleeping
+30807 4 has taken a fork RIGHT
+30807 4 has taken a fork LEFT
+30807 4 is eating
+30807 2 is thinking
+30812 5 is thinking
+30812 1 is sleeping
+30812 2 has taken a fork RIGHT
+30812 2 has taken a fork LEFT
+30812 2 is eating
+31007 3 is thinking
+31007 5 has taken a fork LEFT
+31007 5 has taken a fork RIGHT
+31007 5 is eating
+31007 4 is sleeping
+31012 1 is thinking
+31012 2 is sleeping
+31012 3 has taken a fork LEFT
+31012 3 has taken a fork RIGHT
+31012 3 is eating
+31207 1 has taken a fork LEFT
+31207 1 has taken a fork RIGHT
+31207 1 is eating
+31207 5 is sleeping
+31207 4 is thinking
+31212 3 is sleeping
+31212 4 has taken a fork RIGHT
+31212 4 has taken a fork LEFT
+31212 4 is eating
+31212 2 is thinking
+31407 5 is thinking
+31407 1 is sleeping
+31407 2 has taken a fork RIGHT
+31407 2 has taken a fork LEFT
+31407 2 is eating
+31412 3 is thinking
+31412 4 is sleeping
+31412 5 has taken a fork LEFT
+31412 5 has taken a fork RIGHT
+31412 5 is eating
+31607 2 is sleeping
+31607 3 has taken a fork LEFT
+31607 3 has taken a fork RIGHT
+31607 3 is eating
+31607 1 is thinking
+31612 4 is thinking
+31612 1 has taken a fork LEFT
+31612 1 has taken a fork RIGHT
+31612 1 is eating
+31612 5 is sleeping
+31807 2 is thinking
+31807 4 has taken a fork RIGHT
+31807 4 has taken a fork LEFT
+31807 4 is eating
+31807 3 is sleeping
+31812 5 is thinking
+31812 1 is sleeping
+31812 2 has taken a fork RIGHT
+31812 2 has taken a fork LEFT
+31812 2 is eating
+32007 4 is sleeping
+32007 5 has taken a fork LEFT
+32007 5 has taken a fork RIGHT
+32007 5 is eating
+32007 3 is thinking
+32012 3 has taken a fork LEFT
+32012 3 has taken a fork RIGHT
+32012 3 is eating
+32012 1 is thinking
+32012 2 is sleeping
+32207 5 is sleeping
+32207 4 is thinking
+32207 1 has taken a fork LEFT
+32207 1 has taken a fork RIGHT
+32207 1 is eating
+32212 3 is sleeping
+32212 2 is thinking
+32212 4 has taken a fork RIGHT
+32212 4 has taken a fork LEFT
+32212 4 is eating
+32407 1 is sleeping
+32407 2 has taken a fork RIGHT
+32407 2 has taken a fork LEFT
+32407 2 is eating
+32407 5 is thinking
+32412 3 is thinking
+32412 5 has taken a fork LEFT
+32412 5 has taken a fork RIGHT
+32412 5 is eating
+32412 4 is sleeping
+32607 1 is thinking
+32607 3 has taken a fork LEFT
+32607 3 has taken a fork RIGHT
+32607 3 is eating
+32607 2 is sleeping
+32612 5 is sleeping
+32612 4 is thinking
+32612 1 has taken a fork LEFT
+32612 1 has taken a fork RIGHT
+32612 1 is eating
+32807 2 is thinking
+32807 3 is sleeping
+32807 4 has taken a fork RIGHT
+32807 4 has taken a fork LEFT
+32807 4 is eating
+32812 5 is thinking
+32812 1 is sleeping
+32812 2 has taken a fork RIGHT
+32812 2 has taken a fork LEFT
+32812 2 is eating
+33007 4 is sleeping
+33007 3 is thinking
+33007 5 has taken a fork LEFT
+33007 5 has taken a fork RIGHT
+33007 5 is eating
+33012 2 is sleeping
+33012 3 has taken a fork LEFT
+33012 3 has taken a fork RIGHT
+33012 3 is eating
+33012 1 is thinking
+33207 5 is sleeping
+33207 1 has taken a fork LEFT
+33207 1 has taken a fork RIGHT
+33207 1 is eating
+33207 4 is thinking
+33212 3 is sleeping
+33212 4 has taken a fork RIGHT
+33212 4 has taken a fork LEFT
+33212 4 is eating
+33212 2 is thinking
+33407 1 is sleeping
+33407 2 has taken a fork RIGHT
+33407 2 has taken a fork LEFT
+33407 2 is eating
+33407 5 is thinking
+33412 3 is thinking
+33412 5 has taken a fork LEFT
+33412 5 has taken a fork RIGHT
+33412 5 is eating
+33412 4 is sleeping
+33607 1 is thinking
+33607 2 is sleeping
+33607 3 has taken a fork LEFT
+33607 3 has taken a fork RIGHT
+33607 3 is eating
+33612 5 is sleeping
+33612 1 has taken a fork LEFT
+33612 4 is thinking
+33612 1 has taken a fork RIGHT
+33612 1 is eating
+33807 2 is thinking
+33807 4 has taken a fork RIGHT
+33807 4 has taken a fork LEFT
+33807 4 is eating
+33807 3 is sleeping
+33812 1 is sleeping
+33812 5 is thinking
+33812 2 has taken a fork RIGHT
+33812 2 has taken a fork LEFT
+33812 2 is eating
+34007 3 is thinking
+34007 4 is sleeping
+34007 5 has taken a fork LEFT
+34007 5 has taken a fork RIGHT
+34007 5 is eating
+34012 1 is thinking
+34012 2 is sleeping
+34012 3 has taken a fork LEFT
+34012 3 has taken a fork RIGHT
+34012 3 is eating
+34207 4 is thinking
+34207 5 is sleeping
+34207 1 has taken a fork LEFT
+34207 1 has taken a fork RIGHT
+34207 1 is eating
+34212 3 is sleeping
+34212 4 has taken a fork RIGHT
+34212 4 has taken a fork LEFT
+34212 4 is eating
+34212 2 is thinking
+34407 1 is sleeping
+34407 5 is thinking
+34407 2 has taken a fork RIGHT
+34407 2 has taken a fork LEFT
+34407 2 is eating
+34412 3 is thinking
+34412 4 is sleeping
+34412 5 has taken a fork LEFT
+34412 5 has taken a fork RIGHT
+34412 5 is eating
+34607 1 is thinking
+34607 2 is sleeping
+34607 3 has taken a fork LEFT
+34607 3 has taken a fork RIGHT
+34607 3 is eating
+34612 4 is thinking
+34612 1 has taken a fork LEFT
+34612 1 has taken a fork RIGHT
+34612 1 is eating
+34612 5 is sleeping
+34807 4 has taken a fork RIGHT
+34807 4 has taken a fork LEFT
+34807 4 is eating
+34807 3 is sleeping
+34807 2 is thinking
+34812 1 is sleeping
+34812 5 is thinking
+34812 2 has taken a fork RIGHT
+34812 2 has taken a fork LEFT
+34812 2 is eating
+35007 5 has taken a fork LEFT
+35007 5 has taken a fork RIGHT
+35007 5 is eating
+35007 4 is sleeping
+35007 3 is thinking
+35012 1 is thinking
+35012 3 has taken a fork LEFT
+35012 3 has taken a fork RIGHT
+35012 3 is eating
+35012 2 is sleeping
+35207 4 is thinking
+35207 5 is sleeping
+35207 1 has taken a fork LEFT
+35207 1 has taken a fork RIGHT
+35207 1 is eating
+35212 3 is sleeping
+35212 4 has taken a fork RIGHT
+35212 4 has taken a fork LEFT
+35212 4 is eating
+35212 2 is thinking
+35407 1 is sleeping
+35407 2 has taken a fork RIGHT
+35407 2 has taken a fork LEFT
+35407 2 is eating
+35407 5 is thinking
+35412 4 is sleeping
+35412 5 has taken a fork LEFT
+35412 5 has taken a fork RIGHT
+35412 5 is eating
+35412 3 is thinking
+35607 1 is thinking
+35607 3 has taken a fork LEFT
+35607 3 has taken a fork RIGHT
+35607 3 is eating
+35607 2 is sleeping
+35612 4 is thinking
+35612 5 is sleeping
+35612 1 has taken a fork LEFT
+35612 1 has taken a fork RIGHT
+35612 1 is eating
+35807 2 is thinking
+35807 3 is sleeping
+35807 4 has taken a fork RIGHT
+35807 4 has taken a fork LEFT
+35807 4 is eating
+35812 5 is thinking
+35812 2 has taken a fork RIGHT
+35812 2 has taken a fork LEFT
+35812 2 is eating
+35812 1 is sleeping
+36007 3 is thinking
+36007 4 is sleeping
+36007 5 has taken a fork LEFT
+36007 5 has taken a fork RIGHT
+36007 5 is eating
+36012 1 is thinking
+36012 2 is sleeping
+36012 3 has taken a fork LEFT
+36012 3 has taken a fork RIGHT
+36012 3 is eating
+36207 4 is thinking
+36207 5 is sleeping
+36207 1 has taken a fork LEFT
+36207 1 has taken a fork RIGHT
+36207 1 is eating
+36212 3 is sleeping
+36212 2 is thinking
+36212 4 has taken a fork RIGHT
+36212 4 has taken a fork LEFT
+36212 4 is eating
+36407 1 is sleeping
+36407 5 is thinking
+36407 2 has taken a fork RIGHT
+36407 2 has taken a fork LEFT
+36407 2 is eating
+36412 4 is sleeping
+36412 5 has taken a fork LEFT
+36412 5 has taken a fork RIGHT
+36412 5 is eating
+36412 3 is thinking
+36607 1 is thinking
+36607 3 has taken a fork LEFT
+36607 3 has taken a fork RIGHT
+36607 3 is eating
+36607 2 is sleeping
+36612 4 is thinking
+36612 5 is sleeping
+36612 1 has taken a fork LEFT
+36612 1 has taken a fork RIGHT
+36612 1 is eating
+36807 3 is sleeping
+36807 4 has taken a fork RIGHT
+36807 4 has taken a fork LEFT
+36807 4 is eating
+36807 2 is thinking
+36812 1 is sleeping
+36812 5 is thinking
+36812 2 has taken a fork RIGHT
+36812 2 has taken a fork LEFT
+36812 2 is eating
+37007 3 is thinking
+37007 4 is sleeping
+37007 5 has taken a fork LEFT
+37007 5 has taken a fork RIGHT
+37007 5 is eating
+37012 1 is thinking
+37012 3 has taken a fork LEFT
+37012 3 has taken a fork RIGHT
+37012 3 is eating
+37012 2 is sleeping
+37207 4 is thinking
+37207 5 is sleeping
+37207 1 has taken a fork LEFT
+37207 1 has taken a fork RIGHT
+37207 1 is eating
+37212 2 is thinking
+37212 3 is sleeping
+37212 4 has taken a fork RIGHT
+37212 4 has taken a fork LEFT
+37212 4 is eating
+37407 1 is sleeping
+37407 2 has taken a fork RIGHT
+37407 2 has taken a fork LEFT
+37407 2 is eating
+37407 5 is thinking
+37412 4 is sleeping
+37412 5 has taken a fork LEFT
+37412 5 has taken a fork RIGHT
+37412 5 is eating
+37412 3 is thinking
+37607 1 is thinking
+37607 2 is sleeping
+37607 3 has taken a fork LEFT
+37607 3 has taken a fork RIGHT
+37607 3 is eating
+37612 1 has taken a fork LEFT
+37612 1 has taken a fork RIGHT
+37612 1 is eating
+37612 5 is sleeping
+37612 4 is thinking
+37807 3 is sleeping
+37807 4 has taken a fork RIGHT
+37807 4 has taken a fork LEFT
+37807 4 is eating
+37807 2 is thinking
+37812 5 is thinking
+37812 2 has taken a fork RIGHT
+37812 2 has taken a fork LEFT
+37812 2 is eating
+37812 1 is sleeping
+38007 4 is sleeping
+38007 5 has taken a fork LEFT
+38007 5 has taken a fork RIGHT
+38007 5 is eating
+38007 3 is thinking
+38012 1 is thinking
+38012 2 is sleeping
+38012 3 has taken a fork LEFT
+38012 3 has taken a fork RIGHT
+38012 3 is eating
+38207 5 is sleeping
+38207 4 is thinking
+38207 1 has taken a fork LEFT
+38207 1 has taken a fork RIGHT
+38207 1 is eating
+38212 2 is thinking
+38212 3 is sleeping
+38212 4 has taken a fork RIGHT
+38212 4 has taken a fork LEFT
+38212 4 is eating
+38407 5 is thinking
+38407 1 is sleeping
+38407 2 has taken a fork RIGHT
+38407 2 has taken a fork LEFT
+38407 2 is eating
+38412 3 is thinking
+38412 4 is sleeping
+38412 5 has taken a fork LEFT
+38412 5 has taken a fork RIGHT
+38412 5 is eating
+38607 2 is sleeping
+38607 3 has taken a fork LEFT
+38607 3 has taken a fork RIGHT
+38607 3 is eating
+38607 1 is thinking
+38612 5 is sleeping
+38612 4 is thinking
+38612 1 has taken a fork LEFT
+38612 1 has taken a fork RIGHT
+38612 1 is eating
+38807 2 is thinking
+38807 3 is sleeping
+38807 4 has taken a fork RIGHT
+38807 4 has taken a fork LEFT
+38807 4 is eating
+38812 5 is thinking
+38812 2 has taken a fork RIGHT
+38812 2 has taken a fork LEFT
+38812 2 is eating
+38812 1 is sleeping
+39007 5 has taken a fork LEFT
+39007 5 has taken a fork RIGHT
+39007 5 is eating
+39007 4 is sleeping
+39007 3 is thinking
+39012 1 is thinking
+39012 2 is sleeping
+39012 3 has taken a fork LEFT
+39012 3 has taken a fork RIGHT
+39012 3 is eating
+39207 4 is thinking
+39207 5 is sleeping
+39207 1 has taken a fork LEFT
+39207 1 has taken a fork RIGHT
+39207 1 is eating
+39212 3 is sleeping
+39212 4 has taken a fork RIGHT
+39212 4 has taken a fork LEFT
+39212 4 is eating
+39212 2 is thinking
+39407 5 is thinking
+39407 1 is sleeping
+39407 2 has taken a fork RIGHT
+39407 2 has taken a fork LEFT
+39407 2 is eating
+39412 3 is thinking
+39412 5 has taken a fork LEFT
+39412 5 has taken a fork RIGHT
+39412 5 is eating
+39412 4 is sleeping
+39607 3 has taken a fork LEFT
+39607 3 has taken a fork RIGHT
+39607 3 is eating
+39607 2 is sleeping
+39607 1 is thinking
+39612 1 has taken a fork LEFT
+39612 1 has taken a fork RIGHT
+39612 1 is eating
+39612 5 is sleeping
+39612 4 is thinking
+39807 2 is thinking
+39807 3 is sleeping
+39807 4 has taken a fork RIGHT
+39807 4 has taken a fork LEFT
+39807 4 is eating
+39812 5 is thinking
+39812 1 is sleeping
+39812 2 has taken a fork RIGHT
+39812 2 has taken a fork LEFT
+39812 2 is eating
+40007 3 is thinking
+40007 5 has taken a fork LEFT
+40007 5 has taken a fork RIGHT
+40007 5 is eating
+40007 4 is sleeping
+40012 2 is sleeping
+40012 3 has taken a fork LEFT
+40012 3 has taken a fork RIGHT
+40012 1 is thinking
+40012 3 is eating
+40207 5 is sleeping
+40207 1 has taken a fork LEFT
+40207 1 has taken a fork RIGHT
+40207 1 is eating
+40207 4 is thinking
+40212 2 is thinking
+40212 3 is sleeping
+40212 4 has taken a fork RIGHT
+40212 4 has taken a fork LEFT
+40212 4 is eating
+40407 5 is thinking
+40407 1 is sleeping
+40407 2 has taken a fork RIGHT
+40407 2 has taken a fork LEFT
+40407 2 is eating
+40412 5 has taken a fork LEFT
+40412 5 has taken a fork RIGHT
+40412 5 is eating
+40412 4 is sleeping
+40412 3 is thinking
+40607 1 is thinking
+40607 3 has taken a fork LEFT
+40607 3 has taken a fork RIGHT
+40607 3 is eating
+40607 2 is sleeping
+40612 4 is thinking
+40612 5 is sleeping
+40612 1 has taken a fork LEFT
+40612 1 has taken a fork RIGHT
+40612 1 is eating
+40807 2 is thinking
+40807 3 is sleeping
+40807 4 has taken a fork RIGHT
+40807 4 has taken a fork LEFT
+40807 4 is eating
+40812 1 is sleeping
+40812 5 is thinking
+40812 2 has taken a fork RIGHT
+40812 2 has taken a fork LEFT
+40812 2 is eating
+41007 3 is thinking
+41007 4 is sleeping
+41007 5 has taken a fork LEFT
+41007 5 has taken a fork RIGHT
+41007 5 is eating
+41012 1 is thinking
+41012 3 has taken a fork LEFT
+41012 3 has taken a fork RIGHT
+41012 3 is eating
+41012 2 is sleeping
+41207 5 is sleeping
+41207 4 is thinking
+41207 1 has taken a fork LEFT
+41207 1 has taken a fork RIGHT
+41207 1 is eating
+41212 2 is thinking
+41212 3 is sleeping
+41212 4 has taken a fork RIGHT
+41212 4 has taken a fork LEFT
+41212 4 is eating
+41407 1 is sleeping
+41407 2 has taken a fork RIGHT
+41407 2 has taken a fork LEFT
+41407 2 is eating
+41407 5 is thinking
+41412 3 is thinking
+41412 4 is sleeping
+41412 5 has taken a fork LEFT
+41412 5 has taken a fork RIGHT
+41412 5 is eating
+41607 1 is thinking
+41607 2 is sleeping
+41607 3 has taken a fork LEFT
+41607 3 has taken a fork RIGHT
+41607 3 is eating
+41612 5 is sleeping
+41612 1 has taken a fork LEFT
+41612 1 has taken a fork RIGHT
+41612 1 is eating
+41612 4 is thinking
+41807 2 is thinking
+41807 3 is sleeping
+41807 4 has taken a fork RIGHT
+41807 4 has taken a fork LEFT
+41807 4 is eating
+41812 5 is thinking
+41812 1 is sleeping
+41812 2 has taken a fork RIGHT
+41812 2 has taken a fork LEFT
+41812 2 is eating
+42007 5 has taken a fork LEFT
+42007 5 has taken a fork RIGHT
+42007 5 is eating
+42007 4 is sleeping
+42007 3 is thinking
+42012 1 is thinking
+42012 3 has taken a fork LEFT
+42012 3 has taken a fork RIGHT
+42012 3 is eating
+42012 2 is sleeping
+42207 1 has taken a fork LEFT
+42207 1 has taken a fork RIGHT
+42207 1 is eating
+42207 5 is sleeping
+42207 4 is thinking
+42212 2 is thinking
+42212 4 has taken a fork RIGHT
+42212 4 has taken a fork LEFT
+42212 4 is eating
+42212 3 is sleeping
+42407 5 is thinking
+42407 1 is sleeping
+42407 2 has taken a fork RIGHT
+42407 2 has taken a fork LEFT
+42407 2 is eating
+42412 3 is thinking
+42412 4 is sleeping
+42412 5 has taken a fork LEFT
+42412 5 has taken a fork RIGHT
+42412 5 is eating
+42607 1 is thinking
+42607 2 is sleeping
+42607 3 has taken a fork LEFT
+42607 3 has taken a fork RIGHT
+42607 3 is eating
+42612 5 is sleeping
+42612 1 has taken a fork LEFT
+42612 1 has taken a fork RIGHT
+42612 1 is eating
+42612 4 is thinking
+42807 3 is sleeping
+42807 4 has taken a fork RIGHT
+42807 4 has taken a fork LEFT
+42807 4 is eating
+42807 2 is thinking
+42812 5 is thinking
+42812 1 is sleeping
+42812 2 has taken a fork RIGHT
+42812 2 has taken a fork LEFT
+42812 2 is eating
+43007 3 is thinking
+43007 4 is sleeping
+43007 5 has taken a fork LEFT
+43007 5 has taken a fork RIGHT
+43007 5 is eating
+43012 3 has taken a fork LEFT
+43012 1 is thinking
+43012 3 has taken a fork RIGHT
+43012 3 is eating
+43012 2 is sleeping
+43207 4 is thinking
+43207 5 is sleeping
+43207 1 has taken a fork LEFT
+43207 1 has taken a fork RIGHT
+43207 1 is eating
+43212 3 is sleeping
+43212 4 has taken a fork RIGHT
+43212 4 has taken a fork LEFT
+43212 4 is eating
+43212 2 is thinking
+43407 5 is thinking
+43407 2 has taken a fork RIGHT
+43407 2 has taken a fork LEFT
+43407 2 is eating
+43407 1 is sleeping
+43412 3 is thinking
+43412 4 is sleeping
+43412 5 has taken a fork LEFT
+43412 5 has taken a fork RIGHT
+43412 5 is eating
+43607 1 is thinking
+43607 3 has taken a fork LEFT
+43607 3 has taken a fork RIGHT
+43607 3 is eating
+43607 2 is sleeping
+43612 4 is thinking
+43612 5 is sleeping
+43612 1 has taken a fork LEFT
+43612 1 has taken a fork RIGHT
+43612 1 is eating
+43807 2 is thinking
+43807 3 is sleeping
+43807 4 has taken a fork RIGHT
+43807 4 has taken a fork LEFT
+43807 4 is eating
+43812 5 is thinking
+43812 1 is sleeping
+43812 2 has taken a fork RIGHT
+43812 2 has taken a fork LEFT
+43812 2 is eating
+44007 4 is sleeping
+44007 3 is thinking
+44007 5 has taken a fork LEFT
+44007 5 has taken a fork RIGHT
+44007 5 is eating
+44012 1 is thinking
+44012 2 is sleeping
+44012 3 has taken a fork LEFT
+44012 3 has taken a fork RIGHT
+44012 3 is eating
+44207 4 is thinking
+44207 5 is sleeping
+44207 1 has taken a fork LEFT
+44207 1 has taken a fork RIGHT
+44207 1 is eating
+44212 3 is sleeping
+44212 4 has taken a fork RIGHT
+44212 4 has taken a fork LEFT
+44212 4 is eating
+44212 2 is thinking
+44407 5 is thinking
+44407 1 is sleeping
+44407 2 has taken a fork RIGHT
+44407 2 has taken a fork LEFT
+44407 2 is eating
+44412 4 is sleeping
+44412 5 has taken a fork LEFT
+44412 5 has taken a fork RIGHT
+44412 5 is eating
+44412 3 is thinking
+44607 2 is sleeping
+44607 3 has taken a fork LEFT
+44607 3 has taken a fork RIGHT
+44607 3 is eating
+44607 1 is thinking
+44612 4 is thinking
+44612 5 is sleeping
+44612 1 has taken a fork LEFT
+44612 1 has taken a fork RIGHT
+44612 1 is eating
+44807 3 is sleeping
+44807 4 has taken a fork RIGHT
+44807 4 has taken a fork LEFT
+44807 4 is eating
+44807 2 is thinking
+44812 5 is thinking
+44812 1 is sleeping
+44812 2 has taken a fork RIGHT
+44812 2 has taken a fork LEFT
+44812 2 is eating
+45007 3 is thinking
+45007 4 is sleeping
+45007 5 has taken a fork LEFT
+45007 5 has taken a fork RIGHT
+45007 5 is eating
+45012 3 has taken a fork LEFT
+45012 3 has taken a fork RIGHT
+45012 3 is eating
+45012 2 is sleeping
+45012 1 is thinking
+45207 5 is sleeping
+45207 4 is thinking
+45207 1 has taken a fork LEFT
+45207 1 has taken a fork RIGHT
+45207 1 is eating
+45212 2 is thinking
+45212 3 is sleeping
+45212 4 has taken a fork RIGHT
+45212 4 has taken a fork LEFT
+45212 4 is eating
+45407 5 is thinking
+45407 2 has taken a fork RIGHT
+45407 2 has taken a fork LEFT
+45407 2 is eating
+45407 1 is sleeping
+45412 5 has taken a fork LEFT
+45412 3 is thinking
+45412 5 has taken a fork RIGHT
+45412 5 is eating
+45412 4 is sleeping
+45607 2 is sleeping
+45607 1 is thinking
+45607 3 has taken a fork LEFT
+45607 3 has taken a fork RIGHT
+45607 3 is eating
+45612 4 is thinking
+45612 5 is sleeping
+45612 1 has taken a fork LEFT
+45612 1 has taken a fork RIGHT
+45612 1 is eating
+45807 4 has taken a fork RIGHT
+45807 4 has taken a fork LEFT
+45807 4 is eating
+45807 2 is thinking
+45807 3 is sleeping
+45812 5 is thinking
+45812 1 is sleeping
+45812 2 has taken a fork RIGHT
+45812 2 has taken a fork LEFT
+45812 2 is eating
+46007 3 is thinking
+46007 4 is sleeping
+46007 5 has taken a fork LEFT
+46007 5 has taken a fork RIGHT
+46007 5 is eating
+46012 1 is thinking
+46012 3 has taken a fork LEFT
+46012 3 has taken a fork RIGHT
+46012 3 is eating
+46012 2 is sleeping
+46207 4 is thinking
+46207 5 is sleeping
+46207 1 has taken a fork LEFT
+46207 1 has taken a fork RIGHT
+46207 1 is eating
+46212 3 is sleeping
+46212 2 is thinking
+46212 4 has taken a fork RIGHT
+46212 4 has taken a fork LEFT
+46212 4 is eating
+46407 2 has taken a fork RIGHT
+46407 2 has taken a fork LEFT
+46407 2 is eating
+46407 1 is sleeping
+46407 5 is thinking
+46412 3 is thinking
+46412 4 is sleeping
+46412 5 has taken a fork LEFT
+46412 5 has taken a fork RIGHT
+46412 5 is eating
+46607 1 is thinking
+46607 2 is sleeping
+46607 3 has taken a fork LEFT
+46607 3 has taken a fork RIGHT
+46607 3 is eating
+46612 4 is thinking
+46612 5 is sleeping
+46612 1 has taken a fork LEFT
+46612 1 has taken a fork RIGHT
+46612 1 is eating
+46807 2 is thinking
+46807 3 is sleeping
+46807 4 has taken a fork RIGHT
+46807 4 has taken a fork LEFT
+46807 4 is eating
+46812 5 is thinking
+46812 1 is sleeping
+46812 2 has taken a fork RIGHT
+46812 2 has taken a fork LEFT
+46812 2 is eating
+47007 3 is thinking
+47007 4 is sleeping
+47007 5 has taken a fork LEFT
+47007 5 has taken a fork RIGHT
+47007 5 is eating
+47012 2 is sleeping
+47012 3 has taken a fork LEFT
+47012 3 has taken a fork RIGHT
+47012 3 is eating
+47012 1 is thinking
+47207 5 is sleeping
+47207 1 has taken a fork LEFT
+47207 1 has taken a fork RIGHT
+47207 1 is eating
+47207 4 is thinking
+47212 2 is thinking
+47212 3 is sleeping
+47212 4 has taken a fork RIGHT
+47212 4 has taken a fork LEFT
+47212 4 is eating
+47407 5 is thinking
+47407 1 is sleeping
+47407 2 has taken a fork RIGHT
+47407 2 has taken a fork LEFT
+47407 2 is eating
+47412 3 is thinking
+47412 4 is sleeping
+47412 5 has taken a fork LEFT
+47412 5 has taken a fork RIGHT
+47412 5 is eating
+47607 1 is thinking
+47607 3 has taken a fork LEFT
+47607 3 has taken a fork RIGHT
+47607 3 is eating
+47607 2 is sleeping
+47612 5 is sleeping
+47612 1 has taken a fork LEFT
+47612 1 has taken a fork RIGHT
+47612 1 is eating
+47612 4 is thinking
+47807 3 is sleeping
+47807 4 has taken a fork RIGHT
+47807 4 has taken a fork LEFT
+47807 4 is eating
+47807 2 is thinking
+47812 5 is thinking
+47812 1 is sleeping
+47812 2 has taken a fork RIGHT
+47812 2 has taken a fork LEFT
+47812 2 is eating
+48007 4 is sleeping
+48007 3 is thinking
+48007 5 has taken a fork LEFT
+48007 5 has taken a fork RIGHT
+48007 5 is eating
+48012 3 has taken a fork LEFT
+48012 3 has taken a fork RIGHT
+48012 3 is eating
+48012 2 is sleeping
+48012 1 is thinking
+48207 1 has taken a fork LEFT
+48207 1 has taken a fork RIGHT
+48207 1 is eating
+48207 5 is sleeping
+48207 4 is thinking
+48212 4 has taken a fork RIGHT
+48212 4 has taken a fork LEFT
+48212 4 is eating
+48212 3 is sleeping
+48212 2 is thinking
+48407 5 is thinking
+48407 1 is sleeping
+48407 2 has taken a fork RIGHT
+48407 2 has taken a fork LEFT
+48407 2 is eating
+48412 4 is sleeping
+48412 5 has taken a fork LEFT
+48412 5 has taken a fork RIGHT
+48412 5 is eating
+48412 3 is thinking
+48607 3 has taken a fork LEFT
+48607 3 has taken a fork RIGHT
+48607 3 is eating
+48607 2 is sleeping
+48607 1 is thinking
+48612 4 is thinking
+48612 1 has taken a fork LEFT
+48612 1 has taken a fork RIGHT
+48612 1 is eating
+48612 5 is sleeping
+48807 2 is thinking
+48807 3 is sleeping
+48807 4 has taken a fork RIGHT
+48807 4 has taken a fork LEFT
+48807 4 is eating
+48812 1 is sleeping
+48812 2 has taken a fork RIGHT
+48812 2 has taken a fork LEFT
+48812 2 is eating
+48812 5 is thinking
+49007 5 has taken a fork LEFT
+49007 5 has taken a fork RIGHT
+49007 5 is eating
+49007 4 is sleeping
+49007 3 is thinking
+49012 2 is sleeping
+49012 3 has taken a fork LEFT
+49012 3 has taken a fork RIGHT
+49012 3 is eating
+49012 1 is thinking
+49207 4 is thinking
+49207 5 is sleeping
+49207 1 has taken a fork LEFT
+49207 1 has taken a fork RIGHT
+49207 1 is eating
+49212 2 is thinking
+49212 3 is sleeping
+49212 4 has taken a fork RIGHT
+49212 4 has taken a fork LEFT
+49212 4 is eating
+49407 5 is thinking
+49407 2 has taken a fork RIGHT
+49407 2 has taken a fork LEFT
+49407 2 is eating
+49407 1 is sleeping
+49412 3 is thinking
+49412 5 has taken a fork LEFT
+49412 5 has taken a fork RIGHT
+49412 5 is eating
+49412 4 is sleeping
+49607 1 is thinking
+49607 3 has taken a fork LEFT
+49607 3 has taken a fork RIGHT
+49607 3 is eating
+49607 2 is sleeping
+49612 5 is sleeping
+49612 4 is thinking
+49612 1 has taken a fork LEFT
+49612 1 has taken a fork RIGHT
+49612 1 is eating
+49807 2 is thinking
+49807 3 is sleeping
+49807 4 has taken a fork RIGHT
+49807 4 has taken a fork LEFT
+49807 4 is eating
+49812 2 has taken a fork RIGHT
+49812 2 has taken a fork LEFT
+49812 2 is eating
+49812 1 is sleeping
+49812 5 is thinking
+50007 5 has taken a fork LEFT
+50007 5 has taken a fork RIGHT
+50007 5 is eating
+50007 3 is thinking
+50007 4 is sleeping
+50012 1 is thinking
+50012 3 has taken a fork LEFT
+50012 3 has taken a fork RIGHT
+50012 3 is eating
+50012 2 is sleeping
+50207 4 is thinking
+50207 5 is sleeping
+50207 1 has taken a fork LEFT
+50207 1 has taken a fork RIGHT
+50207 1 is eating
+50212 3 is sleeping
+50212 2 is thinking
+50212 4 has taken a fork RIGHT
+50212 4 has taken a fork LEFT
+50212 4 is eating
+50407 5 is thinking
+50407 2 has taken a fork RIGHT
+50407 2 has taken a fork LEFT
+50407 2 is eating
+50407 1 is sleeping
+50412 4 is sleeping
+50412 5 has taken a fork LEFT
+50412 5 has taken a fork RIGHT
+50412 5 is eating
+50412 3 is thinking
+50607 2 is sleeping
+50607 1 is thinking
+50607 3 has taken a fork LEFT
+50607 3 has taken a fork RIGHT
+50607 3 is eating
+50612 4 is thinking
+50612 5 is sleeping
+50612 1 has taken a fork LEFT
+50612 1 has taken a fork RIGHT
+50612 1 is eating
+50807 2 is thinking
+50807 3 is sleeping
+50807 4 has taken a fork RIGHT
+50807 4 has taken a fork LEFT
+50807 4 is eating
+50812 1 is sleeping
+50812 2 has taken a fork RIGHT
+50812 2 has taken a fork LEFT
+50812 2 is eating
+50812 5 is thinking
+51007 3 is thinking
+51007 4 is sleeping
+51007 5 has taken a fork LEFT
+51007 5 has taken a fork RIGHT
+51007 5 is eating
+51012 1 is thinking
+51012 3 has taken a fork LEFT
+51012 3 has taken a fork RIGHT
+51012 3 is eating
+51012 2 is sleeping
+51207 5 is sleeping
+51207 4 is thinking
+51207 1 has taken a fork LEFT
+51207 1 has taken a fork RIGHT
+51207 1 is eating
+51212 3 is sleeping
+51212 2 is thinking
+51212 4 has taken a fork RIGHT
+51212 4 has taken a fork LEFT
+51212 4 is eating
+51407 1 is sleeping
+51407 5 is thinking
+51407 2 has taken a fork RIGHT
+51407 2 has taken a fork LEFT
+51407 2 is eating
+51412 4 is sleeping
+51412 5 has taken a fork LEFT
+51412 5 has taken a fork RIGHT
+51412 5 is eating
+51412 3 is thinking
+51607 2 is sleeping
+51607 3 has taken a fork LEFT
+51607 3 has taken a fork RIGHT
+51607 3 is eating
+51607 1 is thinking
+51612 4 is thinking
+51612 5 is sleeping
+51612 1 has taken a fork LEFT
+51612 1 has taken a fork RIGHT
+51612 1 is eating
+51807 2 is thinking
+51807 3 is sleeping
+51807 4 has taken a fork RIGHT
+51807 4 has taken a fork LEFT
+51807 4 is eating
+51812 5 is thinking
+51812 2 has taken a fork RIGHT
+51812 2 has taken a fork LEFT
+51812 2 is eating
+51812 1 is sleeping
+52007 3 is thinking
+52007 4 is sleeping
+52007 5 has taken a fork LEFT
+52007 5 has taken a fork RIGHT
+52007 5 is eating
+52012 1 is thinking
+52012 2 is sleeping
+52012 3 has taken a fork LEFT
+52012 3 has taken a fork RIGHT
+52012 3 is eating
+52207 4 is thinking
+52207 5 is sleeping
+52207 1 has taken a fork LEFT
+52207 1 has taken a fork RIGHT
+52207 1 is eating
+52212 2 is thinking
+52212 4 has taken a fork RIGHT
+52212 4 has taken a fork LEFT
+52212 4 is eating
+52212 3 is sleeping
+52407 5 is thinking
+52407 2 has taken a fork RIGHT
+52407 2 has taken a fork LEFT
+52407 2 is eating
+52407 1 is sleeping
+52412 3 is thinking
+52412 5 has taken a fork LEFT
+52412 5 has taken a fork RIGHT
+52412 5 is eating
+52412 4 is sleeping
+52607 3 has taken a fork LEFT
+52607 3 has taken a fork RIGHT
+52607 3 is eating
+52607 2 is sleeping
+52607 1 is thinking
+52612 4 is thinking
+52612 1 has taken a fork LEFT
+52612 1 has taken a fork RIGHT
+52612 1 is eating
+52612 5 is sleeping
+52807 4 has taken a fork RIGHT
+52807 2 is thinking
+52807 4 has taken a fork LEFT
+52807 4 is eating
+52807 3 is sleeping
+52812 5 is thinking
+52812 1 is sleeping
+52812 2 has taken a fork RIGHT
+52812 2 has taken a fork LEFT
+52812 2 is eating
+53007 5 has taken a fork LEFT
+53007 3 is thinking
+53007 5 has taken a fork RIGHT
+53007 5 is eating
+53007 4 is sleeping
+53012 1 is thinking
+53012 2 is sleeping
+53012 3 has taken a fork LEFT
+53012 3 has taken a fork RIGHT
+53012 3 is eating
+53207 5 is sleeping
+53207 4 is thinking
+53207 1 has taken a fork LEFT
+53207 1 has taken a fork RIGHT
+53207 1 is eating
+53212 3 is sleeping
+53212 2 is thinking
+53212 4 has taken a fork RIGHT
+53212 4 has taken a fork LEFT
+53212 4 is eating
+53407 1 is sleeping
+53407 2 has taken a fork RIGHT
+53407 2 has taken a fork LEFT
+53407 2 is eating
+53407 5 is thinking
+53412 4 is sleeping
+53412 5 has taken a fork LEFT
+53412 5 has taken a fork RIGHT
+53412 5 is eating
+53412 3 is thinking
+53607 1 is thinking
+53607 3 has taken a fork LEFT
+53607 3 has taken a fork RIGHT
+53607 3 is eating
+53607 2 is sleeping
+53612 5 is sleeping
+53612 4 is thinking
+53612 1 has taken a fork LEFT
+53612 1 has taken a fork RIGHT
+53612 1 is eating
+53807 2 is thinking
+53807 4 has taken a fork RIGHT
+53807 4 has taken a fork LEFT
+53807 4 is eating
+53807 3 is sleeping
+53812 1 is sleeping
+53812 2 has taken a fork RIGHT
+53812 2 has taken a fork LEFT
+53812 2 is eating
+53812 5 is thinking
+54007 5 has taken a fork LEFT
+54007 5 has taken a fork RIGHT
+54007 5 is eating
+54007 4 is sleeping
+54007 3 is thinking
+54012 1 is thinking
+54012 2 is sleeping
+54012 3 has taken a fork LEFT
+54012 3 has taken a fork RIGHT
+54012 3 is eating
+54207 1 has taken a fork LEFT
+54207 1 has taken a fork RIGHT
+54207 1 is eating
+54207 5 is sleeping
+54207 4 is thinking
+54212 3 is sleeping
+54212 4 has taken a fork RIGHT
+54212 4 has taken a fork LEFT
+54212 4 is eating
+54212 2 is thinking
+54407 1 is sleeping
+54407 5 is thinking
+54407 2 has taken a fork RIGHT
+54407 2 has taken a fork LEFT
+54407 2 is eating
+54412 3 is thinking
+54412 4 is sleeping
+54412 5 has taken a fork LEFT
+54412 5 has taken a fork RIGHT
+54412 5 is eating
+54607 1 is thinking
+54607 2 is sleeping
+54607 3 has taken a fork LEFT
+54607 3 has taken a fork RIGHT
+54607 3 is eating
+54612 4 is thinking
+54612 5 is sleeping
+54612 1 has taken a fork LEFT
+54612 1 has taken a fork RIGHT
+54612 1 is eating
+54807 2 is thinking
+54807 3 is sleeping
+54807 4 has taken a fork RIGHT
+54807 4 has taken a fork LEFT
+54807 4 is eating
+54812 5 is thinking
+54812 1 is sleeping
+54812 2 has taken a fork RIGHT
+54812 2 has taken a fork LEFT
+54812 2 is eating
+55007 3 is thinking
+55007 4 is sleeping
+55007 5 has taken a fork LEFT
+55007 5 has taken a fork RIGHT
+55007 5 is eating
+55012 1 is thinking
+55012 2 is sleeping
+55012 3 has taken a fork LEFT
+55012 3 has taken a fork RIGHT
+55012 3 is eating
+55207 5 is sleeping
+55207 4 is thinking
+55207 1 has taken a fork LEFT
+55207 1 has taken a fork RIGHT
+55207 1 is eating
+55212 3 is sleeping
+55212 2 is thinking
+55212 4 has taken a fork RIGHT
+55212 4 has taken a fork LEFT
+55212 4 is eating
+55407 1 is sleeping
+55407 2 has taken a fork RIGHT
+55407 2 has taken a fork LEFT
+55407 2 is eating
+55407 5 is thinking
+55412 4 is sleeping
+55412 5 has taken a fork LEFT
+55412 5 has taken a fork RIGHT
+55412 5 is eating
+55412 3 is thinking
+55607 2 is sleeping
+55607 3 has taken a fork LEFT
+55607 3 has taken a fork RIGHT
+55607 3 is eating
+55607 1 is thinking
+55612 4 is thinking
+55612 5 is sleeping
+55612 1 has taken a fork LEFT
+55612 1 has taken a fork RIGHT
+55612 1 is eating
+55807 2 is thinking
+55807 3 is sleeping
+55807 4 has taken a fork RIGHT
+55807 4 has taken a fork LEFT
+55807 4 is eating
+55812 1 is sleeping
+55812 2 has taken a fork RIGHT
+55812 5 is thinking
+55812 2 has taken a fork LEFT
+55812 2 is eating
+56007 3 is thinking
+56007 4 is sleeping
+56007 5 has taken a fork LEFT
+56007 5 has taken a fork RIGHT
+56007 5 is eating
+56012 2 is sleeping
+56012 3 has taken a fork LEFT
+56012 3 has taken a fork RIGHT
+56012 3 is eating
+56012 1 is thinking
+56207 5 is sleeping
+56207 1 has taken a fork LEFT
+56207 1 has taken a fork RIGHT
+56207 1 is eating
+56207 4 is thinking
+56212 3 is sleeping
+56212 4 has taken a fork RIGHT
+56212 4 has taken a fork LEFT
+56212 4 is eating
+56212 2 is thinking
+56407 5 is thinking
+56407 1 is sleeping
+56407 2 has taken a fork RIGHT
+56407 2 has taken a fork LEFT
+56407 2 is eating
+56412 5 has taken a fork LEFT
+56412 5 has taken a fork RIGHT
+56412 5 is eating
+56412 3 is thinking
+56412 4 is sleeping
+56607 1 is thinking
+56607 2 is sleeping
+56607 3 has taken a fork LEFT
+56607 3 has taken a fork RIGHT
+56607 3 is eating
+56612 1 has taken a fork LEFT
+56612 1 has taken a fork RIGHT
+56612 1 is eating
+56612 5 is sleeping
+56612 4 is thinking
+56807 4 has taken a fork RIGHT
+56807 4 has taken a fork LEFT
+56807 4 is eating
+56807 2 is thinking
+56807 3 is sleeping
+56812 5 is thinking
+56812 1 is sleeping
+56812 2 has taken a fork RIGHT
+56812 2 has taken a fork LEFT
+56812 2 is eating
+57007 5 has taken a fork LEFT
+57007 5 has taken a fork RIGHT
+57007 5 is eating
+57007 4 is sleeping
+57007 3 is thinking
+57012 3 has taken a fork LEFT
+57012 3 has taken a fork RIGHT
+57012 3 is eating
+57012 2 is sleeping
+57012 1 is thinking
+57207 1 has taken a fork LEFT
+57207 1 has taken a fork RIGHT
+57207 1 is eating
+57207 5 is sleeping
+57207 4 is thinking
+57212 2 is thinking
+57212 3 is sleeping
+57212 4 has taken a fork RIGHT
+57212 4 has taken a fork LEFT
+57212 4 is eating
+57407 1 is sleeping
+57407 2 has taken a fork RIGHT
+57407 2 has taken a fork LEFT
+57407 2 is eating
+57407 5 is thinking
+57412 3 is thinking
+57412 4 is sleeping
+57412 5 has taken a fork LEFT
+57412 5 has taken a fork RIGHT
+57412 5 is eating
+57607 3 has taken a fork LEFT
+57607 3 has taken a fork RIGHT
+57607 3 is eating
+57607 1 is thinking
+57607 2 is sleeping
+57612 4 is thinking
+57612 5 is sleeping
+57612 1 has taken a fork LEFT
+57612 1 has taken a fork RIGHT
+57612 1 is eating
+57807 2 is thinking
+57807 3 is sleeping
+57807 4 has taken a fork RIGHT
+57807 4 has taken a fork LEFT
+57807 4 is eating
+57812 1 is sleeping
+57812 2 has taken a fork RIGHT
+57812 2 has taken a fork LEFT
+57812 2 is eating
+57812 5 is thinking
+58007 3 is thinking
+58007 5 has taken a fork LEFT
+58007 5 has taken a fork RIGHT
+58007 5 is eating
+58007 4 is sleeping
+58012 1 is thinking
+58012 2 is sleeping
+58012 3 has taken a fork LEFT
+58012 3 has taken a fork RIGHT
+58012 3 is eating
+58207 1 has taken a fork LEFT
+58207 1 has taken a fork RIGHT
+58207 1 is eating
+58207 5 is sleeping
+58207 4 is thinking
+58212 3 is sleeping
+58212 2 is thinking
+58212 4 has taken a fork RIGHT
+58212 4 has taken a fork LEFT
+58212 4 is eating
+58407 1 is sleeping
+58407 5 is thinking
+58407 2 has taken a fork RIGHT
+58407 2 has taken a fork LEFT
+58407 2 is eating
+58412 3 is thinking
+58412 5 has taken a fork LEFT
+58412 5 has taken a fork RIGHT
+58412 5 is eating
+58412 4 is sleeping
+58607 3 has taken a fork LEFT
+58607 3 has taken a fork RIGHT
+58607 3 is eating
+58607 1 is thinking
+58607 2 is sleeping
+58612 5 is sleeping
+58612 1 has taken a fork LEFT
+58612 1 has taken a fork RIGHT
+58612 1 is eating
+58612 4 is thinking
+58807 3 is sleeping
+58807 2 is thinking
+58807 4 has taken a fork RIGHT
+58807 4 has taken a fork LEFT
+58807 4 is eating
+58812 5 is thinking
+58812 1 is sleeping
+58812 2 has taken a fork RIGHT
+58812 2 has taken a fork LEFT
+58812 2 is eating
+59007 3 is thinking
+59007 4 is sleeping
+59007 5 has taken a fork LEFT
+59007 5 has taken a fork RIGHT
+59007 5 is eating
+59012 2 is sleeping
+59012 3 has taken a fork LEFT
+59012 3 has taken a fork RIGHT
+59012 3 is eating
+59012 1 is thinking
+59207 5 is sleeping
+59207 4 is thinking
+59207 1 has taken a fork LEFT
+59207 1 has taken a fork RIGHT
+59207 1 is eating
+59212 3 is sleeping
+59212 4 has taken a fork RIGHT
+59212 4 has taken a fork LEFT
+59212 4 is eating
+59212 2 is thinking
+59407 5 is thinking
+59407 1 is sleeping
+59407 2 has taken a fork RIGHT
+59407 2 has taken a fork LEFT
+59407 2 is eating
+59412 3 is thinking
+59412 4 is sleeping
+59412 5 has taken a fork LEFT
+59412 5 has taken a fork RIGHT
+59412 5 is eating
+59607 2 is sleeping
+59607 1 is thinking
+59607 3 has taken a fork LEFT
+59607 3 has taken a fork RIGHT
+59607 3 is eating
+59612 5 is sleeping
+59612 1 has taken a fork LEFT
+59612 1 has taken a fork RIGHT
+59612 1 is eating
+59612 4 is thinking
+59807 3 is sleeping
+59807 2 is thinking
+59807 4 has taken a fork RIGHT
+59807 4 has taken a fork LEFT
+59807 4 is eating
+59812 1 is sleeping
+59812 5 is thinking
+59812 2 has taken a fork RIGHT
+59812 2 has taken a fork LEFT
+59812 2 is eating
+60007 3 is thinking
+60007 4 is sleeping
+60007 5 has taken a fork LEFT
+60007 5 has taken a fork RIGHT
+60007 5 is eating
+60012 1 is thinking
+60012 2 is sleeping
+60012 3 has taken a fork LEFT
+60012 3 has taken a fork RIGHT
+60012 3 is eating
+60207 4 is thinking
+60207 1 has taken a fork LEFT
+60207 1 has taken a fork RIGHT
+60207 1 is eating
+60207 5 is sleeping
+60212 3 is sleeping
+60212 2 is thinking
+60212 4 has taken a fork RIGHT
+60212 4 has taken a fork LEFT
+60212 4 is eating
+60407 1 is sleeping
+60407 2 has taken a fork RIGHT
+60407 2 has taken a fork LEFT
+60407 2 is eating
+60407 5 is thinking
+60412 3 is thinking
+60412 4 is sleeping
+60412 5 has taken a fork LEFT
+60412 5 has taken a fork RIGHT
+60412 5 is eating
+60607 3 has taken a fork LEFT
+60607 3 has taken a fork RIGHT
+60607 3 is eating
+60607 2 is sleeping
+60607 1 is thinking
+60612 4 is thinking
+60612 5 is sleeping
+60612 1 has taken a fork LEFT
+60612 1 has taken a fork RIGHT
+60612 1 is eating
+60807 3 is sleeping
+60807 2 is thinking
+60807 4 has taken a fork RIGHT
+60807 4 has taken a fork LEFT
+60807 4 is eating
+60812 5 is thinking
+60812 1 is sleeping
+60812 2 has taken a fork RIGHT
+60812 2 has taken a fork LEFT
+60812 2 is eating
+61007 3 is thinking
+61007 4 is sleeping
+61007 5 has taken a fork LEFT
+61007 5 has taken a fork RIGHT
+61007 5 is eating
+61012 1 is thinking
+61012 3 has taken a fork LEFT
+61012 3 has taken a fork RIGHT
+61012 3 is eating
+61012 2 is sleeping
+61207 1 has taken a fork LEFT
+61207 1 has taken a fork RIGHT
+61207 1 is eating
+61207 5 is sleeping
+61207 4 is thinking
+61212 2 is thinking
+61212 3 is sleeping
+61212 4 has taken a fork RIGHT
+61212 4 has taken a fork LEFT
+61212 4 is eating
+61407 5 is thinking
+61407 1 is sleeping
+61407 2 has taken a fork RIGHT
+61407 2 has taken a fork LEFT
+61407 2 is eating
+61412 5 has taken a fork LEFT
+61412 5 has taken a fork RIGHT
+61412 5 is eating
+61412 4 is sleeping
+61412 3 is thinking
+61607 2 is sleeping
+61607 3 has taken a fork LEFT
+61607 3 has taken a fork RIGHT
+61607 3 is eating
+61607 1 is thinking
+61612 4 is thinking
+61612 5 is sleeping
+61612 1 has taken a fork LEFT
+61612 1 has taken a fork RIGHT
+61612 1 is eating
+61807 2 is thinking
+61807 3 is sleeping
+61807 4 has taken a fork RIGHT
+61807 4 has taken a fork LEFT
+61807 4 is eating
+61812 1 is sleeping
+61812 5 is thinking
+61812 2 has taken a fork RIGHT
+61812 2 has taken a fork LEFT
+61812 2 is eating
+62007 5 has taken a fork LEFT
+62007 3 is thinking
+62007 5 has taken a fork RIGHT
+62007 5 is eating
+62007 4 is sleeping
+62012 1 is thinking
+62012 2 is sleeping
+62012 3 has taken a fork LEFT
+62012 3 has taken a fork RIGHT
+62012 3 is eating
+62207 4 is thinking
+62207 5 is sleeping
+62207 1 has taken a fork LEFT
+62207 1 has taken a fork RIGHT
+62207 1 is eating
+62212 3 is sleeping
+62212 2 is thinking
+62212 4 has taken a fork RIGHT
+62212 4 has taken a fork LEFT
+62212 4 is eating
+62407 5 is thinking
+62407 2 has taken a fork RIGHT
+62407 2 has taken a fork LEFT
+62407 2 is eating
+62407 1 is sleeping
+62412 3 is thinking
+62412 5 has taken a fork LEFT
+62412 5 has taken a fork RIGHT
+62412 5 is eating
+62412 4 is sleeping
+62607 1 is thinking
+62607 3 has taken a fork LEFT
+62607 3 has taken a fork RIGHT
+62607 3 is eating
+62607 2 is sleeping
+62612 5 is sleeping
+62612 1 has taken a fork LEFT
+62612 1 has taken a fork RIGHT
+62612 1 is eating
+62612 4 is thinking
+62807 4 has taken a fork RIGHT
+62807 2 is thinking
+62807 4 has taken a fork LEFT
+62807 4 is eating
+62807 3 is sleeping
+62812 1 is sleeping
+62812 2 has taken a fork RIGHT
+62812 2 has taken a fork LEFT
+62812 2 is eating
+62812 5 is thinking
+63007 3 is thinking
+63007 5 has taken a fork LEFT
+63007 5 has taken a fork RIGHT
+63007 5 is eating
+63007 4 is sleeping
+63012 1 is thinking
+63012 2 is sleeping
+63012 3 has taken a fork LEFT
+63012 3 has taken a fork RIGHT
+63012 3 is eating
+63207 4 is thinking
+63207 5 is sleeping
+63207 1 has taken a fork LEFT
+63207 1 has taken a fork RIGHT
+63207 1 is eating
+63212 2 is thinking
+63212 4 has taken a fork RIGHT
+63212 4 has taken a fork LEFT
+63212 4 is eating
+63212 3 is sleeping
+63407 5 is thinking
+63407 2 has taken a fork RIGHT
+63407 2 has taken a fork LEFT
+63407 2 is eating
+63407 1 is sleeping
+63412 4 is sleeping
+63412 5 has taken a fork LEFT
+63412 5 has taken a fork RIGHT
+63412 5 is eating
+63412 3 is thinking
+63607 1 is thinking
+63607 3 has taken a fork LEFT
+63607 3 has taken a fork RIGHT
+63607 3 is eating
+63607 2 is sleeping
+63612 4 is thinking
+63612 5 is sleeping
+63612 1 has taken a fork LEFT
+63612 1 has taken a fork RIGHT
+63612 1 is eating
+63807 4 has taken a fork RIGHT
+63807 2 is thinking
+63807 4 has taken a fork LEFT
+63807 4 is eating
+63807 3 is sleeping
+63812 1 is sleeping
+63812 2 has taken a fork RIGHT
+63812 5 is thinking
+63812 2 has taken a fork LEFT
+63812 2 is eating
+64007 3 is thinking
+64007 5 has taken a fork LEFT
+64007 5 has taken a fork RIGHT
+64007 5 is eating
+64007 4 is sleeping
+64012 1 is thinking
+64012 2 is sleeping
+64012 3 has taken a fork LEFT
+64012 3 has taken a fork RIGHT
+64012 3 is eating
+64207 4 is thinking
+64207 1 has taken a fork LEFT
+64207 1 has taken a fork RIGHT
+64207 1 is eating
+64207 5 is sleeping
+64212 3 is sleeping
+64212 4 has taken a fork RIGHT
+64212 4 has taken a fork LEFT
+64212 4 is eating
+64212 2 is thinking
+64407 5 is thinking
+64407 2 has taken a fork RIGHT
+64407 2 has taken a fork LEFT
+64407 2 is eating
+64407 1 is sleeping
+64412 5 has taken a fork LEFT
+64412 5 has taken a fork RIGHT
+64412 5 is eating
+64412 4 is sleeping
+64412 3 is thinking
+64607 1 is thinking
+64607 3 has taken a fork LEFT
+64607 3 has taken a fork RIGHT
+64607 3 is eating
+64607 2 is sleeping
+64612 1 has taken a fork LEFT
+64612 1 has taken a fork RIGHT
+64612 1 is eating
+64612 5 is sleeping
+64612 4 is thinking
+64807 2 is thinking
+64807 3 is sleeping
+64807 4 has taken a fork RIGHT
+64807 4 has taken a fork LEFT
+64807 4 is eating
+64812 1 is sleeping
+64812 2 has taken a fork RIGHT
+64812 2 has taken a fork LEFT
+64812 2 is eating
+64812 5 is thinking
+65007 5 has taken a fork LEFT
+65007 5 has taken a fork RIGHT
+65007 5 is eating
+65007 4 is sleeping
+65007 3 is thinking
+65012 1 is thinking
+65012 2 is sleeping
+65012 3 has taken a fork LEFT
+65012 3 has taken a fork RIGHT
+65012 3 is eating
+65207 1 has taken a fork LEFT
+65207 1 has taken a fork RIGHT
+65207 1 is eating
+65207 5 is sleeping
+65207 4 is thinking
+65212 3 is sleeping
+65212 2 is thinking
+65212 4 has taken a fork RIGHT
+65212 4 has taken a fork LEFT
+65212 4 is eating
+65407 5 is thinking
+65407 1 is sleeping
+65407 2 has taken a fork RIGHT
+65407 2 has taken a fork LEFT
+65407 2 is eating
+65412 3 is thinking
+65412 4 is sleeping
+65412 5 has taken a fork LEFT
+65412 5 has taken a fork RIGHT
+65412 5 is eating
+65607 3 has taken a fork LEFT
+65607 3 has taken a fork RIGHT
+65607 3 is eating
+65607 1 is thinking
+65607 2 is sleeping
+65612 4 is thinking
+65612 5 is sleeping
+65612 1 has taken a fork LEFT
+65612 1 has taken a fork RIGHT
+65612 1 is eating
+65807 2 is thinking
+65807 3 is sleeping
+65807 4 has taken a fork RIGHT
+65807 4 has taken a fork LEFT
+65807 4 is eating
+65812 1 is sleeping
+65812 5 is thinking
+65812 2 has taken a fork RIGHT
+65812 2 has taken a fork LEFT
+65812 2 is eating
+66007 4 is sleeping
+66007 3 is thinking
+66007 5 has taken a fork LEFT
+66007 5 has taken a fork RIGHT
+66007 5 is eating
+66012 2 is sleeping
+66012 3 has taken a fork LEFT
+66012 3 has taken a fork RIGHT
+66012 3 is eating
+66012 1 is thinking
+66207 4 is thinking
+66207 5 is sleeping
+66207 1 has taken a fork LEFT
+66207 1 has taken a fork RIGHT
+66207 1 is eating
+66212 2 is thinking
+66212 3 is sleeping
+66212 4 has taken a fork RIGHT
+66212 4 has taken a fork LEFT
+66212 4 is eating
+66407 5 is thinking
+66407 1 is sleeping
+66407 2 has taken a fork RIGHT
+66407 2 has taken a fork LEFT
+66407 2 is eating
+66412 3 is thinking
+66412 5 has taken a fork LEFT
+66412 5 has taken a fork RIGHT
+66412 5 is eating
+66412 4 is sleeping
+66607 1 is thinking
+66607 2 is sleeping
+66607 3 has taken a fork LEFT
+66607 3 has taken a fork RIGHT
+66607 3 is eating
+66612 5 is sleeping
+66612 1 has taken a fork LEFT
+66612 1 has taken a fork RIGHT
+66612 1 is eating
+66612 4 is thinking
+66807 2 is thinking
+66807 3 is sleeping
+66807 4 has taken a fork RIGHT
+66807 4 has taken a fork LEFT
+66807 4 is eating
+66812 5 is thinking
+66812 2 has taken a fork RIGHT
+66812 1 is sleeping
+66812 2 has taken a fork LEFT
+66812 2 is eating
+67007 3 is thinking
+67007 4 is sleeping
+67007 5 has taken a fork LEFT
+67007 5 has taken a fork RIGHT
+67007 5 is eating
+67012 1 is thinking
+67012 2 is sleeping
+67012 3 has taken a fork LEFT
+67012 3 has taken a fork RIGHT
+67012 3 is eating
+67207 4 is thinking
+67207 5 is sleeping
+67207 1 has taken a fork LEFT
+67207 1 has taken a fork RIGHT
+67207 1 is eating
+67212 2 is thinking
+67212 3 is sleeping
+67212 4 has taken a fork RIGHT
+67212 4 has taken a fork LEFT
+67212 4 is eating
+67407 5 is thinking
+67407 1 is sleeping
+67407 2 has taken a fork RIGHT
+67407 2 has taken a fork LEFT
+67407 2 is eating
+67412 5 has taken a fork LEFT
+67412 5 has taken a fork RIGHT
+67412 5 is eating
+67412 4 is sleeping
+67412 3 is thinking
+67607 3 has taken a fork LEFT
+67607 3 has taken a fork RIGHT
+67607 3 is eating
+67607 1 is thinking
+67607 2 is sleeping
+67612 4 is thinking
+67612 1 has taken a fork LEFT
+67612 1 has taken a fork RIGHT
+67612 1 is eating
+67612 5 is sleeping
+67807 3 is sleeping
+67807 4 has taken a fork RIGHT
+67807 4 has taken a fork LEFT
+67807 4 is eating
+67807 2 is thinking
+67812 5 is thinking
+67812 1 is sleeping
+67812 2 has taken a fork RIGHT
+67812 2 has taken a fork LEFT
+67812 2 is eating
+68007 4 is sleeping
+68007 5 has taken a fork LEFT
+68007 5 has taken a fork RIGHT
+68007 5 is eating
+68007 3 is thinking
+68012 2 is sleeping
+68012 3 has taken a fork LEFT
+68012 3 has taken a fork RIGHT
+68012 3 is eating
+68012 1 is thinking
+68207 5 is sleeping
+68207 4 is thinking
+68207 1 has taken a fork LEFT
+68207 1 has taken a fork RIGHT
+68207 1 is eating
+68212 2 is thinking
+68212 3 is sleeping
+68212 4 has taken a fork RIGHT
+68212 4 has taken a fork LEFT
+68212 4 is eating
+68407 1 is sleeping
+68407 2 has taken a fork RIGHT
+68407 2 has taken a fork LEFT
+68407 2 is eating
+68407 5 is thinking
+68412 5 has taken a fork LEFT
+68412 5 has taken a fork RIGHT
+68412 5 is eating
+68412 4 is sleeping
+68412 3 is thinking
+68607 2 is sleeping
+68607 3 has taken a fork LEFT
+68607 3 has taken a fork RIGHT
+68607 3 is eating
+68607 1 is thinking
+68612 5 is sleeping
+68612 1 has taken a fork LEFT
+68612 1 has taken a fork RIGHT
+68612 1 is eating
+68612 4 is thinking
+68807 2 is thinking
+68807 3 is sleeping
+68807 4 has taken a fork RIGHT
+68807 4 has taken a fork LEFT
+68807 4 is eating
+68812 1 is sleeping
+68812 2 has taken a fork RIGHT
+68812 2 has taken a fork LEFT
+68812 2 is eating
+68812 5 is thinking
+69007 4 is sleeping
+69007 5 has taken a fork LEFT
+69007 5 has taken a fork RIGHT
+69007 5 is eating
+69007 3 is thinking
+69012 1 is thinking
+69012 2 is sleeping
+69012 3 has taken a fork LEFT
+69012 3 has taken a fork RIGHT
+69012 3 is eating
+69207 5 is sleeping
+69207 1 has taken a fork LEFT
+69207 1 has taken a fork RIGHT
+69207 1 is eating
+69207 4 is thinking
+69212 2 is thinking
+69212 3 is sleeping
+69212 4 has taken a fork RIGHT
+69212 4 has taken a fork LEFT
+69212 4 is eating
+69407 5 is thinking
+69407 1 is sleeping
+69407 2 has taken a fork RIGHT
+69407 2 has taken a fork LEFT
+69407 2 is eating
+69412 4 is sleeping
+69412 5 has taken a fork LEFT
+69412 5 has taken a fork RIGHT
+69412 5 is eating
+69412 3 is thinking
+69607 1 is thinking
+69607 2 is sleeping
+69607 3 has taken a fork LEFT
+69607 3 has taken a fork RIGHT
+69607 3 is eating
+69612 4 is thinking
+69612 1 has taken a fork LEFT
+69612 1 has taken a fork RIGHT
+69612 1 is eating
+69612 5 is sleeping
+69807 4 has taken a fork RIGHT
+69807 2 is thinking
+69807 4 has taken a fork LEFT
+69807 4 is eating
+69807 3 is sleeping
+69812 5 is thinking
+69812 1 is sleeping
+69812 2 has taken a fork RIGHT
+69812 2 has taken a fork LEFT
+69812 2 is eating
+70007 5 has taken a fork LEFT
+70007 5 has taken a fork RIGHT
+70007 5 is eating
+70007 4 is sleeping
+70007 3 is thinking
+70012 1 is thinking
+70012 2 is sleeping
+70012 3 has taken a fork LEFT
+70012 3 has taken a fork RIGHT
+70012 3 is eating
+70207 1 has taken a fork LEFT
+70207 1 has taken a fork RIGHT
+70207 1 is eating
+70207 5 is sleeping
+70207 4 is thinking
+70212 2 is thinking
+70212 3 is sleeping
+70212 4 has taken a fork RIGHT
+70212 4 has taken a fork LEFT
+70212 4 is eating
+70407 1 is sleeping
+70407 2 has taken a fork RIGHT
+70407 2 has taken a fork LEFT
+70407 2 is eating
+70407 5 is thinking
+70412 4 is sleeping
+70412 5 has taken a fork LEFT
+70412 5 has taken a fork RIGHT
+70412 5 is eating
+70412 3 is thinking
+70607 3 has taken a fork LEFT
+70607 3 has taken a fork RIGHT
+70607 3 is eating
+70607 2 is sleeping
+70607 1 is thinking
+70612 5 is sleeping
+70612 1 has taken a fork LEFT
+70612 1 has taken a fork RIGHT
+70612 1 is eating
+70612 4 is thinking
+70807 3 is sleeping
+70807 4 has taken a fork RIGHT
+70807 4 has taken a fork LEFT
+70807 4 is eating
+70807 2 is thinking
+70812 5 is thinking
+70812 1 is sleeping
+70812 2 has taken a fork RIGHT
+70812 2 has taken a fork LEFT
+70812 2 is eating
+71007 4 is sleeping
+71007 5 has taken a fork LEFT
+71007 5 has taken a fork RIGHT
+71007 5 is eating
+71007 3 is thinking
+71012 3 has taken a fork LEFT
+71012 3 has taken a fork RIGHT
+71012 3 is eating
+71012 2 is sleeping
+71012 1 is thinking
+71207 5 is sleeping
+71207 1 has taken a fork LEFT
+71207 1 has taken a fork RIGHT
+71207 1 is eating
+71207 4 is thinking
+71212 2 is thinking
+71212 3 is sleeping
+71212 4 has taken a fork RIGHT
+71212 4 has taken a fork LEFT
+71212 4 is eating
+71407 2 has taken a fork RIGHT
+71407 5 is thinking
+71407 2 has taken a fork LEFT
+71407 2 is eating
+71407 1 is sleeping
+71412 5 has taken a fork LEFT
+71412 5 has taken a fork RIGHT
+71412 5 is eating
+71412 4 is sleeping
+71412 3 is thinking
+71607 3 has taken a fork LEFT
+71607 3 has taken a fork RIGHT
+71607 3 is eating
+71607 2 is sleeping
+71607 1 is thinking
+71612 4 is thinking
+71612 1 has taken a fork LEFT
+71612 1 has taken a fork RIGHT
+71612 1 is eating
+71612 5 is sleeping
+71807 3 is sleeping
+71807 4 has taken a fork RIGHT
+71807 4 has taken a fork LEFT
+71807 4 is eating
+71807 2 is thinking
+71812 5 is thinking
+71812 1 is sleeping
+71812 2 has taken a fork RIGHT
+71812 2 has taken a fork LEFT
+71812 2 is eating
+72007 5 has taken a fork LEFT
+72007 5 has taken a fork RIGHT
+72007 5 is eating
+72007 4 is sleeping
+72007 3 is thinking
+72012 1 is thinking
+72012 3 has taken a fork LEFT
+72012 3 has taken a fork RIGHT
+72012 3 is eating
+72012 2 is sleeping
+72207 5 is sleeping
+72207 4 is thinking
+72207 1 has taken a fork LEFT
+72207 1 has taken a fork RIGHT
+72207 1 is eating
+72212 3 is sleeping
+72212 4 has taken a fork RIGHT
+72212 4 has taken a fork LEFT
+72212 4 is eating
+72212 2 is thinking
+72407 2 has taken a fork RIGHT
+72407 2 has taken a fork LEFT
+72407 2 is eating
+72407 1 is sleeping
+72407 5 is thinking
+72412 3 is thinking
+72412 5 has taken a fork LEFT
+72412 5 has taken a fork RIGHT
+72412 5 is eating
+72412 4 is sleeping
+72607 1 is thinking
+72607 3 has taken a fork LEFT
+72607 3 has taken a fork RIGHT
+72607 3 is eating
+72607 2 is sleeping
+72612 1 has taken a fork LEFT
+72612 1 has taken a fork RIGHT
+72612 1 is eating
+72612 5 is sleeping
+72612 4 is thinking
+72807 3 is sleeping
+72807 4 has taken a fork RIGHT
+72807 4 has taken a fork LEFT
+72807 4 is eating
+72807 2 is thinking
+72812 5 is thinking
+72812 2 has taken a fork RIGHT
+72812 2 has taken a fork LEFT
+72812 2 is eating
+72812 1 is sleeping
+73007 3 is thinking
+73007 4 is sleeping
+73007 5 has taken a fork LEFT
+73007 5 has taken a fork RIGHT
+73007 5 is eating
+73012 3 has taken a fork LEFT
+73012 3 has taken a fork RIGHT
+73012 3 is eating
+73012 2 is sleeping
+73012 1 is thinking
+73207 4 is thinking
+73207 5 is sleeping
+73207 1 has taken a fork LEFT
+73207 1 has taken a fork RIGHT
+73207 1 is eating
+73212 2 is thinking
+73212 3 is sleeping
+73212 4 has taken a fork RIGHT
+73212 4 has taken a fork LEFT
+73212 4 is eating
+73407 1 is sleeping
+73407 2 has taken a fork RIGHT
+73407 2 has taken a fork LEFT
+73407 2 is eating
+73407 5 is thinking
+73412 3 is thinking
+73412 5 has taken a fork LEFT
+73412 5 has taken a fork RIGHT
+73412 5 is eating
+73412 4 is sleeping
+73607 2 is sleeping
+73607 3 has taken a fork LEFT
+73607 3 has taken a fork RIGHT
+73607 3 is eating
+73607 1 is thinking
+73612 4 is thinking
+73612 5 is sleeping
+73612 1 has taken a fork LEFT
+73612 1 has taken a fork RIGHT
+73612 1 is eating
+73807 3 is sleeping
+73807 4 has taken a fork RIGHT
+73807 4 has taken a fork LEFT
+73807 4 is eating
+73807 2 is thinking
+73812 1 is sleeping
+73812 5 is thinking
+73812 2 has taken a fork RIGHT
+73812 2 has taken a fork LEFT
+73812 2 is eating
+74007 4 is sleeping
+74007 3 is thinking
+74007 5 has taken a fork LEFT
+74007 5 has taken a fork RIGHT
+74007 5 is eating
+74012 2 is sleeping
+74012 3 has taken a fork LEFT
+74012 3 has taken a fork RIGHT
+74012 3 is eating
+74012 1 is thinking
+74207 5 is sleeping
+74207 1 has taken a fork LEFT
+74207 1 has taken a fork RIGHT
+74207 1 is eating
+74207 4 is thinking
+74212 3 is sleeping
+74212 4 has taken a fork RIGHT
+74212 4 has taken a fork LEFT
+74212 4 is eating
+74212 2 is thinking
+74407 5 is thinking
+74407 1 is sleeping
+74407 2 has taken a fork RIGHT
+74407 2 has taken a fork LEFT
+74407 2 is eating
+74412 5 has taken a fork LEFT
+74412 5 has taken a fork RIGHT
+74412 5 is eating
+74412 4 is sleeping
+74412 3 is thinking
+74607 1 is thinking
+74607 3 has taken a fork LEFT
+74607 3 has taken a fork RIGHT
+74607 3 is eating
+74607 2 is sleeping
+74612 4 is thinking
+74612 1 has taken a fork LEFT
+74612 1 has taken a fork RIGHT
+74612 1 is eating
+74612 5 is sleeping
+74807 2 is thinking
+74809 3 is sleeping
+74809 4 has taken a fork RIGHT
+74809 4 has taken a fork LEFT
+74809 4 is eating
+74812 1 is sleeping
+74812 2 has taken a fork RIGHT
+74812 2 has taken a fork LEFT
+74812 2 is eating
+74812 5 is thinking
+75009 3 is thinking
+75009 4 is sleeping
+75009 5 has taken a fork LEFT
+75009 5 has taken a fork RIGHT
+75009 5 is eating
+75012 1 is thinking
+75012 3 has taken a fork LEFT
+75012 3 has taken a fork RIGHT
+75012 3 is eating
+75012 2 is sleeping
+75209 4 is thinking
+75209 5 is sleeping
+75209 1 has taken a fork LEFT
+75209 1 has taken a fork RIGHT
+75209 1 is eating
+75212 3 is sleeping
+75212 2 is thinking
+75214 4 has taken a fork RIGHT
+75214 4 has taken a fork LEFT
+75214 4 is eating
+75409 5 is thinking
+75409 1 is sleeping
+75409 2 has taken a fork RIGHT
+75409 2 has taken a fork LEFT
+75409 2 is eating
+75412 3 is thinking
+75414 5 has taken a fork LEFT
+75414 5 has taken a fork RIGHT
+75414 5 is eating
+75414 4 is sleeping
+75609 3 has taken a fork LEFT
+75609 3 has taken a fork RIGHT
+75609 3 is eating
+75609 2 is sleeping
+75609 1 is thinking
+75614 5 is sleeping
+75614 1 has taken a fork LEFT
+75614 1 has taken a fork RIGHT
+75614 1 is eating
+75614 4 is thinking
+75809 2 is thinking
+75809 4 has taken a fork RIGHT
+75809 4 has taken a fork LEFT
+75809 4 is eating
+75809 3 is sleeping
+75814 1 is sleeping
+75814 2 has taken a fork RIGHT
+75814 2 has taken a fork LEFT
+75814 2 is eating
+75814 5 is thinking
+76009 3 is thinking
+76009 5 has taken a fork LEFT
+76009 5 has taken a fork RIGHT
+76009 5 is eating
+76009 4 is sleeping
+76014 1 is thinking
+76014 2 is sleeping
+76014 3 has taken a fork LEFT
+76014 3 has taken a fork RIGHT
+76014 3 is eating
+76209 4 is thinking
+76209 5 is sleeping
+76209 1 has taken a fork LEFT
+76209 1 has taken a fork RIGHT
+76209 1 is eating
+76214 3 is sleeping
+76214 4 has taken a fork RIGHT
+76214 4 has taken a fork LEFT
+76214 4 is eating
+76214 2 is thinking
+76409 1 is sleeping
+76409 5 is thinking
+76409 2 has taken a fork RIGHT
+76409 2 has taken a fork LEFT
+76409 2 is eating
+76414 4 is sleeping
+76414 5 has taken a fork LEFT
+76414 5 has taken a fork RIGHT
+76414 5 is eating
+76414 3 is thinking
+76609 3 has taken a fork LEFT
+76609 3 has taken a fork RIGHT
+76609 3 is eating
+76609 2 is sleeping
+76609 1 is thinking
+76614 4 is thinking
+76614 5 is sleeping
+76614 1 has taken a fork LEFT
+76614 1 has taken a fork RIGHT
+76614 1 is eating
+76809 2 is thinking
+76809 3 is sleeping
+76809 4 has taken a fork RIGHT
+76809 4 has taken a fork LEFT
+76809 4 is eating
+76814 5 is thinking
+76814 1 is sleeping
+76814 2 has taken a fork RIGHT
+76814 2 has taken a fork LEFT
+76814 2 is eating
+77009 5 has taken a fork LEFT
+77009 5 has taken a fork RIGHT
+77009 5 is eating
+77009 4 is sleeping
+77009 3 is thinking
+77014 2 is sleeping
+77014 3 has taken a fork LEFT
+77014 3 has taken a fork RIGHT
+77014 3 is eating
+77014 1 is thinking
+77209 4 is thinking
+77209 5 is sleeping
+77209 1 has taken a fork LEFT
+77209 1 has taken a fork RIGHT
+77209 1 is eating
+77214 3 is sleeping
+77214 4 has taken a fork RIGHT
+77214 4 has taken a fork LEFT
+77214 4 is eating
+77214 2 is thinking
+77409 5 is thinking
+77409 2 has taken a fork RIGHT
+77409 2 has taken a fork LEFT
+77409 2 is eating
+77409 1 is sleeping
+77414 3 is thinking
+77414 4 is sleeping
+77414 5 has taken a fork LEFT
+77414 5 has taken a fork RIGHT
+77414 5 is eating
+77609 3 has taken a fork LEFT
+77609 3 has taken a fork RIGHT
+77609 3 is eating
+77609 2 is sleeping
+77609 1 is thinking
+77614 5 is sleeping
+77614 1 has taken a fork LEFT
+77614 1 has taken a fork RIGHT
+77614 1 is eating
+77614 4 is thinking
+77809 2 is thinking
+77809 3 is sleeping
+77809 4 has taken a fork RIGHT
+77809 4 has taken a fork LEFT
+77809 4 is eating
+77814 1 is sleeping
+77814 5 is thinking
+77814 2 has taken a fork RIGHT
+77814 2 has taken a fork LEFT
+77814 2 is eating
+78009 4 is sleeping
+78009 5 has taken a fork LEFT
+78009 5 has taken a fork RIGHT
+78009 5 is eating
+78009 3 is thinking
+78014 3 has taken a fork LEFT
+78014 3 has taken a fork RIGHT
+78014 3 is eating
+78014 2 is sleeping
+78014 1 is thinking
+78209 5 is sleeping
+78209 4 is thinking
+78209 1 has taken a fork LEFT
+78209 1 has taken a fork RIGHT
+78209 1 is eating
+78214 2 is thinking
+78214 3 is sleeping
+78214 4 has taken a fork RIGHT
+78214 4 has taken a fork LEFT
+78214 4 is eating
+78409 1 is sleeping
+78409 2 has taken a fork RIGHT
+78409 2 has taken a fork LEFT
+78409 2 is eating
+78409 5 is thinking
+78414 3 is thinking
+78414 4 is sleeping
+78414 5 has taken a fork LEFT
+78414 5 has taken a fork RIGHT
+78414 5 is eating
+78609 2 is sleeping
+78609 3 has taken a fork LEFT
+78609 3 has taken a fork RIGHT
+78609 3 is eating
+78609 1 is thinking
+78614 5 is sleeping
+78614 1 has taken a fork LEFT
+78614 1 has taken a fork RIGHT
+78614 1 is eating
+78614 4 is thinking
+78809 2 is thinking
+78809 4 has taken a fork RIGHT
+78809 4 has taken a fork LEFT
+78809 4 is eating
+78809 3 is sleeping
+78814 5 is thinking
+78814 1 is sleeping
+78814 2 has taken a fork RIGHT
+78814 2 has taken a fork LEFT
+78814 2 is eating
+79009 4 is sleeping
+79009 5 has taken a fork LEFT
+79009 5 has taken a fork RIGHT
+79009 5 is eating
+79009 3 is thinking
+79014 2 is sleeping
+79014 3 has taken a fork LEFT
+79014 3 has taken a fork RIGHT
+79014 3 is eating
+79014 1 is thinking
+79209 4 is thinking
+79209 1 has taken a fork LEFT
+79209 1 has taken a fork RIGHT
+79209 1 is eating
+79209 5 is sleeping
+79214 2 is thinking
+79214 3 is sleeping
+79214 4 has taken a fork RIGHT
+79214 4 has taken a fork LEFT
+79214 4 is eating
+79409 2 has taken a fork RIGHT
+79409 2 has taken a fork LEFT
+79409 2 is eating
+79409 5 is thinking
+79409 1 is sleeping
+79414 3 is thinking
+79414 5 has taken a fork LEFT
+79414 5 has taken a fork RIGHT
+79414 5 is eating
+79414 4 is sleeping
+79609 1 is thinking
+79609 2 is sleeping
+79609 3 has taken a fork LEFT
+79609 3 has taken a fork RIGHT
+79609 3 is eating
+79614 5 is sleeping
+79614 1 has tak

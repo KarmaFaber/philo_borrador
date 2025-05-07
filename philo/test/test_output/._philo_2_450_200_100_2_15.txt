@@ -1,0 +1,22 @@
+3 1 has taken a fork LEFT
+3 1 has taken a fork RIGHT
+3 1 is eating
+215 1 is sleeping
+215 2 has taken a fork RIGHT
+215 2 has taken a fork LEFT
+215 2 is eating
+315 1 is thinking
+415 2 is sleeping
+415 1 has taken a fork LEFT
+415 1 has taken a fork RIGHT
+415 1 is eating
+515 2 is thinking
+615 2 has taken a fork RIGHT
+615 2 has taken a fork LEFT
+615 2 is eating
+615 1 is sleeping
+715 1 is thinking
+815 2 is sleeping
+915 2 is thinking
+[1;32m    ツ ☞ ☞ no one died today   
+[0m

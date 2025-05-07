@@ -1,0 +1,92 @@
+3 3 has taken a fork LEFT
+3 1 has taken a fork LEFT
+3 1 has taken a fork RIGHT
+3 1 is eating
+3 3 has taken a fork RIGHT
+3 3 is eating
+4 5 has taken a fork LEFT
+4 5 has taken a fork RIGHT
+4 5 is eating
+303 1 is sleeping
+303 3 is sleeping
+303 2 has taken a fork RIGHT
+303 2 has taken a fork LEFT
+303 2 is eating
+304 4 has taken a fork RIGHT
+304 4 has taken a fork LEFT
+304 4 is eating
+304 6 has taken a fork RIGHT
+304 6 has taken a fork LEFT
+304 6 is eating
+304 5 is sleeping
+603 3 is thinking
+603 1 is thinking
+603 2 is sleeping
+604 4 is sleeping
+604 5 is thinking
+604 6 is sleeping
+606 1 has taken a fork LEFT
+606 1 has taken a fork RIGHT
+606 1 is eating
+606 3 has taken a fork LEFT
+606 3 has taken a fork RIGHT
+606 3 is eating
+607 5 has taken a fork LEFT
+607 5 has taken a fork RIGHT
+607 5 is eating
+903 2 is thinking
+904 4 is thinking
+904 6 is thinking
+906 3 is sleeping
+906 1 is sleeping
+907 5 is sleeping
+908 2 has taken a fork RIGHT
+908 2 has taken a fork LEFT
+908 2 is eating
+909 4 has taken a fork RIGHT
+909 4 has taken a fork LEFT
+909 4 is eating
+909 6 has taken a fork RIGHT
+909 6 has taken a fork LEFT
+909 6 is eating
+1206 3 is thinking
+1206 1 is thinking
+1207 5 is thinking
+1208 2 is sleeping
+1209 4 is sleeping
+1209 6 is sleeping
+1209 1 has taken a fork LEFT
+1209 1 has taken a fork RIGHT
+1209 1 is eating
+1209 3 has taken a fork LEFT
+1209 3 has taken a fork RIGHT
+1209 3 is eating
+1210 5 has taken a fork LEFT
+1210 5 has taken a fork RIGHT
+1210 5 is eating
+1508 2 is thinking
+1509 6 is thinking
+1509 3 is sleeping
+1509 1 is sleeping
+1509 4 is thinking
+1510 5 is sleeping
+1513 2 has taken a fork RIGHT
+1513 2 has taken a fork LEFT
+1513 2 is eating
+1514 4 has taken a fork RIGHT
+1514 4 has taken a fork LEFT
+1514 4 is eating
+1514 6 has taken a fork RIGHT
+1514 6 has taken a fork LEFT
+1514 6 is eating
+1809 3 is thinking
+1809 1 is thinking
+1810 5 is thinking
+1813 2 is sleeping
+1814 6 is sleeping
+1814 4 is sleeping
+2113 2 is thinking
+2114 4 is thinking
+2114 6 is thinking
+[1;32m    ツ ☞ ☞ no one died today   
+[0m
