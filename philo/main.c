@@ -27,7 +27,7 @@ int main (int argc, char **argv)
         return (1);
     if (!init_program(&program, argv) || !init_philo(&program))
     {
-        free_all(&program);
+        // free_all(&program); //revisar esta parte
         return (1);
     }
     final_print(&program);  //revisar si lo meto
