@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 10:42:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/05/01 11:00:36 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/05/07 14:55:11 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,8 @@ static int sub_init_program(t_program *program, char **argv)
 		program->num_times_to_eat = -1;  // Para diferenciar si se usa o no
 	if (argv[5] && program->num_times_to_eat == 0)
 		return (printf("%s", STR_ERR_INP), 0);
+
+	program->first_round_done = false;
 	
 	// Inicializar los mutex generales
 	if ((pthread_mutex_init(&program->write_lock, NULL) !=0) || (pthread_mutex_init(&program->dead_num_lock, NULL) != 0) || (pthread_mutex_init(&program->forks_lock, NULL) != 0))
@@ -161,11 +163,18 @@ int init_philo(t_program *program)
 		// Crear el hilo para cada filósofo
         if (pthread_create(&program->philos[i].thread, NULL, philosopher_routine, &program->philos[i]) != 0)
 			return (free_all(program), clean_pthreads(program, i), 0);
+			
+		if (program->philos[i].id < 7)
+			usleep(650); // 450 - Desincroniza el lanzamiento de los hilos
+		else 
+			usleep(300); 
 		i++;
+		
     }
-	// 🟡 Aquí metes la pausa si hay cantidad impar de filósofos
+	// 🟡 Aquí metes la pausa si hay cantidad impar/par de filósofos
+	//usleep(200);
 	if (program->num_philos % 2 != 0)
-		usleep(500);
+		usleep(100); //2
 		//usleep(1000);  // 0.5 ms de gracia para aliviar la congestión de inicio
 	
 	i = 0;

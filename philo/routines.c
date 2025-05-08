@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 19:36:20 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/05/01 10:24:26 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/05/07 13:25:58 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,9 +92,12 @@ bool philosopher_dead(t_philo *philo)
 
 bool take_forks_and_eat(t_philo *philo, int left_fork, int right_fork)
 {
+    //usleep(100 + (philo->id * 10)); // añadir en cada loop o antes de intentar comer
     
     if (!take_two_forks(philo, left_fork, right_fork))
         return false;
+
+    precise_sleep(philo, 1); //antres de verificar dead esperamos un poco para desincronizar los hilos que entran a la vez
     
     if (philosopher_dead(philo))
     {
@@ -121,6 +124,7 @@ bool take_forks_and_eat(t_philo *philo, int left_fork, int right_fork)
 
 bool sleep_and_think_routine(t_philo *philo)
 {
+    precise_sleep(philo, 1); //antres de verificar dead esperamos un poco para desincronizar los hilos que entran a la vez
     
     if (philosopher_dead(philo) )
     {
@@ -130,6 +134,7 @@ bool sleep_and_think_routine(t_philo *philo)
 	print_action(philo, SLEEP);
     precise_sleep(philo, philo->program->time_to_sleep);
     
+    precise_sleep(philo, 1); //antres de verificar dead esperamos un poco para desincronizar los hilos que entran a la vez
     
     if (philosopher_dead(philo) )
     {
@@ -155,6 +160,9 @@ void all_routines (t_philo *philo, int left_fork, int right_fork)
     //while ((philo->program->dead_p_num <= 0) && (philo->program->num_times_to_eat == 0 || philo->meals_eaten < philo->program->num_times_to_eat))
     while ((!(philosopher_dead(philo)) && (philo->program->num_times_to_eat == 0 || philo->meals_eaten < philo->program->num_times_to_eat)))
     {   
+        // Micro-stagger dinámico antes de intentar comer
+		usleep(100 + (philo->id * 10));  // rompe colisiones cíclicas
+        
 		// Coger tenedores y Comer
         if (!take_forks_and_eat(philo, left_fork, right_fork))
             break;

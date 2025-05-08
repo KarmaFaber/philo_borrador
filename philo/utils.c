@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 13:38:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/05/01 10:28:57 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/05/07 09:12:30 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -114,7 +114,7 @@ void precise_sleep(t_philo *philo, long long duration)
 		if (philosopher_dead(philo) )
 			break;
 		//usleep(50);
-		usleep(1); //revisar rango de este usleep 
+		usleep(10); //revisar rango de este usleep 
 	}
 }
 

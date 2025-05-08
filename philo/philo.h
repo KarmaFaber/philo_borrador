@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/05/01 10:20:37 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/05/07 11:44:04 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,8 @@ typedef struct s_program
 	unsigned int 			num_times_to_eat; 		// Número de veces que deben comer
 	
 	int dead_p_num;									//nemero de filosofos muertos
+
+	bool first_round_done;
 	
 	bool 	*forks_available; 						// indica si el tenedor está disponible
 	
