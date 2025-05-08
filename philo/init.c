@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 10:42:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/05/07 14:55:11 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/05/08 08:42:37 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ static int sub_init_program(t_program *program, char **argv)
 	if (argv[5] && program->num_times_to_eat == 0)
 		return (printf("%s", STR_ERR_INP), 0);
 
-	program->first_round_done = false;
+	//program->first_round_done = false;
 	
 	// Inicializar los mutex generales
 	if ((pthread_mutex_init(&program->write_lock, NULL) !=0) || (pthread_mutex_init(&program->dead_num_lock, NULL) != 0) || (pthread_mutex_init(&program->forks_lock, NULL) != 0))

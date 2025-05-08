@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 19:36:20 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/05/07 13:25:58 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/05/08 08:46:41 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -110,7 +110,7 @@ bool take_forks_and_eat(t_philo *philo, int left_fork, int right_fork)
     //pthread_mutex_unlock(&philo->program->meal_lock);
     precise_sleep(philo, philo->program->time_to_eat);
     philo->meals_eaten++;
-    
+
     return true;
 }
 
@@ -122,8 +122,24 @@ bool take_forks_and_eat(t_philo *philo, int left_fork, int right_fork)
  * @return 
  */
 
-bool sleep_and_think_routine(t_philo *philo)
+bool think_routine(t_philo *philo)
 {
+    precise_sleep(philo, 1); //antres de verificar dead esperamos un poco para desincronizar los hilos que entran a la vez
+    
+    if (philosopher_dead(philo))
+    {
+        return false ;
+    }
+    
+    print_action(philo, THINK);
+
+    return true;
+
+}
+ 
+bool sleep_routine(t_philo *philo)
+{
+    
     precise_sleep(philo, 1); //antres de verificar dead esperamos un poco para desincronizar los hilos que entran a la vez
     
     if (philosopher_dead(philo) )
@@ -133,16 +149,6 @@ bool sleep_and_think_routine(t_philo *philo)
     
 	print_action(philo, SLEEP);
     precise_sleep(philo, philo->program->time_to_sleep);
-    
-    precise_sleep(philo, 1); //antres de verificar dead esperamos un poco para desincronizar los hilos que entran a la vez
-    
-    if (philosopher_dead(philo) )
-    {
-        return false ;
-    }
-    
-    print_action(philo, THINK);
-
     return true;
 }
 
@@ -160,23 +166,22 @@ void all_routines (t_philo *philo, int left_fork, int right_fork)
     //while ((philo->program->dead_p_num <= 0) && (philo->program->num_times_to_eat == 0 || philo->meals_eaten < philo->program->num_times_to_eat))
     while ((!(philosopher_dead(philo)) && (philo->program->num_times_to_eat == 0 || philo->meals_eaten < philo->program->num_times_to_eat)))
     {   
+        if (!think_routine(philo))
+            break;
         // Micro-stagger dinámico antes de intentar comer
 		usleep(100 + (philo->id * 10));  // rompe colisiones cíclicas
         
 		// Coger tenedores y Comer
         if (!take_forks_and_eat(philo, left_fork, right_fork))
-            break;
-            
-        if (philosopher_dead(philo) )
         {
-            break ;
+            free_forks(philo, left_fork, right_fork);
+            break;
         }
-        
         // Liberar los tenedores despues de comer
         free_forks(philo, left_fork, right_fork);
 			
         // Dormir y Pensar
-        if (!sleep_and_think_routine(philo))
+        if (!sleep_routine(philo))
             break;
 
     }

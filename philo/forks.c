@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/27 09:32:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/05/07 14:59:48 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/05/08 09:37:14 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,8 +41,6 @@ void	stagger_even_philos(t_philo *philo)
 		usleep(200);  // 500
 	else 
 		usleep(820);  // 820
-
-	
 }
 /**
  * @brief 
@@ -353,6 +351,7 @@ bool take_two_forks(t_philo *philo, int left_fork, int right_fork)
     }
 }
 */
+
 bool take_two_forks(t_philo *philo, int left_fork, int right_fork)
 {
     int has_left = 0;
@@ -371,6 +370,7 @@ bool take_two_forks(t_philo *philo, int left_fork, int right_fork)
     {
         if (philosopher_dead(philo))
         {
+            
             if (has_left)
                 pthread_mutex_unlock(&philo->program->forks[left_fork]);
             if (has_right)
@@ -382,15 +382,17 @@ bool take_two_forks(t_philo *philo, int left_fork, int right_fork)
             if (has_right)
                 philo->program->forks_available[right_fork] = true;
             pthread_mutex_unlock(&philo->program->forks_lock);
-
-            return false;
+            
+            return (false);
         }
 
+        // Primero bloqueamos para ver si ambos tenedores están disponibles
         pthread_mutex_lock(&philo->program->forks_lock);
 
         // Intentar tomar el tenedor con el ID más bajo primero
         if (!has_left && philo->program->forks_available[left_fork])
         {
+            //pthread_mutex_lock(&philo->program->forks[left_fork]);
             philo->program->forks_available[left_fork] = false;
             has_left = 1;
             print_action(philo, "has taken a fork LEFT");
@@ -398,6 +400,7 @@ bool take_two_forks(t_philo *philo, int left_fork, int right_fork)
 
         if (!has_right && philo->program->forks_available[right_fork])
         {
+            //pthread_mutex_lock(&philo->program->forks[right_fork]);
             philo->program->forks_available[right_fork] = false;
             has_right = 1;
             print_action(philo, "has taken a fork RIGHT");
@@ -423,6 +426,8 @@ bool take_two_forks(t_philo *philo, int left_fork, int right_fork)
 }
 
 
+
+
 /**
  * @brief 
  *
@@ -433,9 +438,9 @@ bool take_two_forks(t_philo *philo, int left_fork, int right_fork)
 void free_forks(t_philo *philo, int left_fork, int right_fork)
 {
 	pthread_mutex_unlock(&philo->program->forks[left_fork]);
-	//print_action(philo, "ha soltado fork LEFT");				//🚩_testeo: quitar esto es de prueba
+	print_action(philo, "ha soltado fork LEFT");				//🚩_testeo: quitar esto es de prueba
 	pthread_mutex_unlock(&philo->program->forks[right_fork]);
-	//print_action(philo, "ha soltado fork RIGHT");				//🚩_testeo: quitar esto es de prueba
+	print_action(philo, "ha soltado fork RIGHT");				//🚩_testeo: quitar esto es de prueba
 
 	pthread_mutex_lock(&philo->program->forks_lock);
 	philo->program->forks_available[left_fork] = true;
