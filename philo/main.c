@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:40:27 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/05/08 08:43:42 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/05/08 14:18:46 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,10 @@ int main (int argc, char **argv)
         return (1);
     if (!init_program(&program, argv) || !init_philo(&program))
     {
-        // free_all(&program); //revisar esta parte
+
         return (1);
     }
-    final_print(&program);  //revisar si lo meto
+    final_print(&program);  //🟡🟡🟡🟡🟡revisar si lo meto
     free_all(&program);
     return (0);
 }

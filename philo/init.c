@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 10:42:33 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/05/08 08:42:37 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/05/08 13:55:00 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -163,16 +163,18 @@ int init_philo(t_program *program)
 		// Crear el hilo para cada filósofo
         if (pthread_create(&program->philos[i].thread, NULL, philosopher_routine, &program->philos[i]) != 0)
 			return (free_all(program), clean_pthreads(program, i), 0);
-			
+
+
 		if (program->philos[i].id < 7)
 			usleep(650); // 450 - Desincroniza el lanzamiento de los hilos
 		else 
-			usleep(300); 
+			usleep(300);
+
 		i++;
 		
     }
 	// 🟡 Aquí metes la pausa si hay cantidad impar/par de filósofos
-	//usleep(200);
+	//usleep(400);
 	if (program->num_philos % 2 != 0)
 		usleep(100); //2
 		//usleep(1000);  // 0.5 ms de gracia para aliviar la congestión de inicio

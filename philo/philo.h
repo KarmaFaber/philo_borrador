@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/22 11:08:11 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/05/08 08:42:32 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/05/08 14:14:02 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,7 @@
 
 # define TAKE_FORK "has taken a fork"
 # define EAT "is eating"
+//# define EAT "\001\033[1;33m\002  IS EATING\001\033[0m\002" //testeo
 # define SLEEP "is sleeping"
 # define THINK "is thinking"
 # define DIE "\001\033[1;31m\002died\001\033[0m\002"
@@ -109,11 +110,12 @@ void *philosopher_routine(void *arg);
 int init_philo(t_program *program);
 
 
-//fork_management.c (/5)
-void	stagger_even_philos(t_philo *philo);
-void	lock_and_announce_forks(t_philo *philo, int left_fork, int right_fork);
-bool	take_two_forks(t_philo *philo, int left_fork, int right_fork);
-void	free_forks(t_philo *philo, int left_fork, int right_fork);
+//forks.c (/5)
+bool take_two_forks(t_philo *philo, int left_fork, int right_fork);
+void change_availability(t_philo *philo, int fork, bool status);
+bool is_available(t_philo *philo, int fork);
+bool take_forks(t_philo *philo, int fork1, int fork2);
+void free_forks(t_philo *philo, int left_fork, int right_fork);
 
 
 // routines.c (/5)

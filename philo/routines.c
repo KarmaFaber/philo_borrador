@@ -6,7 +6,7 @@
 /*   By: mzolotar <mzolotar@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 19:36:20 by mzolotar          #+#    #+#             */
-/*   Updated: 2025/05/08 08:46:41 by mzolotar         ###   ########.fr       */
+/*   Updated: 2025/05/08 14:13:52 by mzolotar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,7 +94,7 @@ bool take_forks_and_eat(t_philo *philo, int left_fork, int right_fork)
 {
     //usleep(100 + (philo->id * 10)); // añadir en cada loop o antes de intentar comer
     
-    if (!take_two_forks(philo, left_fork, right_fork))
+    if (!take_forks(philo, left_fork, right_fork))
         return false;
 
     precise_sleep(philo, 1); //antres de verificar dead esperamos un poco para desincronizar los hilos que entran a la vez
